@@ -72,7 +72,7 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
           pizzeriaContainer.innerHTML = ''; // clear previous content
           for (let i = 0; i < pizzaDataGeoJson.features.length; i++) {
             const img = document.createElement('img');
-            img.src = '../images/icon_pizza.png';
+            img.src = 'icon_pizza.png';
             img.alt = 'Pizza Icon';
             // Set image size and reduce spacing between icons
             img.style.width = '25px';
@@ -90,7 +90,7 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
           beerContainer.innerHTML = ''; // clear previous content
           for (let i = 0; i < beerData.length; i++) {
             const img = document.createElement('img');
-            img.src = '../images/icon_beer.png';
+            img.src = 'icon_beer.png';
             img.alt = 'Beer Icon';
             // Set image size and reduce spacing between icons
             img.style.width = '25px';
