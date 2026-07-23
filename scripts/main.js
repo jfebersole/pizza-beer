@@ -1,8 +1,10 @@
-// URLs to your JSON files on GitHub
-const breweryJsonUrl = 'https://raw.githubusercontent.com/jfebersole/jebersole/main/data/VORB_data.json';
-const beerJsonUrl = 'https://raw.githubusercontent.com/jfebersole/jebersole/main/data/beer_data.json';
-const pizzaGeoJsonUrl = 'https://raw.githubusercontent.com/jfebersole/jebersole/main/data/pizzerias.geojson';
-const breweryGeoJsonUrl = 'https://raw.githubusercontent.com/jfebersole/jebersole/main/data/brewery_data.geojson';
+// Resolve assets from the deployed site, including GitHub Pages project subpaths.
+const siteRootUrl = new URL('../', document.currentScript.src);
+const siteAssetUrl = (path) => new URL(path, siteRootUrl).href;
+const breweryJsonUrl = siteAssetUrl('data/VORB_data.json');
+const beerJsonUrl = siteAssetUrl('data/beer_data.json');
+const pizzaGeoJsonUrl = siteAssetUrl('data/pizzerias.geojson');
+const breweryGeoJsonUrl = siteAssetUrl('data/brewery_data.geojson');
 
 // Fetch JSON data utility function
 async function fetchJsonData(url) {
@@ -59,7 +61,9 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
             const pizzaData = pizzaDataGeoJson.features.map(feature => {
                 return {
                     ...feature.properties,
-                    Image: `../images/${feature.properties.Image}`
+                    Image: feature.properties.Image
+                        ? siteAssetUrl(`images/${feature.properties.Image}`)
+                        : ''
                 };
             });
             buildHtmlTable(pizzaData, 'pizzeriaTable', 'Image');
@@ -72,7 +76,7 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
           pizzeriaContainer.innerHTML = ''; // clear previous content
           for (let i = 0; i < pizzaDataGeoJson.features.length; i++) {
             const img = document.createElement('img');
-            img.src = '../images/icon_pizza.png';
+            img.src = siteAssetUrl('images/icon_pizza.png');
             img.alt = 'Pizza Icon';
             // Set image size and reduce spacing between icons
             img.style.width = '25px';
@@ -90,7 +94,7 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
           beerContainer.innerHTML = ''; // clear previous content
           for (let i = 0; i < beerData.length; i++) {
             const img = document.createElement('img');
-            img.src = '../images/icon_beer.png';
+            img.src = siteAssetUrl('images/icon_beer.png');
             img.alt = 'Beer Icon';
             // Set image size and reduce spacing between icons
             img.style.width = '25px';
@@ -128,8 +132,8 @@ if (document.getElementById('map')) {
     map.setView([34.8, -96], 4); // Latitude, Longitude, Zoom Level
 
     // Custom icons
-    var customIconPizza = L.icon({ iconUrl: '../images/icon_pizza.png', iconSize: [32, 32], iconAnchor: [32, 32] });
-    var customIconBeer = L.icon({ iconUrl: '../images/icon_beer.png', iconSize: [32, 32], iconAnchor: [32, 32] });
+    var customIconPizza = L.icon({ iconUrl: siteAssetUrl('images/icon_pizza.png'), iconSize: [32, 32], iconAnchor: [32, 32] });
+    var customIconBeer = L.icon({ iconUrl: siteAssetUrl('images/icon_beer.png'), iconSize: [32, 32], iconAnchor: [32, 32] });
 
     // Create marker clusters for pizzerias and breweries
     var pizzeriaCluster = L.markerClusterGroup({
@@ -139,7 +143,7 @@ if (document.getElementById('map')) {
         zoomToBoundsOnClick: false,
         iconCreateFunction: function(cluster) {
             return L.icon({
-                iconUrl: '../images/icon_pizza.png',
+                iconUrl: siteAssetUrl('images/icon_pizza.png'),
                 iconSize: [32, 32],
                 iconAnchor: [32, 32]
             });
@@ -153,7 +157,7 @@ if (document.getElementById('map')) {
         zoomToBoundsOnClick: false,
         iconCreateFunction: function(cluster) {
             return L.icon({
-                iconUrl: '../images/icon_beer.png',
+                iconUrl: siteAssetUrl('images/icon_beer.png'),
                 iconSize: [32, 32],
                 iconAnchor: [32, 32]
             });
@@ -187,7 +191,9 @@ if (document.getElementById('map')) {
             }
 
             const latlng = [feature.geometry.coordinates[1], feature.geometry.coordinates[0]]; // Flip lat/lng
-            const imageUrl = feature.properties.Image ? `../images/${feature.properties.Image}` : '';
+            const imageUrl = feature.properties.Image
+                ? siteAssetUrl(`images/${feature.properties.Image}`)
+                : '';
             const notes = feature.properties.Notes ? `<p style="margin: 5px 0;">Notes: ${feature.properties.Notes}</p>` : '';
 
             const popupContent = `
