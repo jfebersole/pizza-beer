@@ -1,0 +1,14 @@
+# macOS and editors
+.DS_Store
+**/.DS_Store
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local scratch work and generated inspection files
+.local/
+outputs/
+python/

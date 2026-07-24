@@ -1,39 +1,70 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Pizza + Beer</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/> -->
-  <link rel="icon" type="image/png" href="images/icon3.svg">
-  <meta charset="UTF-8">
-</head>
-<body>
-  <div class="header">
-    <a href="index.html"> <!-- Replace "index.html" with your actual index page URL -->
-        <img src="images/icon3.svg" width="90px" />
-        <h1>Pizza + Beer Project</h1>
-    </a>
-    <a href="html/map.html"><h4>Map</h4></a>
-    <a href="html/brewery_rankings.html"><h4>Brewery Rankings</h4></a>
-    <a href="html/beer_rankings.html"><h4>Beer Rankings</h4></a>
-    <a href="html/pizzeria_rankings.html"><h4>Pizzeria Rankings</h4></a>
-  </div>
-  <!-- <div class="button-container">
-    <a class="button" href="html/map.html">Map</a>
-    <a class="button" href="html/brewery_rankings.html">Brewery Rankings</a>
-    <a class="button" href="html/beer_rankings.html">Beer Rankings</a>
-    <a class="button" href="html/pizzeria_rankings.html">Pizzeria Rankings</a>
-  </div> -->
-  <div class="counter-container">
-    <div class="counter">
-      <p>Pizzerias Rated:</p>
-      <div id="pizzeria-count"></div>
-    </div>
-    <div class="counter">
-      <p>Beers Rated:</p>
-      <div id="beer-count"></div>
-    </div>
-  </div>  
-  <script src="scripts/main.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza + Beer Project</title>
+    <link rel="icon" type="image/svg+xml" href="images/icon3.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&amp;family=IBM+Plex+Sans:wght@400;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&amp;family=Rajdhani:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="masthead">
+        <a class="brand-block" href="index.html" aria-label="Pizza + Beer Project home">
+          <img class="header-logo" src="images/icon3.svg" alt="" />
+          <span class="brand-copy">
+            <span class="issue-kicker">Ratings, maps &amp; field notes</span>
+            <span class="site-title">Pizza + Beer</span>
+          </span>
+        </a>
+      </header>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <div class="primary-nav-inner">
+          <a href="html/map.html">Map</a>
+          <a href="html/brewery_rankings.html">Brewery Rankings</a>
+          <a href="html/beer_rankings.html">Beer Rankings</a>
+          <a href="html/pizzeria_rankings.html">Pizzeria Rankings</a>
+          <a href="html/charts.html">Charts</a>
+        </div>
+      </nav>
+
+      <section class="home-panel" aria-labelledby="home-title">
+        <header class="page-heading">
+          <p class="page-eyebrow">Ratings to date</p>
+          <h1 id="home-title">Pizza + Beer Project</h1>
+        </header>
+
+        <div class="counter-container">
+          <article class="counter">
+            <div class="counter-topline">
+              <h2>Pizzerias Rated</h2>
+              <strong class="counter-total" id="pizzeria-total" aria-hidden="true">—</strong>
+            </div>
+            <div class="counter-icons" id="pizzeria-count">
+              <p class="counter-loading">Loading ratings…</p>
+            </div>
+          </article>
+
+          <article class="counter">
+            <div class="counter-topline">
+              <h2>Beers Rated</h2>
+              <strong class="counter-total" id="beer-total" aria-hidden="true">—</strong>
+            </div>
+            <div class="counter-icons" id="beer-count">
+              <p class="counter-loading">Loading ratings…</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts/main.js"></script>
+  </body>
 </html>

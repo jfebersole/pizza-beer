@@ -25,12 +25,12 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
     }
 
     const headers = Object.keys(data[0]);
-    const headerRow = `<tr>${headers.map(header => `<th class="sortable">${header}</th>`).join('')}</tr>`;
+    const headerRow = `<tr>${headers.map(header => `<th class="sortable" scope="col">${header}</th>`).join('')}</tr>`;
 
     const bodyRows = data.map(row => {
         const cells = headers.map(header => {
             if (header === imageColumn && row[header]) {
-                return `<td><img src="${row[header]}" alt="Image" style="max-height: 100px;" onerror="this.style.display='none';"></td>`;
+                return `<td><img src="${row[header]}" alt="" loading="lazy" onerror="this.style.display='none';"></td>`;
             } else if (header === imageColumn) {
                 return `<td></td>`; // Empty cell for missing images
             } else {
@@ -40,8 +40,34 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
         return `<tr>${cells.join('')}</tr>`;
     });
 
-    document.getElementById(containerId).innerHTML = `<table>${headerRow}${bodyRows.join('')}</table>`;
+    document.getElementById(containerId).innerHTML = `<table><thead>${headerRow}</thead><tbody>${bodyRows.join('')}</tbody></table>`;
 };
+
+function renderIconCount({ containerId, totalId, count, iconUrl, iconAlt, accessibleLabel }) {
+    const container = document.getElementById(containerId);
+    const total = document.getElementById(totalId);
+
+    if (!container) {
+        return;
+    }
+
+    container.replaceChildren();
+    container.setAttribute('aria-label', `${count} ${accessibleLabel}`);
+
+    if (total) {
+        total.textContent = count.toLocaleString();
+    }
+
+    const icons = document.createDocumentFragment();
+    for (let i = 0; i < count; i += 1) {
+        const img = document.createElement('img');
+        img.src = iconUrl;
+        img.alt = i === 0 ? iconAlt : '';
+        img.setAttribute('aria-hidden', i === 0 ? 'false' : 'true');
+        icons.appendChild(img);
+    }
+    container.appendChild(icons);
+}
 
 // Load and display brewery, beer, and pizzeria tables if those elements exist
 (async function() {
@@ -72,36 +98,28 @@ globalThis.buildHtmlTable = function(data, containerId, imageColumn) {
     if (document.getElementById('pizzeria-count')) {
         const pizzaDataGeoJson = await fetchJsonData(pizzaGeoJsonUrl);
         if (pizzaDataGeoJson && pizzaDataGeoJson.features) {
-          const pizzeriaContainer = document.getElementById('pizzeria-count');
-          pizzeriaContainer.innerHTML = ''; // clear previous content
-          for (let i = 0; i < pizzaDataGeoJson.features.length; i++) {
-            const img = document.createElement('img');
-            img.src = siteAssetUrl('images/icon_pizza.png');
-            img.alt = 'Pizza Icon';
-            // Set image size and reduce spacing between icons
-            img.style.width = '25px';
-            img.style.height = 'auto';
-            img.style.margin = '2px';
-            pizzeriaContainer.appendChild(img);
-          }
+          renderIconCount({
+            containerId: 'pizzeria-count',
+            totalId: 'pizzeria-total',
+            count: pizzaDataGeoJson.features.length,
+            iconUrl: siteAssetUrl('images/icon_pizza.png'),
+            iconAlt: 'Pizza icon',
+            accessibleLabel: 'pizzerias rated'
+          });
         }
       }
       
       if (document.getElementById('beer-count')) {
         const beerData = await fetchJsonData(beerJsonUrl);
         if (beerData) {
-          const beerContainer = document.getElementById('beer-count');
-          beerContainer.innerHTML = ''; // clear previous content
-          for (let i = 0; i < beerData.length; i++) {
-            const img = document.createElement('img');
-            img.src = siteAssetUrl('images/icon_beer.png');
-            img.alt = 'Beer Icon';
-            // Set image size and reduce spacing between icons
-            img.style.width = '25px';
-            img.style.height = 'auto';
-            img.style.margin = '2px';
-            beerContainer.appendChild(img);
-          }
+          renderIconCount({
+            containerId: 'beer-count',
+            totalId: 'beer-total',
+            count: beerData.length,
+            iconUrl: siteAssetUrl('images/icon_beer.png'),
+            iconAlt: 'Beer icon',
+            accessibleLabel: 'beers rated'
+          });
         }
       }
       
@@ -127,7 +145,12 @@ if (document.getElementById('map')) {
 
     // Initialize Leaflet map
     var map = L.map('map', { zoomControl: false, maxZoom: 16 });
-    L.tileLayer('http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}').addTo(map);
+    L.tileLayer(
+        'https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+        {
+            attribution: 'Tiles &copy; Esri | Geocoding powered by <a href="https://www.geoapify.com/">Geoapify</a>; data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+        }
+    ).addTo(map);
     // Center the map on the continental U.S.
     map.setView([34.8, -96], 4); // Latitude, Longitude, Zoom Level
 
@@ -205,7 +228,9 @@ if (document.getElementById('map')) {
                 </div>
             `;
 
-            const marker = L.marker(latlng, { icon: customIconPizza }).bindPopup(popupContent);
+            const marker = L.marker(latlng, { icon: customIconPizza }).bindPopup(popupContent, {
+                className: 'mypopup'
+            });
             pizzeriaCluster.addLayer(marker);
         };
 
@@ -236,7 +261,9 @@ if (document.getElementById('map')) {
                 </div>
             `;
 
-            const marker = L.marker(latlng, { icon: customIconBeer }).bindPopup(popupContent);
+            const marker = L.marker(latlng, { icon: customIconBeer }).bindPopup(popupContent, {
+                className: 'mypopup'
+            });
             breweryCluster.addLayer(marker);
         };
 

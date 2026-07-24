@@ -1,49 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Charts</title>
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="icon" type="image/png" href="../images/icon3.svg">
-    <meta charset="UTF-8">
-</head>
-<body>
-    <div class="header">
-        <a href="../index.html"> <!-- Replace "index.html" with your actual index page URL -->
-            <img src="../images/icon3.svg" width="90px" />
-            <h1>Pizza + Beer Project</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charts · Pizza + Beer</title>
+    <link rel="icon" type="image/svg+xml" href="../images/icon3.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&amp;family=IBM+Plex+Sans:wght@400;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&amp;family=Rajdhani:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="masthead">
+        <a class="brand-block" href="../index.html" aria-label="Pizza + Beer Project home">
+          <img class="header-logo" src="../images/icon3.svg" alt="" />
+          <span class="brand-copy"><span class="issue-kicker">Ratings, maps &amp; field notes</span><span class="site-title">Pizza + Beer</span></span>
         </a>
-        <a href="map.html"><h4>Map</h4></a>
-        <a href="brewery_rankings.html"><h4>Brewery Rankings</h4></a>
-        <a href="beer_rankings.html"><h4>Beer Rankings</h4></a>
-        <a href="pizzeria_rankings.html"><h4>Pizzeria Rankings</h4></a>
-        <a href="charts.html"><h4>Charts</h4></a>
-    </div>  
-    <div id="chart-container">
-        <img src='../images/vorb_chart.png' id="chart-image">
-    </div>
-    <div id="chart-container">
-        <img src='../images/style_density_plot.png' id="chart-image">
-    </div>
-    <div id="chart-container">
-        <img src='../images/vorb_chart_ipa.png' id="chart-image">
-    </div>
-    <div id="chart-container">
-        <img src='../images/vorb_chart_lager.png' id="chart-image">
-    </div>
-    <div id="chart-container">
-        <img src='../images/pizzeria_counts.png' id="chart-image">
-    </div>
-    <div id="chart-container">
-        <img src='../images/pizzeria_ratings.png' id="chart-image">
-    </div>
-<!--     <div id="chart-container">
-        <img src='beer_chart.png' id="chart-image">
-    </div>
-    <div id="chart-container">
-        <img src='ipa_chart.png' id="chart-image">
-    </div>
-    <div id="chart-container">
-        <img src='lager_chart.png' id="chart-image">
-    </div> -->
-</body>
+      </header>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <div class="primary-nav-inner">
+          <a href="map.html">Map</a><a href="brewery_rankings.html">Brewery Rankings</a><a href="beer_rankings.html">Beer Rankings</a><a href="pizzeria_rankings.html">Pizzeria Rankings</a><a href="charts.html" aria-current="page">Charts</a>
+        </div>
+      </nav>
+      <section class="content-panel charts-panel" aria-labelledby="page-title">
+        <header class="page-heading"><p class="page-eyebrow">Visual analysis</p><h1 id="page-title">Charts</h1></header>
+        <div class="chart-grid">
+          <figure class="chart-card"><img src="../images/vorb_chart.png" alt="Value over replacement beer chart" /></figure>
+          <figure class="chart-card"><img src="../images/style_density_plot.png" alt="Beer style rating density chart" /></figure>
+          <figure class="chart-card"><img src="../images/vorb_chart_ipa.png" alt="Value over replacement beer chart for IPAs" /></figure>
+          <figure class="chart-card"><img src="../images/vorb_chart_lager.png" alt="Value over replacement beer chart for lagers" /></figure>
+          <figure class="chart-card"><img src="../images/pizzeria_counts.png" alt="Pizzeria counts chart" /></figure>
+          <figure class="chart-card"><img src="../images/pizzeria_ratings.png" alt="Pizzeria ratings chart" /></figure>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

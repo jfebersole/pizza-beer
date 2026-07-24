@@ -1,0 +1,82 @@
+name: Refresh Untappd data
+
+on:
+  schedule:
+    - cron: "47 3 * * *"
+      timezone: America/New_York
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: untappd-data-sync
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-untappd-sync.txt
+
+      - name: Install sync dependencies
+        run: python -m pip install --requirement requirements-untappd-sync.txt
+
+      - name: Pull Drive inputs and rebuild Untappd outputs
+        env:
+          GEOAPIFY_API_KEY: ${{ secrets.GEOAPIFY_API_KEY }}
+        run: |
+          if [[ -n "${GEOAPIFY_API_KEY}" ]]; then
+            python scripts/sync_untappd_content.py --refresh-inputs
+          else
+            python scripts/sync_untappd_content.py --refresh-inputs --skip-geocoding
+          fi
+
+      - name: Verify generated data
+        run: python -m unittest tests/test_sync_untappd_content.py
+
+      - name: Commit changed website inputs
+        id: commit
+        run: |
+          git add -- \
+            inputs/beer_data.csv \
+            inputs/brewery_data.csv \
+            data/beer_data.json \
+            data/VORB_data.json \
+            data/brewery_data.json \
+            data/brewery_data.geojson \
+            data/pending_breweries.json \
+            images/vorb_chart.png \
+            images/vorb_chart_ipa.png \
+            images/vorb_chart_lager.png \
+            images/style_density_plot.png
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            echo "The Drive inputs and generated website files are unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh Untappd data from Google Drive"
+          git push origin HEAD:main
+          echo "changed=true" >> "${GITHUB_OUTPUT}"
+
+      - name: Deploy the refreshed site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run sync-pizza-pages.yml --ref main
