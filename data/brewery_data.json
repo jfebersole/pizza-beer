@@ -4,36 +4,36 @@
     "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
     "State": "VT",
     "Country": "United States",
-    "Avg Beer Rating": 4.420454545454546,
-    "Count": 22,
+    "Avg Beer Rating": 4.416666666666667,
+    "Count": 24,
     "Top Beer Rating": 5.0,
-    "Global Avg Rating": 4.257791818181818,
-    "Diff": 0.16266272727272746,
-    "VORB": 81.54148257241039
+    "Global Avg Rating": 4.257152916666667,
+    "Diff": 0.15951375000000034,
+    "VORB": 80.8502256285366
   },
   {
     "name": "Fidens Brewing Co.",
     "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-426930_f396a_hd.jpeg",
     "State": "NY",
     "Country": "United States",
-    "Avg Beer Rating": 4.40625,
-    "Count": 16,
+    "Avg Beer Rating": 4.411764705882353,
+    "Count": 17,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.35290125,
-    "Diff": 0.05334874999999961,
-    "VORB": 68.5652920962199
+    "Global Avg Rating": 4.354164117647059,
+    "Diff": 0.057600588235294126,
+    "VORB": 68.3162582372323
   },
   {
     "name": "Tree House Brewing Company",
     "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
     "State": "MA",
     "Country": "United States",
-    "Avg Beer Rating": 4.316666666666666,
-    "Count": 30,
+    "Avg Beer Rating": 4.318181818181818,
+    "Count": 33,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.318347,
-    "Diff": -0.0016803333333337278,
-    "VORB": 64.48483232610505
+    "Global Avg Rating": 4.310924848484848,
+    "Diff": 0.00725696969697065,
+    "VORB": 64.0193832372323
   },
   {
     "name": "Human Robot",
@@ -45,7 +45,7 @@
     "Top Beer Rating": 4.75,
     "Global Avg Rating": 4.031645714285714,
     "Diff": 0.2897828571428569,
-    "VORB": 61.89862542955326
+    "VORB": 61.285008237232304
   },
   {
     "name": "Lawson’s Finest Liquids",
@@ -57,7 +57,7 @@
     "Top Beer Rating": 4.75,
     "Global Avg Rating": 4.079044285714286,
     "Diff": 0.09952714285714315,
-    "VORB": 53.56529209621988
+    "VORB": 52.95167490389892
   },
   {
     "name": "River Roost Brewery",
@@ -69,7 +69,7 @@
     "Top Beer Rating": 4.75,
     "Global Avg Rating": 4.17261,
     "Diff": -0.06149888888888899,
-    "VORB": 50.96112542955326
+    "VORB": 50.347508237232304
   },
   {
     "name": "The Alchemist",
@@ -81,7 +81,7 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.34699,
     "Diff": -0.03448999999999991,
-    "VORB": 49.39862542955326
+    "VORB": 48.785008237232304
   },
   {
     "name": "The Veil Brewing Co.",
@@ -93,7 +93,7 @@
     "Top Beer Rating": 4.75,
     "Global Avg Rating": 4.088194,
     "Diff": -0.013193999999999484,
-    "VORB": 49.39862542955326
+    "VORB": 48.785008237232304
   },
   {
     "name": "Toppling Goliath Brewing Co.",
@@ -105,7 +105,7 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.256357142857143,
     "Diff": -0.006357142857143394,
-    "VORB": 47.31529209621988
+    "VORB": 46.70167490389892
   },
   {
     "name": "Port City Brewing",
@@ -117,19 +117,7 @@
     "Top Beer Rating": 4.75,
     "Global Avg Rating": 3.83124,
     "Diff": 0.1687599999999998,
-    "VORB": 45.23195876288657
-  },
-  {
-    "name": "Schlenkerla (\"Heller-Bräu\" Trum)",
-    "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-2001_78248.jpeg",
-    "State": "Bayern",
-    "Country": "Germany",
-    "Avg Beer Rating": 4.208333333333333,
-    "Count": 6,
-    "Top Beer Rating": 4.5,
-    "Global Avg Rating": 3.6743583333333336,
-    "Diff": 0.5339749999999994,
-    "VORB": 44.398625429553285
+    "VORB": 44.61834157056561
   },
   {
     "name": "Bissell Brothers Brewing Company",
@@ -141,43 +129,67 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.1604075,
     "Diff": 0.027092500000000186,
-    "VORB": 44.04148257241039
+    "VORB": 43.42786538008943
+  },
+  {
+    "name": "Schlenkerla (\"Heller-Bräu\" Trum)",
+    "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-2001_78248.jpeg",
+    "State": "Bayern",
+    "Country": "Germany",
+    "Avg Beer Rating": 4.178571428571429,
+    "Count": 7,
+    "Top Beer Rating": 4.5,
+    "Global Avg Rating": 3.6463571428571426,
+    "Diff": 0.5322142857142862,
+    "VORB": 42.535008237232304
+  },
+  {
+    "name": "Brasserie des Franches-Montagnes (BFM)",
+    "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-4719_e5957_hd.jpeg",
+    "State": "Jura",
+    "Country": "Switzerland",
+    "Avg Beer Rating": 4.166666666666667,
+    "Count": 3,
+    "Top Beer Rating": 4.5,
+    "Global Avg Rating": 3.800736666666667,
+    "Diff": 0.3659300000000001,
+    "VORB": 36.285008237232304
+  },
+  {
+    "name": "Wheatland Spring Farm + Brewery",
+    "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-433200_bb48a_hd.jpeg",
+    "State": "VA",
+    "Country": "United States",
+    "Avg Beer Rating": 4.0227272727272725,
+    "Count": 11,
+    "Top Beer Rating": 4.5,
+    "Global Avg Rating": 4.0304899999999995,
+    "Diff": -0.007762727272726977,
+    "VORB": 35.03500823723229
   },
   {
     "name": "von Trapp Brewing",
     "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-4157_0ee20_hd.jpeg",
     "State": "VT",
     "Country": "United States",
-    "Avg Beer Rating": 4.1,
-    "Count": 10,
+    "Avg Beer Rating": 4.0227272727272725,
+    "Count": 11,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 3.7409019999999997,
-    "Diff": 0.3590979999999999,
-    "VORB": 39.676403207331035
-  },
-  {
-    "name": "Brasserie des Franches-Montagnes (BFM)",
-    "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-4719_e5957_hd.jpeg",
-    "State": "Jura",
-    "Country": "",
-    "Avg Beer Rating": 4.166666666666667,
-    "Count": 3,
-    "Top Beer Rating": 4.5,
-    "Global Avg Rating": 3.800736666666667,
-    "Diff": 0.3659300000000001,
-    "VORB": 36.89862542955326
+    "Global Avg Rating": 3.7374554545454544,
+    "Diff": 0.2852718181818181,
+    "VORB": 35.03500823723229
   },
   {
     "name": "Other Half Brewing Co.",
     "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-94785_ca64f_hd.jpeg",
     "State": "NY",
     "Country": "United States",
-    "Avg Beer Rating": 3.986111111111111,
-    "Count": 18,
+    "Avg Beer Rating": 4.0,
+    "Count": 19,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.174957777777778,
-    "Diff": -0.18884666666666705,
-    "VORB": 34.692743076612146
+    "Global Avg Rating": 4.17570947368421,
+    "Diff": -0.17570947368421042,
+    "VORB": 34.896119348343376
   },
   {
     "name": "Trillium Brewing Company",
@@ -189,19 +201,7 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.187982727272727,
     "Diff": -0.18798272727272725,
-    "VORB": 34.398625429553235
-  },
-  {
-    "name": "Wheatland Spring Farm + Brewery",
-    "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-433200_bb48a_hd.jpeg",
-    "State": "VA",
-    "Country": "United States",
-    "Avg Beer Rating": 4.0,
-    "Count": 10,
-    "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.00955,
-    "Diff": -0.009549999999999947,
-    "VORB": 34.1208476517755
+    "VORB": 33.785008237232276
   },
   {
     "name": "BreWskey",
@@ -213,7 +213,7 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.2715,
     "Diff": -0.1881666666666666,
-    "VORB": 30.648625429553267
+    "VORB": 30.035008237232308
   },
   {
     "name": "Cellarmaker Brewing Company",
@@ -225,7 +225,7 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.204956666666667,
     "Diff": -0.12162333333333386,
-    "VORB": 30.648625429553267
+    "VORB": 30.035008237232308
   },
   {
     "name": "Sacred Profane Brewing",
@@ -237,7 +237,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.9311333333333334,
     "Diff": 0.2355333333333336,
-    "VORB": 30.648625429553267
+    "VORB": 30.035008237232308
   },
   {
     "name": "Schilling Beer Co.",
@@ -249,19 +249,19 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.043394285714286,
     "Diff": -0.15053714285714337,
-    "VORB": 26.48195876288657
+    "VORB": 25.86834157056561
   },
   {
     "name": "Dovetail Brewery",
     "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-272842_a994d.jpeg",
     "State": "IL",
-    "Country": "",
+    "Country": "United States",
     "Avg Beer Rating": 4.0625,
     "Count": 4,
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.7758,
     "Diff": 0.2867000000000002,
-    "VORB": 24.398625429553267
+    "VORB": 23.785008237232308
   },
   {
     "name": "Founders Brewing Co.",
@@ -273,7 +273,19 @@
     "Top Beer Rating": 4.5,
     "Global Avg Rating": 4.080266666666667,
     "Diff": -0.08026666666666671,
-    "VORB": 24.398625429553267
+    "VORB": 23.785008237232308
+  },
+  {
+    "name": "Parish Brewing Co.",
+    "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-parishbrewingco_10253.jpeg",
+    "State": "LA",
+    "Country": "United States",
+    "Avg Beer Rating": 4.083333333333333,
+    "Count": 3,
+    "Top Beer Rating": 4.25,
+    "Global Avg Rating": 4.201533333333333,
+    "Diff": -0.11819999999999986,
+    "VORB": 23.785008237232308
   },
   {
     "name": "Russian River Brewing Company",
@@ -285,7 +297,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 4.1902099999999995,
     "Diff": -0.10687666666666651,
-    "VORB": 24.398625429553267
+    "VORB": 23.785008237232308
   },
   {
     "name": "Burial Beer Co.",
@@ -297,7 +309,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 4.305626666666667,
     "Diff": -0.30562666666666694,
-    "VORB": 18.148625429553267
+    "VORB": 17.535008237232308
   },
   {
     "name": "Forest & Main Brewing Company",
@@ -309,7 +321,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.8996666666666666,
     "Diff": 0.10033333333333339,
-    "VORB": 18.148625429553267
+    "VORB": 17.535008237232308
   },
   {
     "name": "The Drowned Lands Brewery",
@@ -321,7 +333,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.959996666666667,
     "Diff": 0.04000333333333295,
-    "VORB": 18.148625429553267
+    "VORB": 17.535008237232308
   },
   {
     "name": "Bayerische Staatsbrauerei Weihenstephan",
@@ -333,7 +345,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.715674285714286,
     "Diff": 0.17718285714285686,
-    "VORB": 16.065292096219963
+    "VORB": 15.451674903899004
   },
   {
     "name": "Bluejacket",
@@ -345,19 +357,19 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.8961639285714287,
     "Diff": -0.04794964285714309,
-    "VORB": 16.065292096219963
+    "VORB": 15.451674903899004
   },
   {
     "name": "Heliotrope Brewery",
     "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-451361_dac98_hd.jpeg",
     "State": "VA",
     "Country": "United States",
-    "Avg Beer Rating": 3.8461538461538463,
-    "Count": 13,
+    "Avg Beer Rating": 3.857142857142857,
+    "Count": 14,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.6392084615384617,
-    "Diff": 0.2069453846153846,
-    "VORB": 15.023625429553267
+    "Global Avg Rating": 3.659795,
+    "Diff": 0.1973478571428573,
+    "VORB": 15.13116208338614
   },
   {
     "name": "Kettlehead Brewing",
@@ -369,7 +381,7 @@
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 4.0622,
     "Diff": -0.1559499999999998,
-    "VORB": 6.541482572410384
+    "VORB": 5.927865380089425
   },
   {
     "name": "Foam Brewers",
@@ -381,19 +393,19 @@
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 4.104412,
     "Diff": -0.20441200000000004,
-    "VORB": 5.648625429553267
+    "VORB": 5.035008237232308
   },
   {
     "name": "Oxbow Brewing Company",
     "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-OxbowBrewery_10034.jpeg",
     "State": "ME",
-    "Country": "",
+    "Country": "United States",
     "Avg Beer Rating": 3.875,
     "Count": 4,
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 3.8505275,
     "Diff": 0.024472499999999897,
-    "VORB": 3.565292096219963
+    "VORB": 2.951674903899004
   },
   {
     "name": "Belleflower Brewing",
@@ -405,7 +417,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 4.098233333333333,
     "Diff": -0.34823333333333295,
-    "VORB": -0.6013745704467333
+    "VORB": -1.214991762767692
   },
   {
     "name": "Burlington Beer Co.",
@@ -417,7 +429,7 @@
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 3.9427566666666665,
     "Diff": -0.10942333333333298,
-    "VORB": -0.6013745704467333
+    "VORB": -1.214991762767692
   },
   {
     "name": "CRAK Brewery",
@@ -429,19 +441,19 @@
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 3.7908766666666662,
     "Diff": 0.04245666666666725,
-    "VORB": -0.6013745704467333
+    "VORB": -1.214991762767692
   },
   {
     "name": "Lost Generation Brewing Company",
     "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-530401_7058b.jpeg",
     "State": "DC",
-    "Country": "",
+    "Country": "United States",
     "Avg Beer Rating": 3.8125,
     "Count": 4,
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 3.93005,
     "Diff": -0.11755000000000004,
-    "VORB": -0.6013745704467333
+    "VORB": -1.214991762767692
   },
   {
     "name": "Redbeard Brewing",
@@ -453,7 +465,7 @@
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 4.131113333333333,
     "Diff": -0.29777999999999993,
-    "VORB": -0.6013745704467333
+    "VORB": -1.214991762767692
   },
   {
     "name": "Aslin Beer Company",
@@ -465,7 +477,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.9100225,
     "Diff": -0.3943975000000002,
-    "VORB": -2.268041237113394
+    "VORB": -2.881658429434353
   },
   {
     "name": "Skipping Rock Beer Co.",
@@ -477,7 +489,19 @@
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 3.867361666666667,
     "Diff": -0.11736166666666703,
-    "VORB": -3.1013745704467244
+    "VORB": -3.714991762767683
+  },
+  {
+    "name": "Commonwealth Brewing Company",
+    "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-13440_7c33b_hd.jpeg",
+    "State": "VA",
+    "Country": "United States",
+    "Avg Beer Rating": 3.75,
+    "Count": 3,
+    "Top Beer Rating": 4.0,
+    "Global Avg Rating": 4.10065,
+    "Diff": -0.3506499999999999,
+    "VORB": -7.464991762767692
   },
   {
     "name": "Night Shift Brewing",
@@ -489,7 +513,7 @@
     "Top Beer Rating": 4.25,
     "Global Avg Rating": 3.8519633333333334,
     "Diff": -0.2686299999999999,
-    "VORB": -13.101374570446733
+    "VORB": -13.714991762767692
   },
   {
     "name": "Guinness",
@@ -501,7 +525,7 @@
     "Top Beer Rating": 4.0,
     "Global Avg Rating": 3.65854,
     "Diff": -0.07520666666666642,
-    "VORB": -19.351374570446733
+    "VORB": -19.964991762767692
   },
   {
     "name": "Spaten-Franziskaner-Löwenbräu-Gruppe",
@@ -513,7 +537,7 @@
     "Top Beer Rating": 3.75,
     "Global Avg Rating": 3.580033333333333,
     "Diff": 0.08663333333333334,
-    "VORB": -19.351374570446733
+    "VORB": -19.964991762767692
   },
   {
     "name": "Sierra Nevada Brewing Co.",
@@ -525,7 +549,7 @@
     "Top Beer Rating": 3.75,
     "Global Avg Rating": 3.722583333333333,
     "Diff": -0.18091666666666661,
-    "VORB": -25.601374570446733
+    "VORB": -26.214991762767692
   },
   {
     "name": "Western Collective",
@@ -537,7 +561,7 @@
     "Top Beer Rating": 3.75,
     "Global Avg Rating": 3.9961633333333335,
     "Diff": -0.41283000000000003,
-    "VORB": -25.601374570446733
+    "VORB": -26.214991762767692
   },
   {
     "name": "Devils Backbone Brewing Company",
@@ -549,7 +573,7 @@
     "Top Beer Rating": 3.75,
     "Global Avg Rating": 3.65828,
     "Diff": -0.15827999999999998,
-    "VORB": -28.726374570446733
+    "VORB": -29.339991762767692
   },
   {
     "name": "New Realm Brewing Co.",
@@ -561,19 +585,19 @@
     "Top Beer Rating": 3.75,
     "Global Avg Rating": 3.7214959999999997,
     "Diff": -0.2714959999999995,
-    "VORB": -31.851374570446733
+    "VORB": -32.464991762767696
   },
   {
     "name": "Brauerei Locher",
     "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-217_2a04c_hd.jpeg",
     "State": "Appenzell Innerrhoden",
-    "Country": "",
+    "Country": "Switzerland",
     "Avg Beer Rating": 3.1875,
     "Count": 4,
     "Top Beer Rating": 3.5,
     "Global Avg Rating": 3.337495,
     "Diff": -0.1499950000000001,
-    "VORB": -58.93470790378004
+    "VORB": -59.548325096100996
   },
   {
     "name": "Samuel Adams",
@@ -585,7 +609,7 @@
     "Top Beer Rating": 3.5,
     "Global Avg Rating": 3.529195,
     "Diff": -0.3416950000000001,
-    "VORB": -58.93470790378004
+    "VORB": -59.548325096100996
   },
   {
     "name": "Riverside Brewing Co",
@@ -597,6 +621,6 @@
     "Top Beer Rating": 3.5,
     "Global Avg Rating": 3.7181775,
     "Diff": -0.5931774999999999,
-    "VORB": -63.10137457044674
+    "VORB": -63.714991762767696
   }
 ]

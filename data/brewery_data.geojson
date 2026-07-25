@@ -175,7 +175,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Anchorage Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Anchorage Brewing Company is founded by Gabe Fletcher.  Known for its specialized skill and style in barrel fermentation through the use of Brettanomyces and souring cultures, Anchorage Brewery became one of the newest breweries in Alaska. The Anchorage Brewing Company makes it a goal to provide the best beers out there using the old tradition and new styles of beer.\r\n\r\nSome of Anchorage Brewing’s famous beers are the Galaxy White IPA, Love Buzz Saison with Brettanomyces and Bitter Monk Belgian-style Double IPA with Brettanomyces. Anchorage Brewing Company is dedicated to providing fine flavors of beers through special barrel aging and use of Brettanomyces.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-13756_9b85a.jpeg",
         "ratingValue": 4.155,
@@ -194,9 +193,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.90565,
         "Avg Diff": -0.15565000000000007,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 61.1381074,
+        "Longitude": -149.9341232,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9341232,
+          61.1381074
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -256,7 +264,7 @@
         "City": "Alexandria",
         "State": "VA",
         "Country": "United States",
-        "VORB": -2.268041237113394
+        "VORB": -2.881658429434353
       },
       "geometry": {
         "type": "Point",
@@ -304,7 +312,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "BabyCat Brewery",
-        "Geocoding Status": "pending",
         "description": "Born from a love of nature, pets, family and beer, BabyCat brewery will forever be dedicated to crafting excellent craft beverages and ensuring you, your family and your friends feel right at home every time you visit us.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-498935_f3818.jpeg",
         "ratingValue": 3.767,
@@ -323,9 +330,18 @@
         "My Rating": 3.25,
         "Global Rating": 3.76581,
         "Avg Diff": -0.5158100000000001,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 39.02404291900926,
+        "Longitude": -77.07179041870711,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.07179041870711,
+          39.02404291900926
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -487,7 +503,7 @@
         "City": "Freising Germany",
         "State": "Bayern",
         "Country": "Germany",
-        "VORB": 16.065292096219963
+        "VORB": 15.451674903899004
       },
       "geometry": {
         "type": "Point",
@@ -521,7 +537,7 @@
         "City": "Portland",
         "State": "ME",
         "Country": "United States",
-        "VORB": -0.6013745704467333
+        "VORB": -1.214991762767692
       },
       "geometry": {
         "type": "Point",
@@ -569,7 +585,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Birra Forst",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-BirraForstSpA_8671.jpeg",
         "ratingValue": 3.191,
@@ -588,9 +603,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.1008,
         "Avg Diff": 0.6492,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 46.67672,
+        "Longitude": 11.114829,
+        "Country": "Italy"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.114829,
+          46.67672
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -684,7 +708,7 @@
         "City": "Portland",
         "State": "ME",
         "Country": "United States",
-        "VORB": 44.04148257241039
+        "VORB": 43.42786538008943
       },
       "geometry": {
         "type": "Point",
@@ -698,7 +722,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Bières de Chimay",
-        "Geocoding Status": "pending",
         "description": "Chimay is the Belgian beer that inspired Belgian-inspired beers. Brewed by Cistercian monks since 1862 at Scourmont Abbey, Chimay belongs to a community of only 11 Trappist breweries in the world. Chimay’s signature beers include the Grande Réserve (Blue), the Première (Red), the Cinq Cents (White), and the Dorée (Gold).",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-378_cfb6c_hd.jpeg",
         "ratingValue": 3.804,
@@ -717,9 +740,18 @@
         "My Rating": 4.25,
         "Global Rating": 3.88705,
         "Avg Diff": 0.3629500000000001,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 50.0397362,
+        "Longitude": 4.3982629,
+        "Country": "Belgium"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3982629,
+          50.0397362
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -779,7 +811,7 @@
         "City": "Washington",
         "State": "DC",
         "Country": "United States",
-        "VORB": 16.065292096219963
+        "VORB": 15.451674903899004
       },
       "geometry": {
         "type": "Point",
@@ -793,7 +825,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Boon Rawd Brewery",
-        "Geocoding Status": "pending",
         "description": "Boon Rawd Brewery Co., Ltd., the first and largest Brewery of Thailand. The company was incorporated to oversee the beverage business of Boon Rawd Brewery Co., Ltd. and is responsible for the operation and marketing of beer, soda water, drinking water, ready to drink green tea, and various energy drinks under \"Singha\", \"Leo\", \"Thai Beer\" and \"B-Ing\" brand names. \r\n\r\nAt present, Singha Corporation Co., Ltd. operates 3 Breweries and 6 soda water and drinking water factories located in strategic regions across Thailand. \r\n\r\nMoreover, the company's vast distribution network further enhances its ability to serve the customers throughout the kingdom as well as in nearly 50 countries worldwide under full compliance with FDA regulations and approval of each country, including European and North American Countries.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-BoonRawdBrewery_152.jpeg",
         "ratingValue": 3.024,
@@ -812,9 +843,18 @@
         "My Rating": 3.5,
         "Global Rating": 3.07456,
         "Avg Diff": 0.42544000000000004,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 13.792822,
+        "Longitude": 100.5153346,
+        "Country": "Thailand"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5153346,
+          13.792822
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -888,7 +928,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Brasserie Dieu du Ciel!",
-        "Geocoding Status": "pending",
         "description": "Établie sur l’avenue Laurier à Montréal depuis 1998, Dieu du Ciel! vise à brasser les meilleures bières, sans compromis, afin de vous offrir une expérience gustative unique et intense. Notre deuxième brasserie de Saint-Jérôme qui a ouvert ses portes en 2007 produit, embouteille et met en canette quelques-unes de nos meilleures bières.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-1674_ce8e3_hd.jpeg",
         "ratingValue": 3.884,
@@ -907,15 +946,23 @@
         "My Rating": 4.25,
         "Global Rating": 4.09751,
         "Avg Diff": 0.15249000000000024,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 45.522802,
+        "Longitude": -73.593367,
+        "Country": "Canada"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593367,
+          45.522802
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Brasserie d'Achouffe",
-        "Geocoding Status": "pending",
         "description": "Towards the end of the 1970s, Pierre Gobron and Christian Bauweraerts (two brother-in-laws) decided to create their own beer in their own brewery.\r\nWith initially only a small amount of money available to them (200.000Bfr, less than 5.000€), they started out on what the fans of the brewery call the ‘Chouffe story’.\r\n\r\nAt the beginning its founders thought of it as a hobby, but the brewery developed at such a rate that, one by one, they decided to devote themselves to the adventure full-time. The first ‘brassin’ (brewing mix) of LA CHOUFFE (49 litres) was finished on 27th August 1982.\r\n\r\nThe elves of Achouffe were impatient to discover new countries, and their Dutch cousins were the first to give them a warm welcome. Even today, the Netherlands is the major destination of Achouffe Beers outside Belgium. Nowadays, more than 20 countries worldwide are supplied with our ‘nectar’ from the Ardennes forests. Coveted international awards have also been received year after year to reward their unique taste.\r\n\r\nAt the end of the summer of 2006 the founders of the Brewery chose to entrust the future of their dear elves to the Duvel Moortgat Brewery. The group’s wish is to invest in Achouffe and to develop the full potential of the Brewery.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-11866_61236_hd.jpeg",
         "ratingValue": 3.655,
@@ -934,15 +981,23 @@
         "My Rating": 4.0,
         "Global Rating": 3.81084,
         "Avg Diff": 0.18916000000000022,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 50.1509667,
+        "Longitude": 5.7458509,
+        "Country": "Belgium"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7458509,
+          50.1509667
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Brasserie des Franches-Montagnes (BFM)",
-        "Geocoding Status": "pending",
         "description": "Nous concocter la meilleure bière!\r\n\r\nFounded in 1997 by Jérôme Rebetez, who had formerly been trained as an oenologist, this tiny brewery has rapidly become known for making beers that stretch traditional beer style guidelines and use unorthodox ingredients. BFM's products are made in small batches and hand-packaged at the brewery.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-4719_e5957_hd.jpeg",
         "ratingValue": 3.954,
@@ -961,15 +1016,23 @@
         "My Rating": 4.166666666666667,
         "Global Rating": 3.800736666666667,
         "Avg Diff": 0.3659300000000001,
-        "VORB": 36.89862542955326
+        "VORB": 36.285008237232304,
+        "Latitude": 47.2542763,
+        "Longitude": 7.0023727,
+        "Country": "Switzerland"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0023727,
+          47.2542763
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Brasserie du Virage",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-239557_13e04.jpeg",
         "ratingValue": 3.563,
@@ -988,15 +1051,23 @@
         "My Rating": 4.0,
         "Global Rating": 3.36992,
         "Avg Diff": 0.63008,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 46.15801,
+        "Longitude": 6.12299,
+        "Country": "Switzerland"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.12299,
+          46.15801
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Brasserie l'Apaisée",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-232466_452e8_hd.jpeg",
         "ratingValue": 3.946,
@@ -1015,15 +1086,23 @@
         "My Rating": 4.5,
         "Global Rating": 3.9820800000000003,
         "Avg Diff": 0.5179199999999997,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 46.1843852,
+        "Longitude": 6.1302852,
+        "Country": "Switzerland"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1302852,
+          46.1843852
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Brauerei Locher",
-        "Geocoding Status": "pending",
         "description": "In the village of Appenzell, directly at the foot of the Alpstein, the family Locher brews a special beer. With fame and fortune, like all the others also. What everyone else but missing is the fresh water from the fabled Alpstein, directly from the source. This makes the Appenzeller beer so special. So unmistakable tasty and popular, that now already the fifth generation of the family brewery's creative beers.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-217_2a04c_hd.jpeg",
         "ratingValue": 3.275,
@@ -1042,15 +1121,23 @@
         "My Rating": 3.1875,
         "Global Rating": 3.337495,
         "Avg Diff": -0.1499950000000001,
-        "VORB": -58.93470790378004
+        "VORB": -59.548325096100996,
+        "Latitude": 47.3376456,
+        "Longitude": 9.4016126,
+        "Country": "Switzerland"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4016126,
+          47.3376456
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Brauerei Spezial",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-BrauereiSpezial_222.jpeg",
         "ratingValue": 3.62,
@@ -1069,9 +1156,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.71405,
         "Avg Diff": 0.03595000000000015,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 49.8968938,
+        "Longitude": 10.8928348,
+        "Country": "Germany"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8928348,
+          49.8968938
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1097,7 +1193,7 @@
         "City": "Montreal Canada",
         "State": "QC",
         "Country": "Canada",
-        "VORB": 30.648625429553267
+        "VORB": 30.035008237232308
       },
       "geometry": {
         "type": "Point",
@@ -1212,6 +1308,41 @@
     {
       "type": "Feature",
       "properties": {
+        "Brewery Name": "Brujos Brewing",
+        "description": "Crafting Liquid Spells - Portland, Oregon.",
+        "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-178746_afed5_hd.jpeg",
+        "ratingValue": 4.387,
+        "bestRating": 5,
+        "reviewCount": 135574,
+        "streetAddress": "2377 NW Wilson St",
+        "addressLocality": "Portland",
+        "addressRegion": "OR",
+        "telephone": "",
+        "warningservesCuisine": "",
+        "full_address": "2377 NW Wilson St, Portland, OR",
+        "City": "Portland",
+        "State": "OR",
+        "Brewery URL": "https://untappd.com/BrujosBrewing",
+        "Latitude": 45.5377961,
+        "Longitude": -122.7002567,
+        "Country": "United States",
+        "Beers Rated": 1,
+        "My Rating": 4.25,
+        "Global Rating": 4.40506,
+        "Avg Diff": -0.15505999999999975,
+        "VORB": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7002567,
+          45.5377961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Brewery Name": "Burial Beer Co.",
         "Beers Rated": 3,
         "My Rating": 4.0,
@@ -1233,7 +1364,7 @@
         "City": "Asheville",
         "State": "NC",
         "Country": "United States",
-        "VORB": 18.148625429553267
+        "VORB": 17.535008237232308
       },
       "geometry": {
         "type": "Point",
@@ -1267,7 +1398,7 @@
         "City": "Burlington",
         "State": "VT",
         "Country": "United States",
-        "VORB": -0.6013745704467333,
+        "VORB": -1.214991762767692,
         "Brewery URL": "https://untappd.com/BurlingtonBeer"
       },
       "geometry": {
@@ -1282,7 +1413,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "CLAG Brewing Company",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-366410_6915d_hd.jpeg",
         "ratingValue": 4.289,
@@ -1301,9 +1431,18 @@
         "My Rating": 4.25,
         "Global Rating": 4.1681,
         "Avg Diff": 0.08190000000000008,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 41.45598442005767,
+        "Longitude": -82.7114766438659,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7114766438659,
+          41.45598442005767
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1329,7 +1468,7 @@
         "City": "Campodarsego Italy",
         "State": "Veneto",
         "Country": "Italia",
-        "VORB": -0.6013745704467333
+        "VORB": -1.214991762767692
       },
       "geometry": {
         "type": "Point",
@@ -1377,7 +1516,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Carton Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Having decided they had something to contribute to the very exciting conversation going on in craft brewing, cousins Chris and Augie Carton teamed up and started Carton Brewing. In the seashore community where they were born and raised, the Carton boys found a turn-of-the-century red brick warehouse and adapted it to accommodate a state-of-the-art Newlands Systems 15 barrel brew house. 6 E. Washington Avenue was turned into an independent craft brewery and their hats were in the ring. Applying a passion for stimulating flavor to inspiration found all around them, they set about their goal: to make tasty beer in the place their tastes were formed.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-9558_7ba84_hd.jpeg",
         "ratingValue": 3.903,
@@ -1396,9 +1534,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.83368,
         "Avg Diff": -0.0836800000000002,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 40.4118361,
+        "Longitude": -74.0381455,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0381455,
+          40.4118361
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1424,7 +1571,7 @@
         "City": "Oakland",
         "State": "CA",
         "Country": "United States",
-        "VORB": 30.648625429553267
+        "VORB": 30.035008237232308
       },
       "geometry": {
         "type": "Point",
@@ -1472,7 +1619,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Chroust",
-        "Geocoding Status": "pending",
         "description": "Family brewery estimated in 2016 in Prague. We brew bitter lagers and characterful ales.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-314023_1a9c8_hd.jpeg",
         "ratingValue": 3.776,
@@ -1491,9 +1637,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.63518,
         "Avg Diff": 0.11481999999999992,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 49.7439047,
+        "Longitude": 15.3381061,
+        "Country": "Czechia"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3381061,
+          49.7439047
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1533,7 +1688,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "City-State Brewing",
-        "Geocoding Status": "pending",
         "description": "Established in 2020, City-State makes beer inspired by the history and culture of DC",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-236158_4068f_hd.jpeg",
         "ratingValue": 3.6,
@@ -1552,9 +1706,18 @@
         "My Rating": 3.5,
         "Global Rating": 3.65417,
         "Avg Diff": -0.15417000000000014,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 38.9234346,
+        "Longitude": -76.9958685,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9958685,
+          38.9234346
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1628,10 +1791,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Commonwealth Brewing Company",
-        "Beers Rated": 2,
-        "My Rating": 4.0,
-        "Global Rating": 4.16088,
-        "Avg Diff": -0.1608799999999997,
+        "Beers Rated": 3,
+        "My Rating": 3.75,
+        "Global Rating": 4.10065,
+        "Avg Diff": -0.3506499999999999,
         "description": "At Commonwealth Brewing Company, we believe that beer should be adventurous, diverse, extremely drinkable, and sometimes even wild. We uphold rustic farmhouse traditions, huge hop American styles, and the complex depths of wild fermentations. Located in the newly renovated, former Chesapeake Beach Fire & Rescue station in Virginia Beach, we’re proud to continue the tradition as a local gathering place. We are so thankful to be able to do what we love in a place we love.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-13440_7c33b_hd.jpeg",
         "ratingValue": 3.971,
@@ -1648,7 +1811,7 @@
         "City": "Virginia Beach",
         "State": "VA",
         "Country": "United States",
-        "VORB": null
+        "VORB": -7.464991762767692
       },
       "geometry": {
         "type": "Point",
@@ -1662,7 +1825,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Coppertail Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Coppertail Brewing Company is an independently owned production brewery and tasting room in the Ybor neighborhood of Tampa, FL. It was founded on the desire to bring more quality, Florida-brewed beer to the thirsty masses. Florida Inspired. Tampa Brewed.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-coppertail_88856.jpeg",
         "ratingValue": 3.76,
@@ -1681,9 +1843,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.72376,
         "Avg Diff": 0.02624000000000004,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 27.9563192,
+        "Longitude": -82.430187,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.430187,
+          27.9563192
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1824,6 +1995,41 @@
     {
       "type": "Feature",
       "properties": {
+        "Brewery Name": "Dancing Gnome",
+        "description": "We unapologetically brew hop pronounced styles and believe in the process of designing, refining, and perfecting our creations. \r\n\r\nWith the understanding and appreciation of tradition, we take calculated liberties to forge a new path for the American Ale.\r\n\r\nWe believe in eudaimonia, indulgence, and a harmonious blend of earnest work and ebullient play. We believe in the dichotomy of reverent traditions and brazen pioneers.",
+        "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-203121_6b75e_hd.jpeg",
+        "ratingValue": 4.095,
+        "bestRating": 5,
+        "reviewCount": 453116,
+        "streetAddress": "1025 Main St",
+        "addressLocality": "Pittsburgh",
+        "addressRegion": "PA",
+        "telephone": "",
+        "warningservesCuisine": "",
+        "full_address": "1025 Main St, Pittsburgh, PA",
+        "City": "Pittsburgh",
+        "State": "PA",
+        "Brewery URL": "https://untappd.com/DancingGnome",
+        "Latitude": 40.493913,
+        "Longitude": -79.931722,
+        "Country": "United States",
+        "Beers Rated": 2,
+        "My Rating": 3.625,
+        "Global Rating": 4.018605,
+        "Avg Diff": -0.393605,
+        "VORB": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.931722,
+          40.493913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Brewery Name": "Deciduous Brewing Company",
         "Beers Rated": 1,
         "My Rating": 3.75,
@@ -1893,7 +2099,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Deschutes Brewery",
-        "Geocoding Status": "pending",
         "description": "Deschutes Brewery was founded in 1988 as a brew pub in Bend, Oregon. Family and employee-owned, the brewery is known for brewing a diverse line-up of award winning beers including the popular Black Butte Porter, Mirror Pond Pale Ale, and Fresh Squeezed IPA. From the beginning, the focus has been on crafting the best beer and food using only the finest ingredients.  In 2008, Deschutes opened a second pub in Portland’s Pearl District. Deschutes Brewery now ships beer to 28 states, the District of Columbia, and around the world from its main brewing facility located on the banks of the Deschutes River.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-441_267e6_hd.jpeg",
         "ratingValue": 3.798,
@@ -1912,9 +2117,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.61125,
         "Avg Diff": 0.13874999999999993,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 44.048262121900265,
+        "Longitude": -121.32134748930554,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.32134748930554,
+          44.048262121900265
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1940,7 +2154,7 @@
         "City": "Roseland",
         "State": "VA",
         "Country": "United States",
-        "VORB": -28.726374570446733
+        "VORB": -29.339991762767692
       },
       "geometry": {
         "type": "Point",
@@ -1954,7 +2168,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Dogfish Head Craft Brewery",
-        "Geocoding Status": "pending",
         "description": "Dogfish Head started in June 1995 when Dogfish Head Brewings & Eats was established in the beach community of Rehoboth Beach, Delaware. Dogfish Head was the first brewpub of the state. The original plan to deliver great music, delicious food and fine beers to the community came to life when the first batch of Shelter Pale Ale beers were started. Soon, Dogfish Head engaged in brewing 12 gallons of beer batches to supply the restaurant’s need. Dogfish Head brewery quickly achieved popularity beyond the state and reaches to nearby areas like Philadelphia and Washington D.C. By 2000, Dogfish Head is selling over 20 types of beers in 30 states.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-459_21f0f_hd.jpeg",
         "ratingValue": 3.84,
@@ -1973,15 +2186,23 @@
         "My Rating": 4.0,
         "Global Rating": 3.83557,
         "Avg Diff": 0.16442999999999985,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 38.770599,
+        "Longitude": -75.3103665,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3103665,
+          38.770599
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Dovetail Brewery",
-        "Geocoding Status": "pending",
         "description": "Traditional methods. Continental European Styles. We brew like monks, minus the vows.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-272842_a994d.jpeg",
         "ratingValue": 3.817,
@@ -2000,9 +2221,18 @@
         "My Rating": 4.0625,
         "Global Rating": 3.7758,
         "Avg Diff": 0.2867000000000002,
-        "VORB": 24.398625429553267
+        "VORB": 23.785008237232308,
+        "Latitude": 41.9561589,
+        "Longitude": -87.6743858,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6743858,
+          41.9561589
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2178,7 +2408,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Escape Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Escape Brewing Company was founded on the principles of creating a brewery that is embraced and valued by their community, committed to their customers, all while using the finest and best ingredients possible, and to have the passion and drive of brewing beer they are proud of.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-159364_bc51c.jpeg",
         "ratingValue": 3.864,
@@ -2197,9 +2426,53 @@
         "My Rating": 3.75,
         "Global Rating": 3.8827,
         "Avg Diff": -0.13269999999999982,
+        "VORB": null,
+        "Latitude": 28.1879375,
+        "Longitude": -82.6228853,
+        "Country": "United States"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6228853,
+          28.1879375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Brewery Name": "Fabbrica di Pedavena",
+        "description": "",
+        "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-FabbricadiPedavena_5024.jpeg",
+        "ratingValue": 3.181,
+        "bestRating": 5,
+        "reviewCount": 77978,
+        "streetAddress": "78 Viale Vittorio Veneto",
+        "addressLocality": "Pedavena Italy",
+        "addressRegion": "Veneto",
+        "telephone": "",
+        "warningservesCuisine": "",
+        "full_address": "78 Viale Vittorio Veneto, Pedavena Italy, Veneto",
+        "City": "Pedavena Italy",
+        "State": "Veneto",
+        "Brewery URL": "https://untappd.com/w/fabbrica-di-pedavena/5024",
+        "Latitude": 46.03542,
+        "Longitude": 11.88348,
+        "Country": "Italy",
+        "Beers Rated": 1,
+        "My Rating": 3.75,
+        "Global Rating": 3.20111,
+        "Avg Diff": 0.5488900000000001,
         "VORB": null
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.88348,
+          46.03542
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2239,7 +2512,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Feldschlösschen",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-FeldschlosschenCarlsbergGroup_3058.jpeg",
         "ratingValue": 3.092,
@@ -2258,9 +2530,18 @@
         "My Rating": 3.0,
         "Global Rating": 3.0614,
         "Avg Diff": -0.0613999999999999,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 47.5463256,
+        "Longitude": 7.7914692,
+        "Country": "Switzerland"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7914692,
+          47.5463256
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2300,10 +2581,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Fidens Brewing Co.",
-        "Beers Rated": 16,
-        "My Rating": 4.40625,
-        "Global Rating": 4.35290125,
-        "Avg Diff": 0.05334874999999961,
+        "Beers Rated": 17,
+        "My Rating": 4.411764705882353,
+        "Global Rating": 4.354164117647059,
+        "Avg Diff": 0.057600588235294126,
         "description": "The idea was simple from the start. Let’s open a small brewery and try to do it ourselves in Albany, NY. We kicked around ideas of what we would need to do while on road trips to our favorite breweries near and far. The truth is, we didn't have any experience outside of one of us cleaning kegs and packaging beer in college. It was just a dream to be able to call it our jobs and to make it on our own.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-426930_f396a_hd.jpeg",
         "ratingValue": 4.386,
@@ -2320,7 +2601,7 @@
         "City": "Albany",
         "State": "NY",
         "Country": "United States",
-        "VORB": 68.5652920962199,
+        "VORB": 68.3162582372323,
         "Brewery URL": "https://untappd.com/FidensBrewingCo"
       },
       "geometry": {
@@ -2423,7 +2704,7 @@
         "City": "Burlington",
         "State": "VT",
         "Country": "United States",
-        "VORB": 5.648625429553267
+        "VORB": 5.035008237232308
       },
       "geometry": {
         "type": "Point",
@@ -2471,7 +2752,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Fonta Flora Brewery",
-        "Geocoding Status": "pending",
         "description": "Fonta Flora Brewery integrates the soul of agriculture with the artisanship of zymurgy to create a menagerie of rustic and savory libations.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-82899_6b2a8_hd.jpeg",
         "ratingValue": 3.962,
@@ -2490,9 +2770,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.93793,
         "Avg Diff": -0.18793000000000015,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 35.759271,
+        "Longitude": -81.905708,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.905708,
+          35.759271
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2518,7 +2807,7 @@
         "City": "Ambler",
         "State": "PA",
         "Country": "United States",
-        "VORB": 18.148625429553267
+        "VORB": 17.535008237232308
       },
       "geometry": {
         "type": "Point",
@@ -2620,7 +2909,7 @@
         "City": "Grand Rapids",
         "State": "MI",
         "Country": "United States",
-        "VORB": 24.398625429553267
+        "VORB": 23.785008237232308
       },
       "geometry": {
         "type": "Point",
@@ -2770,7 +3059,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Funky Buddha Brewery",
-        "Geocoding Status": "pending",
         "description": "Florida radiates good vibes. Funky Buddha was founded in Florida, and to this day, still channels that goodness into a full-flavored beer brewed from high-quality ingredients. So let the good vibes flow and crack one open.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-3741_1d452_hd.jpeg",
         "ratingValue": 3.882,
@@ -2789,9 +3077,18 @@
         "My Rating": 3.5,
         "Global Rating": 3.59716,
         "Avg Diff": -0.09716000000000014,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 26.174197,
+        "Longitude": -80.131104,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.131104,
+          26.174197
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2831,7 +3128,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Goose Island Beer Co.",
-        "Geocoding Status": "pending",
         "description": "Our famous beer began with a trip across Europe, when Goose Island founder (and unabashed beer lover) John Hall took a tour across the continent. Pint by pint, he savored the styles and selections of brews in every region, and thought to himself, “America deserves some damn fine beer like this, too.”\r\n\r\nCraft brewing wasn’t widely known at the time, but upon return from his European sojourn, John set out to change all that. He settled down in his hometown of Chicago—a city perfect for craft beer, with rapidly evolving tastes and the largest system of fresh water on the planet. And then he got to brewing.\r\n\r\nFirst he made some stellar beer. Then he invited his consumers in to watch his process at the brewery, bringing them behind the scenes every step of the way. The result was a new fascination with craft brewing, and beer that not only catered to people’s tastes, but challenged them as well.\r\n\r\nThat was back in 1988, and we haven’t slowed down since. By 1995, John’s beer had become so popular that he decided to open a larger brewery, along with a bottling plant to keep up with demand.  Today, what was once one man’s pint-filled dream has become the Goose Island empire you know and love..",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-2898_29dc8_hd.jpeg",
         "ratingValue": 3.905,
@@ -2850,9 +3146,18 @@
         "My Rating": 4.375,
         "Global Rating": 4.38959,
         "Avg Diff": -0.014590000000000103,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 41.8870058,
+        "Longitude": -87.6722122,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6722122,
+          41.8870058
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2892,10 +3197,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Grassroots Brewing",
-        "Beers Rated": 1,
-        "My Rating": 4.25,
-        "Global Rating": 4.24035,
-        "Avg Diff": 0.009649999999999714,
+        "Beers Rated": 2,
+        "My Rating": 4.625,
+        "Global Rating": 4.206805,
+        "Avg Diff": 0.4181949999999999,
         "description": "Informed by travel and friendship, Grassroots Brewing creates artisan ales inspired by experience and imagination.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-grassrootsbrewing_8022.jpeg",
         "ratingValue": 4.133,
@@ -3150,7 +3455,7 @@
         "City": "Dublin Ireland",
         "State": "County Dublin",
         "Country": "Ireland",
-        "VORB": -19.351374570446733
+        "VORB": -19.964991762767692
       },
       "geometry": {
         "type": "Point",
@@ -3335,10 +3640,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Heliotrope Brewery",
-        "Beers Rated": 13,
-        "My Rating": 3.8461538461538463,
-        "Global Rating": 3.6392084615384617,
-        "Avg Diff": 0.2069453846153846,
+        "Beers Rated": 14,
+        "My Rating": 3.857142857142857,
+        "Global Rating": 3.659795,
+        "Avg Diff": 0.1973478571428573,
         "description": "Heliotrope is a farmhouse-style brewery committed to the production of rustic ales and lagers.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-451361_dac98_hd.jpeg",
         "ratingValue": 3.86,
@@ -3355,7 +3660,7 @@
         "City": "Lexington",
         "State": "VA",
         "Country": "United States",
-        "VORB": 15.023625429553267
+        "VORB": 15.13116208338614
       },
       "geometry": {
         "type": "Point",
@@ -3369,10 +3674,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Hill Farmstead Brewery",
-        "Beers Rated": 22,
-        "My Rating": 4.420454545454546,
-        "Global Rating": 4.257791818181818,
-        "Avg Diff": 0.16266272727272746,
+        "Beers Rated": 24,
+        "My Rating": 4.416666666666667,
+        "Global Rating": 4.257152916666667,
+        "Avg Diff": 0.15951375000000034,
         "description": "Hill Farmstead Brewery is the culmination of many years of travel and insight—of experience and education—of friendships and explorations.\r\n\r\nThe brewery is the revival and continuation of 220 years of Hill heritage and hand crafted history in North Greensboro, Vermont.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
         "ratingValue": 4.313,
@@ -3389,7 +3694,7 @@
         "City": "Greensboro",
         "State": "VT",
         "Country": "United States",
-        "VORB": 81.54148257241039
+        "VORB": 80.8502256285366
       },
       "geometry": {
         "type": "Point",
@@ -3437,7 +3742,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Hop Butcher For The World",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-23570_3ce55_hd.jpeg",
         "ratingValue": 4.139,
@@ -3456,9 +3760,18 @@
         "My Rating": 3.5,
         "Global Rating": 3.97664,
         "Avg Diff": -0.4766400000000002,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 41.9592861,
+        "Longitude": -87.6821711,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6821711,
+          41.9592861
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -3587,7 +3900,7 @@
         "City": "Philadelphia",
         "State": "PA",
         "Country": "United States",
-        "VORB": 61.89862542955326
+        "VORB": 61.285008237232304
       },
       "geometry": {
         "type": "Point",
@@ -3635,7 +3948,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Jack’s Abby Craft Lagers",
-        "Geocoding Status": "pending",
         "description": "Jack’s Abby is a family-owned craft brewery in Framingham, MA, brewing craft lagers with traditional German standards and American innovation.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-14088_b7757.jpeg",
         "ratingValue": 3.768,
@@ -3654,15 +3966,23 @@
         "My Rating": 3.875,
         "Global Rating": 3.78973,
         "Avg Diff": 0.08526999999999996,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 42.2804906,
+        "Longitude": -71.4107709,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4107709,
+          42.2804906
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Juicy Brewing Co",
-        "Geocoding Status": "pending",
         "description": "Beer conceived vibrant.\r\nHazy IPAs, smoothie sours and traditional styles.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-500952_9f40d.jpeg",
         "ratingValue": 4.169,
@@ -3681,9 +4001,18 @@
         "My Rating": 4.25,
         "Global Rating": 4.03696,
         "Avg Diff": 0.21304000000000034,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 38.9563719,
+        "Longitude": -77.3747584,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3747584,
+          38.9563719
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -3709,7 +4038,7 @@
         "City": "Tilton",
         "State": "NH",
         "Country": "United States",
-        "VORB": 6.541482572410384
+        "VORB": 5.927865380089425
       },
       "geometry": {
         "type": "Point",
@@ -3845,7 +4174,7 @@
         "City": "Waitsfield",
         "State": "VT",
         "Country": "United States",
-        "VORB": 53.56529209621988,
+        "VORB": 52.95167490389892,
         "Brewery URL": "https://untappd.com/LawsonsFinestLiquids"
       },
       "geometry": {
@@ -3860,7 +4189,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Legend Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Legend Brewing Company is a commercial microbrewery providing true premium beers to many of the best pubs and restaurants in Richmond and other areas of Virginia since January, 1994. Our mission is to bring to our customers the finest and freshest brews as flavorful alternatives to mass-marketed mainstream products. We're one of the few craft breweries in this region producing both lagers and ales, which require different yeasts and maturation conditions. All Legend beers are unpasteurized and made from only two-row and specialty barley malt, hops, water and yeast.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-1483_a549e_hd.jpeg",
         "ratingValue": 3.605,
@@ -3879,9 +4207,53 @@
         "My Rating": 4.0,
         "Global Rating": 3.66073,
         "Avg Diff": 0.33926999999999996,
+        "VORB": null,
+        "Latitude": 37.5266924,
+        "Longitude": -77.4429749,
+        "Country": "United States"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4429749,
+          37.5266924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Brewery Name": "Lolev Beer",
+        "description": "Haze • Crispy • Funky • Oaked",
+        "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-519872_da7df_hd.jpeg",
+        "ratingValue": 4.117,
+        "bestRating": 5,
+        "reviewCount": 66328,
+        "streetAddress": "5247 Butler St",
+        "addressLocality": "Pittsburgh",
+        "addressRegion": "PA",
+        "telephone": "",
+        "warningservesCuisine": "",
+        "full_address": "5247 Butler St, Pittsburgh, PA",
+        "City": "Pittsburgh",
+        "State": "PA",
+        "Brewery URL": "https://untappd.com/Lolev",
+        "Latitude": 40.48149857014426,
+        "Longitude": -79.95376962905142,
+        "Country": "United States",
+        "Beers Rated": 1,
+        "My Rating": 3.75,
+        "Global Rating": 4.13367,
+        "Avg Diff": -0.3836700000000004,
         "VORB": null
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95376962905142,
+          40.48149857014426
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -3921,10 +4293,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Long Live Beerworks",
-        "Beers Rated": 1,
-        "My Rating": 3.25,
-        "Global Rating": 4.20274,
-        "Avg Diff": -0.9527400000000004,
+        "Beers Rated": 2,
+        "My Rating": 3.75,
+        "Global Rating": 4.10777,
+        "Avg Diff": -0.35777000000000037,
         "description": "Independent Providence-based brewery focusing on IPAs, sours + stouts.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-246374_e16e1.jpeg",
         "ratingValue": 4.173,
@@ -3955,7 +4327,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Lost Generation Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Beer drives us. It unites us. We painstakingly choose the best hop lots to make IPA that inspires, take time and care with our lagers to make sure they will amaze, and hand pick our aging program barrels to ensure that what comes out will always impress. We believe that if you’re going to do it, do it right and do it well. And that’s because we make beer for people we love: family, friends, neighbors, and even those who are just goddamned thirsty. \r\n\r\nIn here we believe that each pour is an invitation to be one of us. As Gertrude Stein once said, “You are all a Lost Generation.” In here we hold that to be true. We are all one and the same, so let’s raise a glass and have a beer together.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-530401_7058b.jpeg",
         "ratingValue": 3.934,
@@ -3974,9 +4345,53 @@
         "My Rating": 3.8125,
         "Global Rating": 3.93005,
         "Avg Diff": -0.11755000000000004,
-        "VORB": -0.6013745704467333
+        "VORB": -1.214991762767692,
+        "Latitude": 38.91387,
+        "Longitude": -77.000856,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.000856,
+          38.91387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Brewery Name": "Magnanimous Brewing",
+        "description": "No Brew Gods. No Brew Masters.\r\nTasting rooms in Tampa Heights & Seminole Heights",
+        "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-399672_9303a_hd.jpeg",
+        "ratingValue": 4.059,
+        "bestRating": 5,
+        "reviewCount": 173389,
+        "streetAddress": "1420 N Florida Ave",
+        "addressLocality": "Tampa",
+        "addressRegion": "FL",
+        "telephone": "",
+        "warningservesCuisine": "",
+        "full_address": "1420 N Florida Ave, Tampa, FL",
+        "City": "Tampa",
+        "State": "FL",
+        "Brewery URL": "https://untappd.com/MagnanimousBrewing",
+        "Latitude": 27.9574641,
+        "Longitude": -82.4597653,
+        "Country": "United States",
+        "Beers Rated": 1,
+        "My Rating": 4.0,
+        "Global Rating": 4.01283,
+        "Avg Diff": -0.012830000000000119,
+        "VORB": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4597653,
+          27.9574641
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4050,7 +4465,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Manor Hill Brewing",
-        "Geocoding Status": "pending",
         "description": "Located on a scenic 54-acre working farm in Ellicott City, Manor Hill Farm is home to Manor Hill Brewing... Howard County's first, and Maryland's largest, farm brewery.\r\n\r\nThe farm is open to the public on Friday, Saturday, & Sunday. Private Events available 7 days/week.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-191373_d299d.jpeg",
         "ratingValue": 3.785,
@@ -4069,15 +4483,23 @@
         "My Rating": 3.75,
         "Global Rating": 3.52278,
         "Avg Diff": 0.22721999999999998,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 39.2514568,
+        "Longitude": -76.8848647,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8848647,
+          39.2514568
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Maplewood Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Proudly brewed in Chicago's Logan Square.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-60837_aa2e2_hd.jpeg",
         "ratingValue": 3.954,
@@ -4096,15 +4518,23 @@
         "My Rating": 3.0,
         "Global Rating": 3.99021,
         "Avg Diff": -0.9902099999999998,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 41.930752,
+        "Longitude": -87.6910641,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6910641,
+          41.930752
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Messorem",
-        "Geocoding Status": "pending",
         "description": "Messorem is a craft brewery by the Lachine canal in the south-west of Montreal, Quebec, Canada.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-427314_4eb95_hd.jpeg",
         "ratingValue": 4.222,
@@ -4119,13 +4549,22 @@
         "City": "Montreal Canada",
         "State": "QC",
         "Brewery URL": "https://untappd.com/MessoremBracitorium",
-        "Beers Rated": 1,
+        "Beers Rated": 2,
         "My Rating": 4.25,
-        "Global Rating": 4.24274,
-        "Avg Diff": 0.0072599999999996,
-        "VORB": null
+        "Global Rating": 4.18553,
+        "Avg Diff": 0.06447000000000003,
+        "VORB": null,
+        "Latitude": 45.470316,
+        "Longitude": -73.580056,
+        "Country": "Canada"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580056,
+          45.470316
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4268,7 +4707,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Monkish Brewing Co.",
-        "Geocoding Status": "pending",
         "description": "A small brewery & tasting room in Los Angeles (Torrance), California creating Belgian-ish and IPA-ish beers.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-MonkishBrewingCo_21152.jpeg",
         "ratingValue": 4.302,
@@ -4287,9 +4725,53 @@
         "My Rating": 4.5,
         "Global Rating": 4.21918,
         "Avg Diff": 0.2808200000000003,
+        "VORB": null,
+        "Latitude": 33.8465751,
+        "Longitude": -118.3101863,
+        "Country": "United States"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3101863,
+          33.8465751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Brewery Name": "Monument City Brewing",
+        "description": "",
+        "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-164880_dda15.jpeg",
+        "ratingValue": 3.773,
+        "bestRating": 5,
+        "reviewCount": 94519,
+        "streetAddress": "1 N Haven St",
+        "addressLocality": "Baltimore",
+        "addressRegion": "MD",
+        "telephone": "",
+        "warningservesCuisine": "",
+        "full_address": "1 N Haven St, Baltimore, MD",
+        "City": "Baltimore",
+        "State": "MD",
+        "Brewery URL": "https://untappd.com/Monument_City_Brewing",
+        "Latitude": 39.2929307,
+        "Longitude": -76.5624118,
+        "Country": "United States",
+        "Beers Rated": 1,
+        "My Rating": 4.0,
+        "Global Rating": 4.06825,
+        "Avg Diff": -0.06824999999999992,
         "VORB": null
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5624118,
+          39.2929307
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4328,8 +4810,42 @@
     {
       "type": "Feature",
       "properties": {
+        "Brewery Name": "Mortals Key Brewing Company",
+        "description": "",
+        "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-279261_2bb16.jpeg",
+        "ratingValue": 3.685,
+        "bestRating": 5,
+        "reviewCount": 9236,
+        "streetAddress": "4224 East Lake Road",
+        "addressLocality": "Jamestown",
+        "addressRegion": "PA",
+        "telephone": "",
+        "warningservesCuisine": "",
+        "full_address": "4224 East Lake Road, Jamestown, PA",
+        "City": "Jamestown",
+        "State": "PA",
+        "Brewery URL": "https://untappd.com/MortalsKeyBrewingCompany",
+        "Latitude": 41.5139696,
+        "Longitude": -80.4609677,
+        "Country": "United States",
+        "Beers Rated": 1,
+        "My Rating": 3.25,
+        "Global Rating": 3.56868,
+        "Avg Diff": -0.3186800000000001,
+        "VORB": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4609677,
+          41.5139696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Brewery Name": "Motorworks Brewing",
-        "Geocoding Status": "pending",
         "description": "Awarded the distinction of the #3 brewery nationwide at the 2021 U.S. Open Beer Championship, named “Best Large Brewery in Florida” at the 2017 Best Florida Beer Championship, and presented with over 100 championship medals since its opening in 2014, Motorworks Brewing is truly driven to excellence. Co-founded by Frank and Denise Tschida, Motorworks’ iconic flagship facility was built in 1923 and was once home to a Hudson Motors dealership—renowned for outstanding performance and innovative styling—in the late 40s and early 50s. The building’s automotive history, along with Frank’s Sprint Car/ASA background, inspired the Motorworks Brewing name. The Motorworks Brewing team strives to bring their own imaginative and innovative approach to brewing to honor their building’s storied past. Motorworks Brewing boasts two prime locations, one located at 1014 9th Street West in historic Downtown Bradenton, Florida, and one located at 131 N Orange Ave Suite 106 in downtown Orlando, Florida.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-104761_7b460.jpeg",
         "ratingValue": 3.692,
@@ -4348,9 +4864,18 @@
         "My Rating": 3.5,
         "Global Rating": 3.74498,
         "Avg Diff": -0.24497999999999998,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 27.4905078,
+        "Longitude": -82.5716253,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5716253,
+          27.4905078
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4376,7 +4901,7 @@
         "City": "Atlanta",
         "State": "GA",
         "Country": "United States",
-        "VORB": -31.851374570446733
+        "VORB": -32.464991762767696
       },
       "geometry": {
         "type": "Point",
@@ -4444,7 +4969,7 @@
         "City": "Everett",
         "State": "MA",
         "Country": "United States",
-        "VORB": -13.101374570446733
+        "VORB": -13.714991762767692
       },
       "geometry": {
         "type": "Point",
@@ -4492,7 +5017,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Nordwand Bräu",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/assets/images/temp/badge-brewery-default.png",
         "ratingValue": 3.426,
@@ -4511,9 +5035,18 @@
         "My Rating": 4.0,
         "Global Rating": 3.44816,
         "Avg Diff": 0.5518399999999999,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 46.7985624,
+        "Longitude": 8.2319736,
+        "Country": "Switzerland"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2319736,
+          46.7985624
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4723,10 +5256,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Other Half Brewing Co.",
-        "Beers Rated": 18,
-        "My Rating": 3.986111111111111,
-        "Global Rating": 4.174957777777778,
-        "Avg Diff": -0.18884666666666705,
+        "Beers Rated": 19,
+        "My Rating": 4.0,
+        "Global Rating": 4.17570947368421,
+        "Avg Diff": -0.17570947368421042,
         "description": "In 2014, Sam Richardson, Matt Monahan and Andrew Burman founded Other Half Brewing Company, a local brewery in New York City with a simple mission: to create beers that they wanted to drink from a company that they wanted to be a part of.\r\n\r\nTheir vision was to build a passionate team that brewed great beers in the state of New York—done so with effort and thoughtfulness—to represent the “Other Half” of the industry.\r\n\r\nToday, Other Half craft beers in their Brooklyn brewery and are dedicated to collaborating with breweries both in New York as well as across the world in an effort to constantly move the industry forward while elevating the craft.\r\n\r\nThe Other Half team believes that local breweries play an important role in their communities which is why they partner with these other likeminded brewers and brands in local nabes across the country and the world—but always return to their home state of New York and their Brooklyn taproom.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-94785_ca64f_hd.jpeg",
         "ratingValue": 4.209,
@@ -4743,7 +5276,7 @@
         "City": "Brooklyn",
         "State": "NY",
         "Country": "United States",
-        "VORB": 34.692743076612146
+        "VORB": 34.896119348343376
       },
       "geometry": {
         "type": "Point",
@@ -4791,7 +5324,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Oxbow Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Oxbow is an American farmhouse brewery specializing in traditional Belgian-style ales with contemporary American influence. We brew small batches of beer in a renovated barn in rural Newcastle, Maine. Our beers can be found in fine bars and restaurants throughout Maine, Vermont, New York City, Philadelphia, Baltimore & Washington DC.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-OxbowBrewery_10034.jpeg",
         "ratingValue": 3.858,
@@ -4810,9 +5342,18 @@
         "My Rating": 3.875,
         "Global Rating": 3.8505275,
         "Avg Diff": 0.024472499999999897,
-        "VORB": 3.565292096219963
+        "VORB": 2.951674903899004,
+        "Latitude": 44.083165,
+        "Longitude": -69.5640499,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.5640499,
+          44.083165
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4852,7 +5393,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Parish Brewing Co.",
-        "Geocoding Status": "pending",
         "description": "A small brewery in Cajun country doing battle against boring tasteless swill.  Our brews wont make you better looking but they taste great.  Drink dat.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-parishbrewingco_10253.jpeg",
         "ratingValue": 4.099,
@@ -4867,13 +5407,22 @@
         "City": "Broussard",
         "State": "LA",
         "Brewery URL": "https://untappd.com/parishbeer",
-        "Beers Rated": 2,
-        "My Rating": 4.125,
-        "Global Rating": 4.27117,
-        "Avg Diff": -0.1461699999999997,
-        "VORB": null
+        "Beers Rated": 3,
+        "My Rating": 4.083333333333333,
+        "Global Rating": 4.201533333333333,
+        "Avg Diff": -0.11819999999999986,
+        "VORB": 23.785008237232308,
+        "Latitude": 30.1592491,
+        "Longitude": -91.9484299,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9484299,
+          30.1592491
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4913,7 +5462,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Peak Organic Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Peak is a craft brewing company, dedicated to making delicious beer using local, artisan and organic ingredients.\r\n\r\nWith roots in home brewing back in the 90s, brewer Jon Cadoux set about combining his love for beer with an ethic for sustainability. Whenever possible, he would go out and find ingredients from local organic farmers for his homebrews.  It was a defining day when Jon discovered that you don’t need to sacrifice flavor for sustainability, but that better ingredients actually made the beer more delicious.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-1815_05b1f_hd.jpeg",
         "ratingValue": 3.553,
@@ -4932,9 +5480,18 @@
         "My Rating": 4.25,
         "Global Rating": 3.53859,
         "Avg Diff": 0.7114099999999999,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 43.6627233,
+        "Longitude": -70.2643502,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.2643502,
+          43.6627233
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -4974,7 +5531,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Pittsburgh Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Since 1861, Pittsburgh Brewing Company has always been committed to a few things: deep roots in the Pittsburgh community, strong tradition, innovation, and of course, brewing great beer. We've been at it for 160 years, and with every bottle we keep getting better.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-7967_f2566.jpeg",
         "ratingValue": 3.056,
@@ -4989,13 +5545,22 @@
         "City": "Creighton",
         "State": "PA",
         "Brewery URL": "https://untappd.com/PittsburghBrewingCompany",
-        "Beers Rated": 1,
-        "My Rating": 3.25,
-        "Global Rating": 3.37595,
-        "Avg Diff": -0.12595,
-        "VORB": null
+        "Beers Rated": 2,
+        "My Rating": 3.5,
+        "Global Rating": 3.164365,
+        "Avg Diff": 0.3356349999999999,
+        "VORB": null,
+        "Latitude": 40.5884442,
+        "Longitude": -79.7738382,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7738382,
+          40.5884442
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -5021,7 +5586,7 @@
         "City": "Alexandria",
         "State": "VA",
         "Country": "United States",
-        "VORB": 45.23195876288657
+        "VORB": 44.61834157056561
       },
       "geometry": {
         "type": "Point",
@@ -5157,7 +5722,7 @@
         "City": "Staunton",
         "State": "VA",
         "Country": "United States",
-        "VORB": -0.6013745704467333
+        "VORB": -1.214991762767692
       },
       "geometry": {
         "type": "Point",
@@ -5362,7 +5927,7 @@
         "City": "White River Junction",
         "State": "VT",
         "Country": "United States",
-        "VORB": 50.96112542955326
+        "VORB": 50.347508237232304
       },
       "geometry": {
         "type": "Point",
@@ -5396,7 +5961,7 @@
         "City": "Cambridge Springs",
         "State": "PA",
         "Country": "United States",
-        "VORB": -63.10137457044674
+        "VORB": -63.714991762767696
       },
       "geometry": {
         "type": "Point",
@@ -5444,7 +6009,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Rugenbräu",
-        "Geocoding Status": "pending",
         "description": "",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-Rugenbrau_25444.jpeg",
         "ratingValue": 3.243,
@@ -5463,9 +6027,18 @@
         "My Rating": 4.0,
         "Global Rating": 3.57349,
         "Avg Diff": 0.42650999999999994,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 46.6706144,
+        "Longitude": 7.855059,
+        "Country": "Switzerland"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.855059,
+          46.6706144
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -5491,7 +6064,7 @@
         "City": "Windsor",
         "State": "CA",
         "Country": "United States",
-        "VORB": 24.398625429553267
+        "VORB": 23.785008237232308
       },
       "geometry": {
         "type": "Point",
@@ -5525,7 +6098,7 @@
         "City": "Biddeford",
         "State": "ME",
         "Country": "United States",
-        "VORB": 30.648625429553267
+        "VORB": 30.035008237232308
       },
       "geometry": {
         "type": "Point",
@@ -5559,7 +6132,7 @@
         "City": "Boston",
         "State": "MA",
         "Country": "United States",
-        "VORB": -58.93470790378004
+        "VORB": -59.548325096100996
       },
       "geometry": {
         "type": "Point",
@@ -5573,7 +6146,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Sante Adairius Rustic Ales",
-        "Geocoding Status": "pending",
         "description": "Sante Adairius Rustic Ales is a small, but daring, brewery located in the coastal city of Capitola, CA, just south of Santa Cruz.\r\n\r\nSante Adairius is a brewery founded on respect for quality and authenticity. We focus our attention on producing well-constructed beers with an eye towards simplicity and character. SARA takes liberty in emulating those memorable beers, their brewers, and the experiences they foster, never forgetting those giants on whose shoulders we stand.\r\n\r\nOur approach to beer making is one of whimsy, highly inspired by the Belgian tradition, but also in harmony with brewers all over the world who push against boundaries of style with a nudge, not a shove. Often our beers are barrel-aged, usually in wine barrels, with various yeast and bacteria. As often as not though, Sante Adairius brews beers more approachable and traditional in nature, yet no less flavorful or distinctive.\r\n\r\nOwned and operated by Adair Paterno, Sante Adairius Rustic Ales is an attempt to bring people together over great beer. SARA is an expression of our many years of beer geekery, the rabbit hole of tasting every beer we could get our hands on, and trusting we could contribute to the canon of those beers of the highest esteem. We believe great beer comes first. We stay true to our brewing roots. We take seriously the fact that we are brewing for you, and for ourselves. We appreciate your interest in our efforts. Sante!",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-31355_09cc4.jpeg",
         "ratingValue": 4.235,
@@ -5592,15 +6164,23 @@
         "My Rating": 4.25,
         "Global Rating": 4.21223,
         "Avg Diff": 0.03777000000000008,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 36.983793934657484,
+        "Longitude": -121.94877581356529,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94877581356529,
+          36.983793934657484
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "Sapwood Cellars Brewery",
-        "Geocoding Status": "pending",
         "description": "2nd most Untappd Community Awards in the world for 2024, 2025, and 2026!\r\n\r\nColumbia Maryland brewery and cidery, home of Albura Taqueria! Focused on hoppy ales and barrel-aged beers. Our tasting room is open Tuesday-Sunday! Cans and bottles are available for online pre-order or walk-ins. Founded by bloggers/authors Michael Tonsmeire and Scott Janish in September 2018.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-377326_bc915_hd.jpeg",
         "ratingValue": 4.133,
@@ -5619,9 +6199,18 @@
         "My Rating": 4.0,
         "Global Rating": 4.05618,
         "Avg Diff": -0.05618000000000034,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 39.2673646,
+        "Longitude": -76.7951436,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7951436,
+          39.2673646
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -5647,7 +6236,7 @@
         "City": "Littleton",
         "State": "NH",
         "Country": "United States",
-        "VORB": 26.48195876288657
+        "VORB": 25.86834157056561
       },
       "geometry": {
         "type": "Point",
@@ -5661,10 +6250,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Schlenkerla (\"Heller-Bräu\" Trum)",
-        "Beers Rated": 6,
-        "My Rating": 4.208333333333333,
-        "Global Rating": 3.6743583333333336,
-        "Avg Diff": 0.5339749999999994,
+        "Beers Rated": 7,
+        "My Rating": 4.178571428571429,
+        "Global Rating": 3.6463571428571426,
+        "Avg Diff": 0.5322142857142862,
         "description": "Schlenkerla, the historic smoked beer brewery.\r\n\r\nIn the middle of the old part of Bamberg, directly beneath the mighty cathedral, one can find the smoked beer brewery Schlenkerla. First mentioned in 1405 as \"house of the blue lion\" and now run by the Trum family in the 6th generation, it is the fountain of Aecht Schlenkerla Rauchbier (Original Schlenkerla Smokebeer), Bamberg's Specialty for centuries.\r\n\r\nThe Original Schlenkerla Smokebeer is here at the brewery tavern still being tapped directly from the wooden barrel according to old tradition.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-2001_78248.jpeg",
         "ratingValue": 3.57,
@@ -5681,7 +6270,7 @@
         "City": "Bamberg Germany",
         "State": "Bayern",
         "Country": "Germany",
-        "VORB": 44.398625429553285
+        "VORB": 42.535008237232304
       },
       "geometry": {
         "type": "Point",
@@ -5763,7 +6352,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Side Project Brewing",
-        "Geocoding Status": "pending",
         "description": "World-class Beer for Sharing",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-sideproject_64810.jpeg",
         "ratingValue": 4.417,
@@ -5782,9 +6370,18 @@
         "My Rating": 4.25,
         "Global Rating": 4.19711,
         "Avg Diff": 0.05288999999999966,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 38.6260607,
+        "Longitude": -90.2635437,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2635437,
+          38.6260607
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -5810,7 +6407,7 @@
         "City": "Chico",
         "State": "CA",
         "Country": "United States",
-        "VORB": -25.601374570446733
+        "VORB": -26.214991762767692
       },
       "geometry": {
         "type": "Point",
@@ -5824,7 +6421,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Silver Branch Brewing Company",
-        "Geocoding Status": "pending",
         "description": "Silver Branch Brewing Company is a multi-state production brewery founded in March 2019 by Christian Layke and Brett A. Robison. With taprooms in Maryland — including Silver Branch Lagerhaus & Biergarten in Silver Spring and Silver Branch Rockville Beerworks — the brewery draws inspiration from the four major brewing cultures, blending European tradition with American innovation.\r\n\r\nSilver Branch’s Virginia location in Warrenton was lost to a fire in 2024, and plans are underway to reopen. Across every location, the focus remains the same: brewing multi-dimensional beers designed so the last sip of your last beer is just as enjoyable as the first sip of your first— all in the spirit of Gemütlichkeit, where great beer is meant to be shared in good company.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-390476_6f756_hd.jpeg",
         "ratingValue": 3.781,
@@ -5843,9 +6439,18 @@
         "My Rating": 3.75,
         "Global Rating": 3.63385,
         "Avg Diff": 0.1161500000000002,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 38.993618969387754,
+        "Longitude": -77.03214693877551,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03214693877551,
+          38.993618969387754
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -5905,7 +6510,7 @@
         "City": "Staunton",
         "State": "VA",
         "Country": "United States",
-        "VORB": -3.1013745704467244
+        "VORB": -3.714991762767683
       },
       "geometry": {
         "type": "Point",
@@ -6075,7 +6680,7 @@
         "City": "München Germany",
         "State": "Bayern",
         "Country": "Germany",
-        "VORB": -19.351374570446733
+        "VORB": -19.964991762767692
       },
       "geometry": {
         "type": "Point",
@@ -6347,7 +6952,7 @@
         "City": "Stowe",
         "State": "VT",
         "Country": "United States",
-        "VORB": 49.39862542955326
+        "VORB": 48.785008237232304
       },
       "geometry": {
         "type": "Point",
@@ -6381,7 +6986,7 @@
         "City": "Warwick",
         "State": "NY",
         "Country": "United States",
-        "VORB": 18.148625429553267
+        "VORB": 17.535008237232308
       },
       "geometry": {
         "type": "Point",
@@ -6449,7 +7054,7 @@
         "City": "Richmond",
         "State": "VA",
         "Country": "United States",
-        "VORB": 49.39862542955326
+        "VORB": 48.785008237232304
       },
       "geometry": {
         "type": "Point",
@@ -6600,7 +7205,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Timber Ales",
-        "Geocoding Status": "pending",
         "description": "A brewery focused on barrel-aged dark liquids.\r\n\r\nBorn in NYC, Brewed in CT",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-396873_a5cf3_hd.jpeg",
         "ratingValue": 4.191,
@@ -6619,9 +7223,18 @@
         "My Rating": 4.5,
         "Global Rating": 4.14066,
         "Avg Diff": 0.35934000000000044,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 41.3909305,
+        "Longitude": -72.859545,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.859545,
+          41.3909305
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -6715,7 +7328,7 @@
         "City": "Decorah",
         "State": "IA",
         "Country": "United States",
-        "VORB": 47.31529209621988
+        "VORB": 46.70167490389892
       },
       "geometry": {
         "type": "Point",
@@ -6763,10 +7376,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Tree House Brewing Company",
-        "Beers Rated": 30,
-        "My Rating": 4.316666666666666,
-        "Global Rating": 4.318347,
-        "Avg Diff": -0.0016803333333337278,
+        "Beers Rated": 33,
+        "My Rating": 4.318181818181818,
+        "Global Rating": 4.310924848484848,
+        "Avg Diff": 0.00725696969697065,
         "description": "Tree House Brewing Company brews a vast array of ales.  The offerings vary based on the season, our moods, and innovations discovered in the midst of day in and day out brewing.  Our artisan brewery knows no bounds and we are driven by an intense curiosity of ingredients and how they blend together to create something special.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
         "ratingValue": 4.316,
@@ -6783,7 +7396,7 @@
         "City": "Charlton",
         "State": "MA",
         "Country": "United States",
-        "VORB": 64.48483232610505
+        "VORB": 64.0193832372323
       },
       "geometry": {
         "type": "Point",
@@ -6817,7 +7430,7 @@
         "City": "Canton",
         "State": "MA",
         "Country": "United States",
-        "VORB": 34.398625429553235
+        "VORB": 33.785008237232276
       },
       "geometry": {
         "type": "Point",
@@ -6967,7 +7580,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Utica Club",
-        "Geocoding Status": "pending",
         "description": "First brewed in 1933 at a brewery founded in 1888, Utica Club is a true American original. Born in Utica, New York and built for real people, UC is known for its smooth, easy-drinking taste and no-nonsense attitude. Family-owned, proudly local, and steeped in tradition, Utica Club has always been about good times, honest beer, and unbeatable value—because some things don’t need to change to stay great.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-3885_ff8a9.jpeg",
         "ratingValue": 3.26,
@@ -6986,9 +7598,18 @@
         "My Rating": 3.5,
         "Global Rating": 3.25305,
         "Avg Diff": 0.24695,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 43.1045742,
+        "Longitude": -75.2457125,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2457125,
+          43.1045742
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -7028,7 +7649,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Wayward Lane Brewing",
-        "Geocoding Status": "pending",
         "description": "A true farm brewery in Schoharie, NY. Lager of all kinds - Hazy & West Coast IPA - English Ales - Barrel Aged Strong Ales - Saison/Mixed Culture/Spon.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-494174_f8e05_hd.jpeg",
         "ratingValue": 4.066,
@@ -7047,9 +7667,18 @@
         "My Rating": 4.0,
         "Global Rating": 4.0023,
         "Avg Diff": -0.0022999999999999687,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 42.6554484,
+        "Longitude": -74.3048382,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3048382,
+          42.6554484
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -7075,7 +7704,7 @@
         "City": "Garden City",
         "State": "ID",
         "Country": "United States",
-        "VORB": -25.601374570446733
+        "VORB": -26.214991762767692
       },
       "geometry": {
         "type": "Point",
@@ -7089,10 +7718,10 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Wheatland Spring Farm + Brewery",
-        "Beers Rated": 10,
-        "My Rating": 4.0,
-        "Global Rating": 4.00955,
-        "Avg Diff": -0.009549999999999947,
+        "Beers Rated": 11,
+        "My Rating": 4.0227272727272725,
+        "Global Rating": 4.0304899999999995,
+        "Avg Diff": -0.007762727272726977,
         "description": "Estate brewery growing beer. Truly.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-433200_bb48a_hd.jpeg",
         "ratingValue": 4.042,
@@ -7109,7 +7738,7 @@
         "City": "Waterford",
         "State": "VA",
         "Country": "United States",
-        "VORB": 34.1208476517755
+        "VORB": 35.03500823723229
       },
       "geometry": {
         "type": "Point",
@@ -7225,7 +7854,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "Wunderkammer Biermanufaktur",
-        "Geocoding Status": "pending",
         "description": "Rural brewery on a dirt road in Vermont’s Northeast Kingdom, focusing on innovative mixed culture beers, foraging and brewing’s agrarian roots.",
         "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-497083_c2b89.jpeg",
         "ratingValue": 4.182,
@@ -7244,9 +7872,18 @@
         "My Rating": 4.25,
         "Global Rating": 3.95394,
         "Avg Diff": 0.2960600000000002,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 44.52514,
+        "Longitude": -72.418895,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.418895,
+          44.52514
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -7355,7 +7992,6 @@
       "type": "Feature",
       "properties": {
         "Brewery Name": "everywhere",
-        "Geocoding Status": "pending",
         "description": "we are a community-centric brewery based in orange, california. head to our website for more information, and have a nice day!",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-523073_0761d_hd.jpeg",
         "ratingValue": 4.162,
@@ -7374,18 +8010,27 @@
         "My Rating": 4.5,
         "Global Rating": 4.14934,
         "Avg Diff": 0.3506600000000004,
-        "VORB": null
+        "VORB": null,
+        "Latitude": 33.79509662329435,
+        "Longitude": -117.8666579963449,
+        "Country": "United States"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8666579963449,
+          33.79509662329435
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "Brewery Name": "von Trapp Brewing",
-        "Beers Rated": 10,
-        "My Rating": 4.1,
-        "Global Rating": 3.7409019999999997,
-        "Avg Diff": 0.3590979999999999,
+        "Beers Rated": 11,
+        "My Rating": 4.0227272727272725,
+        "Global Rating": 3.7374554545454544,
+        "Avg Diff": 0.2852718181818181,
         "description": "Over the course of many visits to Austria, Johannes von Trapp, the youngest son of Maria and the Baron, gained an appreciation for the crisp, clean Austrian lager beers.  When the craft beer movement in the United States gained momentum in the early 1990s, there was a noticeable lack of focus on lagers.  It’s not surprising, considering that lagers are more challenging to brew, take longer to mature, and are therefore more expensive to create.  For two decades Johannes dreamed of building an Austrian-style brewery at the Trapp Family Lodge, and in 2010 that dream came to fruition.  A humble brewery with capacity for 2,000 barrels per year quickly attracted attention under the name Trapp Lager, and the brewery received requests from all over the United States.  The von Trapp family, who had always been reticent to commercialize their family heritage, realized that they had a product deserving of the family name.  The new facility, completed in 2015 under the name von Trapp Brewing, allowed the family to expand beyond their home territory and spread the gospel of craft lagers.",
         "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-4157_0ee20_hd.jpeg",
         "ratingValue": 3.654,
@@ -7402,7 +8047,7 @@
         "City": "Stowe",
         "State": "VT",
         "Country": "United States",
-        "VORB": 39.676403207331035
+        "VORB": 35.03500823723229
       },
       "geometry": {
         "type": "Point",
