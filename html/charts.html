@@ -17,23 +17,28 @@
           <img class="header-logo" src="../images/icon3.svg" alt="" />
           <span class="brand-copy"><span class="issue-kicker">Ratings, maps &amp; field notes</span><span class="site-title">Pizza + Beer</span></span>
         </a>
+        <div class="site-stats" aria-label="Ratings to date">
+          <span class="site-stat"><strong id="pizzeria-total">—</strong><span>Pizzerias</span></span>
+          <span class="site-stat"><strong id="beer-total">—</strong><span>Beers</span></span>
+        </div>
       </header>
       <nav class="primary-nav" aria-label="Primary navigation">
         <div class="primary-nav-inner">
-          <a href="map.html">Map</a><a href="brewery_rankings.html">Brewery Rankings</a><a href="beer_rankings.html">Beer Rankings</a><a href="pizzeria_rankings.html">Pizzeria Rankings</a><a href="charts.html" aria-current="page">Charts</a>
+          <a href="../index.html">Map</a><a href="brewery_rankings.html">Brewery Rankings</a><a href="beer_rankings.html">Beer Rankings</a><a href="pizzeria_rankings.html">Pizzeria Rankings</a><a href="charts.html" aria-current="page">Charts</a>
         </div>
       </nav>
       <section class="content-panel charts-panel" aria-labelledby="page-title">
         <header class="page-heading"><p class="page-eyebrow">Visual analysis</p><h1 id="page-title">Charts</h1></header>
         <div class="chart-grid">
-          <figure class="chart-card"><img src="../images/vorb_chart.png" alt="Value over replacement beer chart" /></figure>
+          <figure class="chart-card chart-card--wide"><img src="../images/vorb_chart.png" alt="Value over replacement beer chart" /></figure>
+          <figure class="chart-card chart-card--wide"><img src="../images/vorb_chart_ipa.png" alt="Value over replacement beer chart for IPAs" /></figure>
           <figure class="chart-card"><img src="../images/style_density_plot.png" alt="Beer style rating density chart" /></figure>
-          <figure class="chart-card"><img src="../images/vorb_chart_ipa.png" alt="Value over replacement beer chart for IPAs" /></figure>
           <figure class="chart-card"><img src="../images/vorb_chart_lager.png" alt="Value over replacement beer chart for lagers" /></figure>
           <figure class="chart-card"><img src="../images/pizzeria_counts.png" alt="Pizzeria counts chart" /></figure>
           <figure class="chart-card"><img src="../images/pizzeria_ratings.png" alt="Pizzeria ratings chart" /></figure>
         </div>
       </section>
     </main>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>

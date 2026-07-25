@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pizza + Beer Project</title>
+    <title>Map · Pizza + Beer</title>
     <link rel="icon" type="image/svg+xml" href="images/icon3.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,9 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&amp;family=IBM+Plex+Sans:wght@400;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&amp;family=Rajdhani:wght@400;500;600&amp;display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.0/MarkerCluster.Default.css" />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
-  <body>
+  <body class="map-page">
     <main class="app-shell">
       <header class="masthead">
         <a class="brand-block" href="index.html" aria-label="Pizza + Beer Project home">
@@ -23,11 +26,15 @@
             <span class="site-title">Pizza + Beer</span>
           </span>
         </a>
+        <div class="site-stats" aria-label="Ratings to date">
+          <span class="site-stat"><strong id="pizzeria-total">—</strong><span>Pizzerias</span></span>
+          <span class="site-stat"><strong id="beer-total">—</strong><span>Beers</span></span>
+        </div>
       </header>
 
       <nav class="primary-nav" aria-label="Primary navigation">
         <div class="primary-nav-inner">
-          <a href="html/map.html">Map</a>
+          <a href="index.html" aria-current="page">Map</a>
           <a href="html/brewery_rankings.html">Brewery Rankings</a>
           <a href="html/beer_rankings.html">Beer Rankings</a>
           <a href="html/pizzeria_rankings.html">Pizzeria Rankings</a>
@@ -35,36 +42,11 @@
         </div>
       </nav>
 
-      <section class="home-panel" aria-labelledby="home-title">
-        <header class="page-heading">
-          <p class="page-eyebrow">Ratings to date</p>
-          <h1 id="home-title">Pizza + Beer Project</h1>
-        </header>
-
-        <div class="counter-container">
-          <article class="counter">
-            <div class="counter-topline">
-              <h2>Pizzerias Rated</h2>
-              <strong class="counter-total" id="pizzeria-total" aria-hidden="true">—</strong>
-            </div>
-            <div class="counter-icons" id="pizzeria-count">
-              <p class="counter-loading">Loading ratings…</p>
-            </div>
-          </article>
-
-          <article class="counter">
-            <div class="counter-topline">
-              <h2>Beers Rated</h2>
-              <strong class="counter-total" id="beer-total" aria-hidden="true">—</strong>
-            </div>
-            <div class="counter-icons" id="beer-count">
-              <p class="counter-loading">Loading ratings…</p>
-            </div>
-          </article>
-        </div>
-      </section>
+      <section id="map-container" aria-label="Map of rated pizzerias and breweries"><div id="map"></div></section>
     </main>
 
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.0/leaflet.markercluster.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>

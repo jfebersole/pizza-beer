@@ -24,8 +24,8 @@ sns.set_theme(style="whitegrid", context="talk")
 plt.rcParams.update(
     {
         "font.family": ["Trebuchet MS", "DejaVu Sans", "sans-serif"],
-        "figure.facecolor": "white",
-        "axes.facecolor": "white",
+        "figure.facecolor": "none",
+        "axes.facecolor": "none",
         "axes.spines.top": False,
         "axes.spines.right": False,
         "axes.titleweight": "bold",
@@ -35,6 +35,7 @@ plt.rcParams.update(
         "ytick.labelsize": 11,
         "legend.frameon": False,
         "savefig.dpi": 220,
+        "savefig.transparent": True,
     }
 )
 
@@ -80,7 +81,7 @@ ax.grid(axis="x", visible=False)
 ax.grid(axis="y", color=C_LIGHT_GREY, linewidth=0.8, alpha=0.6)
 sns.despine(ax=ax)
 fig.tight_layout()
-fig.savefig(COUNTS_CHART_PATH, bbox_inches="tight")
+fig.savefig(COUNTS_CHART_PATH, bbox_inches="tight", transparent=True)
 plt.close(fig)
 
 fig, ax = plt.subplots(figsize=(10, 5))
@@ -93,7 +94,7 @@ ax.grid(axis="x", visible=False)
 ax.grid(axis="y", color=C_LIGHT_GREY, linewidth=0.8, alpha=0.6)
 sns.despine(ax=ax)
 fig.tight_layout()
-fig.savefig(RATINGS_CHART_PATH, bbox_inches="tight")
+fig.savefig(RATINGS_CHART_PATH, bbox_inches="tight", transparent=True)
 plt.close(fig)
 
 print(

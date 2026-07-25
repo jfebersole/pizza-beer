@@ -13,6 +13,7 @@ import tempfile
 import time
 import urllib.parse
 import urllib.request
+from datetime import datetime
 from pathlib import Path, PurePosixPath
 
 import gdown
@@ -31,6 +32,7 @@ REQUIRED_COLUMNS = {
     "Style",
     "Rating",
     "Notes",
+    "Date Time",
     "State",
     "Location",
     "Image",
@@ -110,6 +112,24 @@ def parse_rating(raw_rating: str, row_number: int) -> int | float:
     return int(rating) if rating.is_integer() else rating
 
 
+def normalize_date_time(raw_date: str, row_number: int) -> str:
+    raw_date = raw_date.strip()
+    if not raw_date:
+        return ""
+    for date_format in (
+        "%m/%d/%Y %H:%M:%S",
+        "%m/%d/%Y %H:%M",
+        "%m/%d/%Y",
+        "%Y-%m-%d",
+    ):
+        try:
+            parsed = datetime.strptime(raw_date, date_format)
+            return parsed.isoformat(timespec="seconds")
+        except ValueError:
+            continue
+    raise SyncError(f"Row {row_number}: invalid Date Time {raw_date!r}")
+
+
 def normalize_image_path(raw_path: str, row_number: int) -> str:
     raw_path = raw_path.strip()
     if not raw_path:
@@ -151,6 +171,7 @@ def build_geojson(rows: list[dict[str, str]]) -> tuple[dict, set[str]]:
             "Style": (row.get("Style") or "").strip(),
             "State": (row.get("State") or "").strip(),
             "Rating": parse_rating(row.get("Rating") or "", row_number),
+            "Date": normalize_date_time(row.get("Date Time") or "", row_number),
             "Notes": (row.get("Notes") or "").strip(),
             "Image": image_path,
         }
@@ -165,12 +186,8 @@ def build_geojson(rows: list[dict[str, str]]) -> tuple[dict, set[str]]:
             }
         )
 
-    features.sort(
-        key=lambda feature: (
-            -float(feature["properties"]["Rating"]),
-            feature["properties"]["Pizzeria"].casefold(),
-        )
-    )
+    features.sort(key=lambda feature: feature["properties"]["Pizzeria"].casefold())
+    features.sort(key=lambda feature: feature["properties"]["Date"], reverse=True)
     return {"type": "FeatureCollection", "features": features}, referenced_images
 
 

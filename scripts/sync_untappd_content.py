@@ -103,7 +103,7 @@ C_BLUE = "xkcd:faded blue"
 C_ORANGE = "xkcd:faded orange"
 C_GREY = "xkcd:charcoal grey"
 C_LIGHT_GREY = "xkcd:light grey"
-C_BG = "white"
+C_BG = "none"
 
 sns.set_theme(style="whitegrid", context="talk")
 sns.set_palette([C_BLUE, C_ORANGE, C_GREY])
@@ -117,6 +117,7 @@ plt.rcParams.update(
         "figure.facecolor": C_BG,
         "axes.facecolor": C_BG,
         "savefig.dpi": 220,
+        "savefig.transparent": True,
     }
 )
 
@@ -778,7 +779,7 @@ def plot_vorb(rankings: pd.DataFrame, path: Path, title: str) -> None:
     ax.grid(True, axis="y", color=C_LIGHT_GREY, linewidth=0.8, alpha=0.6)
     ax.grid(False, axis="x")
     plt.tight_layout()
-    fig.savefig(path, bbox_inches="tight")
+    fig.savefig(path, bbox_inches="tight", transparent=True)
     plt.close(fig)
 
 
@@ -837,7 +838,7 @@ def plot_style_density(
         frameon=False,
     )
     plt.tight_layout(rect=(0, 0, 1, 0.9))
-    fig.savefig(path, bbox_inches="tight")
+    fig.savefig(path, bbox_inches="tight", transparent=True)
     plt.close(fig)
 
 
