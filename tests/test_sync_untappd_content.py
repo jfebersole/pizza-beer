@@ -1,3 +1,4 @@
+import copy
 import importlib.util
 import json
 import tempfile
@@ -171,7 +172,7 @@ class UntappdSyncTests(unittest.TestCase):
             )
         )
 
-    def test_geocoding_is_called_only_for_a_new_pending_brewery(self):
+    def test_geocoding_is_called_only_for_a_brewery_missing_coordinates(self):
         existing_beer = self.beers[
             self.beers["Brewery"] == "Hill Farmstead Brewery"
         ].iloc[[0]]
@@ -226,6 +227,74 @@ class UntappdSyncTests(unittest.TestCase):
             if feature["properties"]["Brewery Name"] == "Hill Farmstead Brewery"
         )
         self.assertEqual(hill_feature["geometry"], existing_feature["geometry"])
+
+    def test_existing_pending_brewery_is_geocoded_once(self):
+        beer = self.beers[
+            self.beers["Brewery"] == "Hill Farmstead Brewery"
+        ].iloc[[0]].copy()
+        beer["Beer"] = "Pending Brewery Test Beer"
+        beer["Brewery"] = "Pending Brewery Test"
+        summary = SYNC.build_brewery_summary(SYNC.clean_beers(beer))
+        pending_feature = {
+            "type": "Feature",
+            "properties": {
+                "Brewery Name": "Pending Brewery Test",
+                "full_address": "1 Main St, Richmond, VA",
+                "Geocoding Status": "pending",
+            },
+            "geometry": None,
+        }
+        metadata = {
+            "Pending Brewery Test": {
+                "Brewery Name": "Pending Brewery Test",
+                "full_address": "1 Main St, Richmond, VA",
+                "City": "Richmond",
+                "State": "Virginia",
+            }
+        }
+        geocode_result = (
+            {"type": "Point", "coordinates": [-77.43, 37.54]},
+            {
+                "Latitude": 37.54,
+                "Longitude": -77.43,
+                "City": "Richmond",
+                "State": "VA",
+                "Country": "United States",
+            },
+        )
+
+        with patch.dict(
+            SYNC.os.environ, {"GEOAPIFY_API_KEY": "test-key"}
+        ), patch.object(
+            SYNC, "geocode_geoapify", return_value=geocode_result
+        ) as geocode:
+            updated, pending = SYNC.update_brewery_geojson(
+                {"type": "FeatureCollection", "features": [pending_feature]},
+                summary,
+                {},
+                metadata,
+                skip_geocoding=False,
+            )
+
+        geocode.assert_called_once_with("1 Main St, Richmond, VA", "test-key")
+        self.assertEqual(pending, [])
+        properties = updated["features"][0]["properties"]
+        self.assertEqual(properties["State"], "Virginia")
+        self.assertEqual(properties["Country"], "United States")
+
+        before_second_pass = copy.deepcopy(updated)
+        with patch.object(SYNC, "geocode_geoapify") as geocode:
+            repeated, pending = SYNC.update_brewery_geojson(
+                copy.deepcopy(updated),
+                summary,
+                {},
+                metadata,
+                skip_geocoding=False,
+            )
+
+        geocode.assert_not_called()
+        self.assertEqual(pending, [])
+        self.assertEqual(repeated, before_second_pass)
 
     def test_geoapify_geocoder_parses_response(self):
         payload = {

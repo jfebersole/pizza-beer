@@ -646,7 +646,16 @@ def update_brewery_geojson(
                 )
             else:
                 feature["geometry"] = geometry
-                feature["properties"].update(geocoded_properties)
+                feature["properties"]["Latitude"] = geocoded_properties["Latitude"]
+                feature["properties"]["Longitude"] = geocoded_properties["Longitude"]
+                for location_field in ["City", "State", "Country"]:
+                    if (
+                        not feature["properties"].get(location_field)
+                        and geocoded_properties.get(location_field)
+                    ):
+                        feature["properties"][location_field] = geocoded_properties[
+                            location_field
+                        ]
                 feature["properties"].pop("Geocoding Status", None)
                 feature["properties"].pop("Geocoding Error", None)
             time.sleep(GEOCODING_DELAY_SECONDS)
