@@ -66,6 +66,20 @@ function sortableValue(header, value) {
     return stringValue;
 }
 
+function defaultSortDirection(data, header) {
+    if (header === 'Date') {
+        return 'desc';
+    }
+
+    const populatedValues = data
+        .map((row) => row[header])
+        .filter((value) => !isBlank(value));
+    const isNumericColumn = populatedValues.length > 0
+        && populatedValues.every((value) => typeof sortableValue(header, value) === 'number');
+
+    return isNumericColumn ? 'desc' : 'asc';
+}
+
 function compareRows(a, b, header, direction) {
     const aRaw = a[header];
     const bRaw = b[header];
@@ -215,17 +229,25 @@ globalThis.buildHtmlTable = function buildHtmlTable(data, containerId, options =
     headers.forEach((header) => {
         const cell = document.createElement('th');
         cell.scope = 'col';
+        const headerLabel = header === 'VORB' ? 'VORB*' : header;
+
+        if (header === options.imageColumn) {
+            cell.textContent = headerLabel;
+            headRow.appendChild(cell);
+            return;
+        }
+
         cell.className = 'sortable';
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'sort-button';
-        button.innerHTML = `<span>${header}</span><span class="sort-indicator" aria-hidden="true"></span>`;
+        button.innerHTML = `<span>${headerLabel}</span><span class="sort-indicator" aria-hidden="true"></span>`;
         button.addEventListener('click', () => {
             if (sortState.key === header) {
                 sortState.direction = sortState.direction === 'asc' ? 'desc' : 'asc';
             } else {
                 sortState.key = header;
-                sortState.direction = header === 'Date' ? 'desc' : 'asc';
+                sortState.direction = defaultSortDirection(data, header);
             }
             renderRows();
         });

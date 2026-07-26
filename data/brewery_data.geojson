@@ -264,7 +264,7 @@
         "City": "Alexandria",
         "State": "VA",
         "Country": "United States",
-        "VORB": -2.881658429434353
+        "VORB": 10.83333333333334
       },
       "geometry": {
         "type": "Point",
@@ -503,7 +503,7 @@
         "City": "Freising Germany",
         "State": "Bayern",
         "Country": "Germany",
-        "VORB": 15.451674903899004
+        "VORB": 29.166666666666696
       },
       "geometry": {
         "type": "Point",
@@ -537,7 +537,7 @@
         "City": "Portland",
         "State": "ME",
         "Country": "United States",
-        "VORB": -1.214991762767692
+        "VORB": 12.5
       },
       "geometry": {
         "type": "Point",
@@ -708,7 +708,7 @@
         "City": "Portland",
         "State": "ME",
         "Country": "United States",
-        "VORB": 43.42786538008943
+        "VORB": 57.14285714285712
       },
       "geometry": {
         "type": "Point",
@@ -811,7 +811,7 @@
         "City": "Washington",
         "State": "DC",
         "Country": "United States",
-        "VORB": 15.451674903899004
+        "VORB": 29.166666666666696
       },
       "geometry": {
         "type": "Point",
@@ -1016,7 +1016,7 @@
         "My Rating": 4.166666666666667,
         "Global Rating": 3.800736666666667,
         "Avg Diff": 0.3659300000000001,
-        "VORB": 36.285008237232304,
+        "VORB": 50.0,
         "Latitude": 47.2542763,
         "Longitude": 7.0023727,
         "Country": "Switzerland"
@@ -1121,7 +1121,7 @@
         "My Rating": 3.1875,
         "Global Rating": 3.337495,
         "Avg Diff": -0.1499950000000001,
-        "VORB": -59.548325096100996,
+        "VORB": -45.8333333333333,
         "Latitude": 47.3376456,
         "Longitude": 9.4016126,
         "Country": "Switzerland"
@@ -1193,7 +1193,7 @@
         "City": "Montreal Canada",
         "State": "QC",
         "Country": "Canada",
-        "VORB": 30.035008237232308
+        "VORB": 43.75
       },
       "geometry": {
         "type": "Point",
@@ -1364,7 +1364,7 @@
         "City": "Asheville",
         "State": "NC",
         "Country": "United States",
-        "VORB": 17.535008237232308
+        "VORB": 31.25
       },
       "geometry": {
         "type": "Point",
@@ -1398,7 +1398,7 @@
         "City": "Burlington",
         "State": "VT",
         "Country": "United States",
-        "VORB": -1.214991762767692,
+        "VORB": 12.5,
         "Brewery URL": "https://untappd.com/BurlingtonBeer"
       },
       "geometry": {
@@ -1468,7 +1468,7 @@
         "City": "Campodarsego Italy",
         "State": "Veneto",
         "Country": "Italia",
-        "VORB": -1.214991762767692
+        "VORB": 12.5
       },
       "geometry": {
         "type": "Point",
@@ -1571,7 +1571,7 @@
         "City": "Oakland",
         "State": "CA",
         "Country": "United States",
-        "VORB": 30.035008237232308
+        "VORB": 43.75
       },
       "geometry": {
         "type": "Point",
@@ -1811,7 +1811,7 @@
         "City": "Virginia Beach",
         "State": "VA",
         "Country": "United States",
-        "VORB": -7.464991762767692
+        "VORB": 6.25
       },
       "geometry": {
         "type": "Point",
@@ -2154,7 +2154,7 @@
         "City": "Roseland",
         "State": "VA",
         "Country": "United States",
-        "VORB": -29.339991762767692
+        "VORB": -15.625
       },
       "geometry": {
         "type": "Point",
@@ -2221,7 +2221,7 @@
         "My Rating": 4.0625,
         "Global Rating": 3.7758,
         "Avg Diff": 0.2867000000000002,
-        "VORB": 23.785008237232308,
+        "VORB": 37.5,
         "Latitude": 41.9561589,
         "Longitude": -87.6743858,
         "Country": "United States"
@@ -2601,7 +2601,7 @@
         "City": "Albany",
         "State": "NY",
         "Country": "United States",
-        "VORB": 68.3162582372323,
+        "VORB": 82.03125,
         "Brewery URL": "https://untappd.com/FidensBrewingCo"
       },
       "geometry": {
@@ -2704,7 +2704,7 @@
         "City": "Burlington",
         "State": "VT",
         "Country": "United States",
-        "VORB": 5.035008237232308
+        "VORB": 18.75
       },
       "geometry": {
         "type": "Point",
@@ -2807,7 +2807,7 @@
         "City": "Ambler",
         "State": "PA",
         "Country": "United States",
-        "VORB": 17.535008237232308
+        "VORB": 31.25
       },
       "geometry": {
         "type": "Point",
@@ -2909,7 +2909,7 @@
         "City": "Grand Rapids",
         "State": "MI",
         "Country": "United States",
-        "VORB": 23.785008237232308
+        "VORB": 37.5
       },
       "geometry": {
         "type": "Point",
@@ -3455,7 +3455,7 @@
         "City": "Dublin Ireland",
         "State": "County Dublin",
         "Country": "Ireland",
-        "VORB": -19.964991762767692
+        "VORB": -6.25
       },
       "geometry": {
         "type": "Point",
@@ -3660,7 +3660,7 @@
         "City": "Lexington",
         "State": "VA",
         "Country": "United States",
-        "VORB": 15.13116208338614
+        "VORB": 28.846153846153832
       },
       "geometry": {
         "type": "Point",
@@ -3694,7 +3694,7 @@
         "City": "Greensboro",
         "State": "VT",
         "Country": "United States",
-        "VORB": 80.8502256285366
+        "VORB": 94.5652173913043
       },
       "geometry": {
         "type": "Point",
@@ -3900,7 +3900,7 @@
         "City": "Philadelphia",
         "State": "PA",
         "Country": "United States",
-        "VORB": 61.285008237232304
+        "VORB": 75.0
       },
       "geometry": {
         "type": "Point",
@@ -4038,7 +4038,7 @@
         "City": "Tilton",
         "State": "NH",
         "Country": "United States",
-        "VORB": 5.927865380089425
+        "VORB": 19.642857142857117
       },
       "geometry": {
         "type": "Point",
@@ -4174,7 +4174,7 @@
         "City": "Waitsfield",
         "State": "VT",
         "Country": "United States",
-        "VORB": 52.95167490389892,
+        "VORB": 66.6666666666666,
         "Brewery URL": "https://untappd.com/LawsonsFinestLiquids"
       },
       "geometry": {
@@ -4345,7 +4345,7 @@
         "My Rating": 3.8125,
         "Global Rating": 3.93005,
         "Avg Diff": -0.11755000000000004,
-        "VORB": -1.214991762767692,
+        "VORB": 12.5,
         "Latitude": 38.91387,
         "Longitude": -77.000856,
         "Country": "United States"
@@ -4901,7 +4901,7 @@
         "City": "Atlanta",
         "State": "GA",
         "Country": "United States",
-        "VORB": -32.464991762767696
+        "VORB": -18.75
       },
       "geometry": {
         "type": "Point",
@@ -4969,7 +4969,7 @@
         "City": "Everett",
         "State": "MA",
         "Country": "United States",
-        "VORB": -13.714991762767692
+        "VORB": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -5276,7 +5276,7 @@
         "City": "Brooklyn",
         "State": "NY",
         "Country": "United States",
-        "VORB": 34.896119348343376
+        "VORB": 48.61111111111107
       },
       "geometry": {
         "type": "Point",
@@ -5342,7 +5342,7 @@
         "My Rating": 3.875,
         "Global Rating": 3.8505275,
         "Avg Diff": 0.024472499999999897,
-        "VORB": 2.951674903899004,
+        "VORB": 16.666666666666696,
         "Latitude": 44.083165,
         "Longitude": -69.5640499,
         "Country": "United States"
@@ -5411,7 +5411,7 @@
         "My Rating": 4.083333333333333,
         "Global Rating": 4.201533333333333,
         "Avg Diff": -0.11819999999999986,
-        "VORB": 23.785008237232308,
+        "VORB": 37.5,
         "Latitude": 30.1592491,
         "Longitude": -91.9484299,
         "Country": "United States"
@@ -5586,7 +5586,7 @@
         "City": "Alexandria",
         "State": "VA",
         "Country": "United States",
-        "VORB": 44.61834157056561
+        "VORB": 58.3333333333333
       },
       "geometry": {
         "type": "Point",
@@ -5722,7 +5722,7 @@
         "City": "Staunton",
         "State": "VA",
         "Country": "United States",
-        "VORB": -1.214991762767692
+        "VORB": 12.5
       },
       "geometry": {
         "type": "Point",
@@ -5927,7 +5927,7 @@
         "City": "White River Junction",
         "State": "VT",
         "Country": "United States",
-        "VORB": 50.347508237232304
+        "VORB": 64.0625
       },
       "geometry": {
         "type": "Point",
@@ -5961,7 +5961,7 @@
         "City": "Cambridge Springs",
         "State": "PA",
         "Country": "United States",
-        "VORB": -63.714991762767696
+        "VORB": -50.0
       },
       "geometry": {
         "type": "Point",
@@ -6064,7 +6064,7 @@
         "City": "Windsor",
         "State": "CA",
         "Country": "United States",
-        "VORB": 23.785008237232308
+        "VORB": 37.5
       },
       "geometry": {
         "type": "Point",
@@ -6098,7 +6098,7 @@
         "City": "Biddeford",
         "State": "ME",
         "Country": "United States",
-        "VORB": 30.035008237232308
+        "VORB": 43.75
       },
       "geometry": {
         "type": "Point",
@@ -6132,7 +6132,7 @@
         "City": "Boston",
         "State": "MA",
         "Country": "United States",
-        "VORB": -59.548325096100996
+        "VORB": -45.8333333333333
       },
       "geometry": {
         "type": "Point",
@@ -6236,7 +6236,7 @@
         "City": "Littleton",
         "State": "NH",
         "Country": "United States",
-        "VORB": 25.86834157056561
+        "VORB": 39.5833333333333
       },
       "geometry": {
         "type": "Point",
@@ -6270,7 +6270,7 @@
         "City": "Bamberg Germany",
         "State": "Bayern",
         "Country": "Germany",
-        "VORB": 42.535008237232304
+        "VORB": 56.25
       },
       "geometry": {
         "type": "Point",
@@ -6407,7 +6407,7 @@
         "City": "Chico",
         "State": "CA",
         "Country": "United States",
-        "VORB": -26.214991762767692
+        "VORB": -12.5
       },
       "geometry": {
         "type": "Point",
@@ -6510,7 +6510,7 @@
         "City": "Staunton",
         "State": "VA",
         "Country": "United States",
-        "VORB": -3.714991762767683
+        "VORB": 10.000000000000009
       },
       "geometry": {
         "type": "Point",
@@ -6680,7 +6680,7 @@
         "City": "München Germany",
         "State": "Bayern",
         "Country": "Germany",
-        "VORB": -19.964991762767692
+        "VORB": -6.25
       },
       "geometry": {
         "type": "Point",
@@ -6952,7 +6952,7 @@
         "City": "Stowe",
         "State": "VT",
         "Country": "United States",
-        "VORB": 48.785008237232304
+        "VORB": 62.5
       },
       "geometry": {
         "type": "Point",
@@ -6986,7 +6986,7 @@
         "City": "Warwick",
         "State": "NY",
         "Country": "United States",
-        "VORB": 17.535008237232308
+        "VORB": 31.25
       },
       "geometry": {
         "type": "Point",
@@ -7054,7 +7054,7 @@
         "City": "Richmond",
         "State": "VA",
         "Country": "United States",
-        "VORB": 48.785008237232304
+        "VORB": 62.5
       },
       "geometry": {
         "type": "Point",
@@ -7328,7 +7328,7 @@
         "City": "Decorah",
         "State": "IA",
         "Country": "United States",
-        "VORB": 46.70167490389892
+        "VORB": 60.41666666666661
       },
       "geometry": {
         "type": "Point",
@@ -7396,7 +7396,7 @@
         "City": "Charlton",
         "State": "MA",
         "Country": "United States",
-        "VORB": 64.0193832372323
+        "VORB": 77.734375
       },
       "geometry": {
         "type": "Point",
@@ -7430,7 +7430,7 @@
         "City": "Canton",
         "State": "MA",
         "Country": "United States",
-        "VORB": 33.785008237232276
+        "VORB": 47.499999999999964
       },
       "geometry": {
         "type": "Point",
@@ -7704,7 +7704,7 @@
         "City": "Garden City",
         "State": "ID",
         "Country": "United States",
-        "VORB": -26.214991762767692
+        "VORB": -12.5
       },
       "geometry": {
         "type": "Point",
@@ -7738,7 +7738,7 @@
         "City": "Waterford",
         "State": "VA",
         "Country": "United States",
-        "VORB": 35.03500823723229
+        "VORB": 48.749999999999986
       },
       "geometry": {
         "type": "Point",
@@ -8047,7 +8047,7 @@
         "City": "Stowe",
         "State": "VT",
         "Country": "United States",
-        "VORB": 35.03500823723229
+        "VORB": 48.749999999999986
       },
       "geometry": {
         "type": "Point",

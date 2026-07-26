@@ -82,6 +82,7 @@ BREWERY_CSV_COLUMNS = [
 STYLE_COLUMNS = ["Style", "Style Family"]
 MIN_BEERS_FOR_VORB = 3
 MIN_STYLE_BEERS_FOR_VORB = 2
+VORB_REPLACEMENT_RATING = 3.75
 GEOCODING_DELAY_SECONDS = 0.25
 
 BEER_NAME_CORRECTIONS = {
@@ -392,9 +393,8 @@ def build_brewery_summary(beers: pd.DataFrame) -> pd.DataFrame:
 
     summary["VORB"] = pd.NA
     qualifies = summary["beers_rated"] >= MIN_BEERS_FOR_VORB
-    replacement_rating = beers["My Rating"].mean()
     summary.loc[qualifies, "VORB"] = (
-        summary.loc[qualifies, "brewery_rating"] - replacement_rating
+        summary.loc[qualifies, "brewery_rating"] - VORB_REPLACEMENT_RATING
     ) * 100
     return summary
 
@@ -748,7 +748,6 @@ def style_vorb(
     family_beers = styled[styled["Style Family"] == family]
     if family_beers.empty:
         raise ValueError(f"No beers belong to style family {family!r}")
-    replacement_rating = family_beers["My Rating"].mean()
     summary = (
         family_beers.groupby("Brewery")
         .agg(
@@ -763,7 +762,9 @@ def style_vorb(
         summary["beers_rated"] - 1
     )
     summary["brewery_rating"] = (summary["top_rating"] + rating_without_top) / 2
-    summary["VORB"] = (summary["brewery_rating"] - replacement_rating) * 100
+    summary["VORB"] = (
+        summary["brewery_rating"] - VORB_REPLACEMENT_RATING
+    ) * 100
     return summary.sort_values(["VORB", "Brewery"], ascending=[False, True])
 
 

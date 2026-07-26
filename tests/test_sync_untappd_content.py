@@ -104,6 +104,18 @@ class UntappdSyncTests(unittest.TestCase):
         self.assertEqual(actual_by_brewery, expected_by_brewery)
         self.assertIsInstance(pending, list)
 
+    def test_vorb_uses_fixed_replacement_rating(self):
+        summary = SYNC.build_brewery_summary(self.beers)
+        qualifying = summary[summary["beers_rated"] >= SYNC.MIN_BEERS_FOR_VORB]
+        expected = (
+            qualifying["brewery_rating"] - SYNC.VORB_REPLACEMENT_RATING
+        ) * 100
+
+        self.assertEqual(SYNC.VORB_REPLACEMENT_RATING, 3.75)
+        pd.testing.assert_series_equal(
+            qualifying["VORB"].astype(float), expected, check_names=False
+        )
+
     def test_style_crosswalk_covers_updated_beer_csv(self):
         styled = SYNC.assign_style_families(self.beers, self.style_crosswalk)
         self.assertFalse(styled["Style Family"].isna().any())
@@ -126,6 +138,12 @@ class UntappdSyncTests(unittest.TestCase):
             self.assertTrue(ranking["VORB"].is_monotonic_decreasing)
             self.assertTrue(
                 ranking["beers_rated"].ge(SYNC.MIN_STYLE_BEERS_FOR_VORB).all()
+            )
+            expected = (
+                ranking["brewery_rating"] - SYNC.VORB_REPLACEMENT_RATING
+            ) * 100
+            pd.testing.assert_series_equal(
+                ranking["VORB"], expected, check_names=False
             )
 
     def test_only_new_breweries_remain_pending(self):

@@ -15,7 +15,7 @@
       <header class="masthead">
         <a class="brand-block" href="../index.html" aria-label="Pizza + Beer Project home">
           <img class="header-logo" src="../images/icon3.svg" alt="" />
-          <span class="brand-copy"><span class="issue-kicker">Ratings, maps &amp; field notes</span><span class="site-title">Pizza + Beer</span></span>
+          <span class="brand-copy"><span class="issue-kicker">Ratings, maps, notes</span><span class="site-title">Pizza + Beer</span></span>
         </a>
         <div class="site-stats" aria-label="Ratings to date">
           <span class="site-stat"><strong id="pizzeria-total">—</strong><span>Pizzerias</span></span>
@@ -28,9 +28,24 @@
         </div>
       </nav>
       <section class="content-panel" aria-labelledby="page-title">
-        <header class="page-heading"><p class="page-eyebrow">All ratings</p><h1 id="page-title">Brewery Rankings</h1></header>
+        <header class="page-heading page-heading--with-metric">
+          <div class="page-heading-copy"><p class="page-eyebrow">All ratings</p><h1 id="page-title">Brewery Rankings</h1></div>
+          <button class="vorb-info-button" type="button" popovertarget="vorb-popover" aria-label="Open VORB reference">VORB*</button>
+        </header>
         <div class="data-container" id="breweryTable"><p class="table-loading">Loading brewery rankings…</p></div>
       </section>
+      <aside class="vorb-popover" id="vorb-popover" popover aria-label="VORB reference scale">
+        <button class="vorb-popover-close" type="button" popovertarget="vorb-popover" popovertargetaction="hide" aria-label="Close VORB reference">×</button>
+        <p class="vorb-popover-definition"><strong>*VORB:</strong> Value Over Replacement Brewery.<br />Proprietary calculation.</p>
+        <p class="vorb-popover-kicker">Reference scale</p>
+        <dl class="vorb-key">
+          <div data-tone="high"><dt>+75</dt><dd>Exceptional</dd></div>
+          <div data-tone="high"><dt>+50</dt><dd>Great</dd></div>
+          <div data-tone="good"><dt>+25</dt><dd>Good</dd></div>
+          <div data-tone="replacement"><dt>0</dt><dd>Replacement level</dd></div>
+          <div data-tone="poor"><dt>−25</dt><dd>Poor</dd></div>
+        </dl>
+      </aside>
     </main>
     <script src="../scripts/main.js"></script>
   </body>
