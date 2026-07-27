@@ -573,22 +573,83 @@ async function initializeMap() {
         })
     });
 
-    const legend = L.control({ position: 'topleft' });
-    legend.onAdd = function createLegend() {
-        const container = L.DomUtil.create('div', 'info legend-container');
-        container.innerHTML = '<h2>Layers</h2>' +
-            '<div><label><input type="checkbox" id="brewery-checkbox" checked> Breweries</label></div>' +
-            '<div><label><input type="checkbox" id="pizzeria-checkbox" checked> Pizzerias</label></div>';
+    let filterContainer;
+    const filters = L.control({ position: 'topleft' });
+    filters.onAdd = function createFilters() {
+        const startsOpen = !globalThis.matchMedia?.('(max-width: 600px)').matches;
+        const container = L.DomUtil.create('div', 'info legend-container map-filter-control');
+        container.innerHTML = `
+            <details class="map-filter-disclosure" ${startsOpen ? 'open' : ''}>
+                <summary class="map-filter-summary">
+                    <span>Map filters</span>
+                    <span class="map-filter-active" data-active-filter-count hidden></span>
+                </summary>
+                <div class="map-filter-body">
+                    <section class="map-filter-group map-filter-group--pizza">
+                        <div class="map-filter-layer-row">
+                            <label><input type="checkbox" data-pizzeria-toggle checked> <span>Pizzerias</span></label>
+                            <output data-pizzeria-count aria-label="Matching pizzerias">—</output>
+                        </div>
+                        <label class="map-filter-threshold">
+                            <span>Minimum rating</span>
+                            <select data-pizzeria-minimum>
+                                <option value="">All ratings</option>
+                                <option value="3">3+</option>
+                                <option value="4">4+</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                    </section>
+                    <section class="map-filter-group map-filter-group--brewery">
+                        <div class="map-filter-layer-row">
+                            <label><input type="checkbox" data-brewery-toggle checked> <span>Breweries</span></label>
+                            <output data-brewery-count aria-label="Matching breweries">—</output>
+                        </div>
+                        <label class="map-filter-threshold">
+                            <span>Minimum VORB</span>
+                            <select data-brewery-minimum>
+                                <option value="">All breweries</option>
+                                <option value="0">0+</option>
+                                <option value="25">25+</option>
+                                <option value="50">50+</option>
+                                <option value="75">75+</option>
+                            </select>
+                        </label>
+                    </section>
+                    <button class="map-filter-reset" type="button" data-filter-reset hidden>Reset filters</button>
+                </div>
+            </details>`;
         L.DomEvent.disableClickPropagation(container);
+        L.DomEvent.disableScrollPropagation(container);
+        filterContainer = container;
         return container;
     };
-    legend.addTo(map);
+    filters.addTo(map);
+
+    const disclosure = filterContainer.querySelector('.map-filter-disclosure');
+    const pizzeriaToggle = filterContainer.querySelector('[data-pizzeria-toggle]');
+    const breweryToggle = filterContainer.querySelector('[data-brewery-toggle]');
+    const pizzeriaMinimum = filterContainer.querySelector('[data-pizzeria-minimum]');
+    const breweryMinimum = filterContainer.querySelector('[data-brewery-minimum]');
+    const pizzeriaCount = filterContainer.querySelector('[data-pizzeria-count]');
+    const breweryCount = filterContainer.querySelector('[data-brewery-count]');
+    const activeFilterCount = filterContainer.querySelector('[data-active-filter-count]');
+    const resetFilters = filterContainer.querySelector('[data-filter-reset]');
+
+    function syncFilterPanelState() {
+        filterContainer.classList.toggle('is-collapsed', !disclosure.open);
+    }
+    disclosure.addEventListener('toggle', syncFilterPanelState);
+    syncFilterPanelState();
 
     const [pizzaData, breweryData, beerData] = await Promise.all([
         fetchJsonData(pizzaGeoJsonUrl),
         fetchJsonData(breweryGeoJsonUrl),
         fetchJsonData(beerJsonUrl)
     ]);
+
+    const pizzeriaMarkers = [];
+    const breweryMarkers = [];
 
     pizzaData?.features.forEach((feature) => {
         if (!feature.geometry?.coordinates) {
@@ -597,7 +658,7 @@ async function initializeMap() {
         const [longitude, latitude] = feature.geometry.coordinates;
         const marker = L.marker([latitude, longitude], { icon: customIconPizza })
             .bindPopup(createPizzeriaPopup(feature), { className: 'mypopup', maxWidth: 340 });
-        pizzeriaCluster.addLayer(marker);
+        pizzeriaMarkers.push({ marker, value: Number(feature.properties.Rating) });
     });
 
     breweryData?.features.forEach((feature) => {
@@ -607,7 +668,10 @@ async function initializeMap() {
         const [longitude, latitude] = feature.geometry.coordinates;
         const marker = L.marker([latitude, longitude], { icon: customIconBeer })
             .bindPopup(createBreweryPopup(feature, beerData), { className: 'mypopup', maxWidth: 360 });
-        breweryCluster.addLayer(marker);
+        breweryMarkers.push({
+            marker,
+            value: isBlank(feature.properties.VORB) ? null : Number(feature.properties.VORB)
+        });
     });
 
     [breweryCluster, pizzeriaCluster].forEach((cluster) => {
@@ -617,15 +681,69 @@ async function initializeMap() {
                 easeLinearity: 0.1
             });
         });
-        map.addLayer(cluster);
     });
 
-    document.getElementById('pizzeria-checkbox')?.addEventListener('change', function togglePizzerias() {
-        this.checked ? map.addLayer(pizzeriaCluster) : map.removeLayer(pizzeriaCluster);
+    function selectedMinimum(select) {
+        return select.value === '' ? null : Number(select.value);
+    }
+
+    function filterCluster(cluster, entries, minimum) {
+        const matches = minimum === null
+            ? entries
+            : entries.filter((entry) => Number.isFinite(entry.value) && entry.value >= minimum);
+        cluster.clearLayers();
+        cluster.addLayers(matches.map((entry) => entry.marker));
+        return matches.length;
+    }
+
+    function setLayerVisibility(cluster, visible) {
+        if (visible && !map.hasLayer(cluster)) {
+            map.addLayer(cluster);
+        } else if (!visible && map.hasLayer(cluster)) {
+            map.removeLayer(cluster);
+        }
+    }
+
+    function applyMapFilters() {
+        const matchingPizzerias = filterCluster(
+            pizzeriaCluster,
+            pizzeriaMarkers,
+            selectedMinimum(pizzeriaMinimum)
+        );
+        const matchingBreweries = filterCluster(
+            breweryCluster,
+            breweryMarkers,
+            selectedMinimum(breweryMinimum)
+        );
+
+        pizzeriaCount.textContent = matchingPizzerias.toLocaleString();
+        breweryCount.textContent = matchingBreweries.toLocaleString();
+        setLayerVisibility(pizzeriaCluster, pizzeriaToggle.checked);
+        setLayerVisibility(breweryCluster, breweryToggle.checked);
+
+        const activeCount = [
+            !pizzeriaToggle.checked,
+            !breweryToggle.checked,
+            pizzeriaMinimum.value !== '',
+            breweryMinimum.value !== ''
+        ].filter(Boolean).length;
+        activeFilterCount.textContent = `${activeCount} active`;
+        activeFilterCount.hidden = activeCount === 0;
+        resetFilters.hidden = activeCount === 0;
+    }
+
+    [pizzeriaToggle, breweryToggle, pizzeriaMinimum, breweryMinimum].forEach((control) => {
+        control.addEventListener('change', applyMapFilters);
     });
-    document.getElementById('brewery-checkbox')?.addEventListener('change', function toggleBreweries() {
-        this.checked ? map.addLayer(breweryCluster) : map.removeLayer(breweryCluster);
+    resetFilters.addEventListener('click', () => {
+        pizzeriaToggle.checked = true;
+        breweryToggle.checked = true;
+        pizzeriaMinimum.value = '';
+        breweryMinimum.value = '';
+        applyMapFilters();
     });
+
+    applyMapFilters();
 }
 
 loadSiteStats();
