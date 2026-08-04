@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pizza + Beer icon system mockup</title>
+    <style>
+      :root {
+        --paper: #ece8dc;
+        --paper-2: #f4f1e8;
+        --ink: #10100f;
+        --muted: #595246;
+        --line: rgba(14, 14, 12, 0.28);
+        --orange: #ec7f1d;
+        --blue: #226eaf;
+        --logo: #3b4147;
+      }
+
+      * { box-sizing: border-box; }
+
+      html,
+      body {
+        width: 1600px;
+        min-height: 1000px;
+        margin: 0;
+      }
+
+      body {
+        padding: 34px;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .sheet {
+        min-height: 932px;
+        border: 1px solid var(--line);
+        background: var(--paper-2);
+      }
+
+      .sheet-header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: end;
+        gap: 40px;
+        padding: 34px 42px 30px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .kicker,
+      .section-label,
+      .card-label,
+      .meta {
+        color: var(--muted);
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.13em;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      .sheet-header h1 {
+        max-width: 850px;
+        margin: 8px 0 0;
+        font-family: Georgia, serif;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 0.98;
+        letter-spacing: -0.035em;
+      }
+
+      .palette {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        padding-bottom: 2px;
+      }
+
+      .swatch {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        color: var(--muted);
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .swatch::before {
+        width: 15px;
+        height: 15px;
+        border: 1px solid rgba(16, 16, 15, 0.22);
+        background: var(--swatch);
+        content: "";
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: 0.9fr 1.15fr 1.15fr;
+        min-height: 785px;
+      }
+
+      .column {
+        padding: 28px 30px 30px;
+      }
+
+      .column + .column {
+        border-left: 1px solid var(--line);
+      }
+
+      .section-label {
+        display: block;
+        margin-bottom: 18px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .card {
+        position: relative;
+        padding: 22px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.25);
+      }
+
+      .card + .card {
+        margin-top: 18px;
+      }
+
+      .card-label {
+        margin-bottom: 18px;
+        font-size: 11px;
+      }
+
+      .brand-lockup {
+        display: grid;
+        grid-template-columns: 72px minmax(0, 1fr);
+        align-items: center;
+        gap: 16px;
+        min-height: 120px;
+      }
+
+      .brand-lockup img {
+        width: 72px;
+        height: 72px;
+      }
+
+      .brand-kicker {
+        color: var(--muted);
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .brand-title {
+        margin-top: 3px;
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 46px;
+        line-height: 0.88;
+        letter-spacing: -0.06em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .recommendation {
+        margin: 18px 0 0;
+        color: var(--muted);
+        font-family: Georgia, serif;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      .comparison {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .icon-pair {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 14px;
+        min-height: 150px;
+        padding: 18px 12px;
+        border: 1px solid rgba(14, 14, 12, 0.16);
+        background: rgba(236, 232, 220, 0.48);
+      }
+
+      .current-icon {
+        display: grid;
+        justify-items: center;
+        gap: 10px;
+      }
+
+      .current-icon img {
+        width: 66px;
+        height: 66px;
+        object-fit: contain;
+      }
+
+      .icon-caption {
+        color: var(--muted);
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .marker-stack {
+        display: grid;
+        justify-items: center;
+        gap: 10px;
+      }
+
+      .marker {
+        position: relative;
+        display: grid;
+        width: 66px;
+        height: 66px;
+        place-items: center;
+        border: 1.5px solid var(--ink);
+        border-radius: 50%;
+        background: var(--paper-2);
+        box-shadow: 4px 4px 0 rgba(16, 16, 15, 0.13);
+      }
+
+      .marker.actual-size {
+        width: 32px;
+        height: 32px;
+        border-width: 1px;
+        box-shadow: 2px 2px 0 rgba(16, 16, 15, 0.14);
+      }
+
+      .glyph {
+        display: block;
+        width: 40px;
+        height: 40px;
+        color: currentColor;
+      }
+
+      .actual-size .glyph {
+        width: 20px;
+        height: 20px;
+      }
+
+      .pizza { color: var(--orange); }
+      .beer { color: var(--blue); }
+
+      .size-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        min-height: 72px;
+        margin-top: 14px;
+        padding: 12px;
+        border-top: 1px solid rgba(14, 14, 12, 0.16);
+      }
+
+      .size-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .size-item span {
+        color: var(--muted);
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .map-preview {
+        position: relative;
+        height: 260px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        background:
+          linear-gradient(31deg, transparent 46%, rgba(129, 125, 116, 0.23) 46.5%, rgba(129, 125, 116, 0.23) 48%, transparent 48.5%),
+          linear-gradient(112deg, transparent 56%, rgba(129, 125, 116, 0.18) 56.5%, rgba(129, 125, 116, 0.18) 58%, transparent 58.5%),
+          linear-gradient(4deg, transparent 67%, rgba(129, 125, 116, 0.18) 67.5%, rgba(129, 125, 116, 0.18) 69%, transparent 69.5%),
+          #e9e6dc;
+      }
+
+      .map-preview::before,
+      .map-preview::after {
+        position: absolute;
+        color: rgba(89, 82, 70, 0.45);
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        letter-spacing: 0.04em;
+      }
+
+      .map-preview::before { content: "WASHINGTON"; top: 40px; left: 38px; }
+      .map-preview::after { content: "RICHMOND"; right: 48px; bottom: 44px; }
+
+      .map-marker {
+        position: absolute;
+      }
+
+      .map-marker.one { top: 67px; left: 104px; }
+      .map-marker.two { top: 145px; left: 210px; }
+      .map-marker.three { top: 89px; right: 76px; }
+
+      .cluster {
+        width: 42px;
+        height: 42px;
+      }
+
+      .cluster .glyph {
+        width: 23px;
+        height: 23px;
+      }
+
+      .cluster-count {
+        position: absolute;
+        top: -7px;
+        right: -9px;
+        display: grid;
+        min-width: 22px;
+        height: 22px;
+        place-items: center;
+        padding: 0 5px;
+        border: 1px solid var(--ink);
+        border-radius: 11px;
+        background: var(--ink);
+        color: var(--paper-2);
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .cluster-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 52px;
+        min-height: 134px;
+      }
+
+      .favicon-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        min-height: 120px;
+      }
+
+      .favicon-sample {
+        display: grid;
+        justify-items: center;
+        gap: 9px;
+      }
+
+      .favicon {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        width: var(--favicon-size);
+        height: var(--favicon-size);
+        overflow: hidden;
+        border: max(1px, calc(var(--favicon-size) / 32)) solid var(--ink);
+        background: var(--paper-2);
+      }
+
+      .favicon .glyph {
+        width: 43%;
+        height: 70%;
+      }
+
+      .favicon .beer-glyph { margin-left: -2%; }
+      .favicon .pizza-glyph { margin-right: -4%; }
+
+      .note {
+        margin: 15px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      .svg-defs {
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <svg class="svg-defs" aria-hidden="true">
+      <symbol id="beer-glyph" viewBox="0 0 32 32">
+        <path fill="currentColor" fill-rule="evenodd" d="M11 2h10v5h-1v3.7c0 1.3.45 2.55 1.28 3.54l1.42 1.7A5.35 5.35 0 0 1 24 19.36V29a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-9.64c0-1.25.45-2.46 1.3-3.42l1.42-1.7A5.5 5.5 0 0 0 12 10.7V7h-1V2Zm3 2v2h4V4h-4Zm-2.5 15v8h9v-8h-9Z" />
+      </symbol>
+      <symbol id="pizza-glyph" viewBox="0 0 32 32">
+        <path fill="currentColor" fill-rule="evenodd" d="M3 28 8.65 10.7A11.15 11.15 0 0 1 21.1 3.8a11.2 11.2 0 0 1 7.6 9.1L31 28H3Zm5.05-4h18.3l-1.62-10.47a7.15 7.15 0 0 0-4.84-5.8 7.12 7.12 0 0 0-7.95 4.4L8.05 24Z" />
+        <circle cx="15" cy="13" r="2.35" fill="currentColor" />
+        <circle cx="20.7" cy="19.1" r="2.2" fill="currentColor" />
+        <circle cx="12.2" cy="20.5" r="1.55" fill="currentColor" />
+      </symbol>
+    </svg>
+
+    <main class="sheet">
+      <header class="sheet-header">
+        <div>
+          <div class="kicker">Icon system study · Pizza + Beer</div>
+          <h1>A quieter brand mark. Clearer map symbols.</h1>
+        </div>
+        <div class="palette" aria-label="Proposed palette">
+          <span class="swatch" style="--swatch: var(--logo)">Brand</span>
+          <span class="swatch" style="--swatch: var(--orange)">Pizza</span>
+          <span class="swatch" style="--swatch: var(--blue)">Beer</span>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="column">
+          <span class="section-label">01 / Brand mark</span>
+          <div class="card">
+            <div class="card-label">Recommended · keep monochrome</div>
+            <div class="brand-lockup">
+              <img src="../images/icon3.svg" alt="" />
+              <div>
+                <div class="brand-kicker">Ratings, maps, notes</div>
+                <div class="brand-title">Pizza + Beer</div>
+              </div>
+            </div>
+            <p class="recommendation">The combined mark remains the calm, neutral signature. Color is reserved for navigation and map meaning.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-label">Color rule</div>
+            <p class="recommendation">One neutral logo plus two functional colors creates a system—not a collection of alternate logos.</p>
+          </div>
+        </section>
+
+        <section class="column">
+          <span class="section-label">02 / Individual map markers</span>
+          <div class="card">
+            <div class="card-label">Current → proposed</div>
+            <div class="comparison">
+              <div class="icon-pair">
+                <div class="current-icon">
+                  <img src="../images/icon_pizza.png" alt="" />
+                  <span class="icon-caption">Pizza</span>
+                </div>
+                <div class="current-icon">
+                  <img src="../images/icon_beer.png" alt="" />
+                  <span class="icon-caption">Beer</span>
+                </div>
+              </div>
+              <div class="icon-pair">
+                <div class="marker-stack">
+                  <span class="marker pizza"><svg class="glyph pizza-glyph"><use href="#pizza-glyph" /></svg></span>
+                  <span class="icon-caption">Pizza</span>
+                </div>
+                <div class="marker-stack">
+                  <span class="marker beer"><svg class="glyph beer-glyph"><use href="#beer-glyph" /></svg></span>
+                  <span class="icon-caption">Brewery</span>
+                </div>
+              </div>
+            </div>
+            <div class="size-row">
+              <div class="size-item"><span class="marker actual-size pizza"><svg class="glyph pizza-glyph"><use href="#pizza-glyph" /></svg></span><span>32px map size</span></div>
+              <div class="size-item"><span class="marker actual-size beer"><svg class="glyph beer-glyph"><use href="#beer-glyph" /></svg></span><span>32px map size</span></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-label">In context · light basemap</div>
+            <div class="map-preview">
+              <span class="map-marker one marker actual-size pizza"><svg class="glyph pizza-glyph"><use href="#pizza-glyph" /></svg></span>
+              <span class="map-marker two marker actual-size beer"><svg class="glyph beer-glyph"><use href="#beer-glyph" /></svg></span>
+              <span class="map-marker three marker actual-size pizza"><svg class="glyph pizza-glyph"><use href="#pizza-glyph" /></svg></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="column">
+          <span class="section-label">03 / Clusters + favicon</span>
+          <div class="card">
+            <div class="card-label">Cluster variants · count stays visible</div>
+            <div class="cluster-row">
+              <div class="marker-stack">
+                <span class="marker cluster pizza">
+                  <svg class="glyph pizza-glyph"><use href="#pizza-glyph" /></svg>
+                  <span class="cluster-count">12</span>
+                </span>
+                <span class="icon-caption">Pizza cluster</span>
+              </div>
+              <div class="marker-stack">
+                <span class="marker cluster beer">
+                  <svg class="glyph beer-glyph"><use href="#beer-glyph" /></svg>
+                  <span class="cluster-count">48</span>
+                </span>
+                <span class="icon-caption">Beer cluster</span>
+              </div>
+            </div>
+            <p class="note">A count badge distinguishes clusters from single locations without introducing a second visual language.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-label">Simplified two-color favicon</div>
+            <div class="favicon-row">
+              <div class="favicon-sample">
+                <span class="favicon" style="--favicon-size: 64px">
+                  <svg class="glyph beer beer-glyph"><use href="#beer-glyph" /></svg>
+                  <svg class="glyph pizza pizza-glyph"><use href="#pizza-glyph" /></svg>
+                </span>
+                <span class="icon-caption">64px</span>
+              </div>
+              <div class="favicon-sample">
+                <span class="favicon" style="--favicon-size: 32px">
+                  <svg class="glyph beer beer-glyph"><use href="#beer-glyph" /></svg>
+                  <svg class="glyph pizza pizza-glyph"><use href="#pizza-glyph" /></svg>
+                </span>
+                <span class="icon-caption">32px</span>
+              </div>
+              <div class="favicon-sample">
+                <span class="favicon" style="--favicon-size: 16px">
+                  <svg class="glyph beer beer-glyph"><use href="#beer-glyph" /></svg>
+                  <svg class="glyph pizza pizza-glyph"><use href="#pizza-glyph" /></svg>
+                </span>
+                <span class="icon-caption">16px</span>
+              </div>
+            </div>
+            <p class="note">At very small sizes, the icon becomes an abbreviated color signature rather than a miniature copy of the masthead art.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

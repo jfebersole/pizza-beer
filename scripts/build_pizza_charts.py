@@ -73,7 +73,6 @@ sns.barplot(
     color=C_BLUE,
     ax=ax,
 )
-ax.set_title("Pizzeria Ratings by State / Country", pad=12)
 ax.set_xlabel("")
 ax.set_ylabel("Number of Ratings")
 ax.tick_params(axis="x", rotation=45)
@@ -86,7 +85,6 @@ plt.close(fig)
 
 fig, ax = plt.subplots(figsize=(10, 5))
 sns.histplot(data=pizzerias, x="Rating", bins=5, color=C_BLUE, ax=ax)
-ax.set_title("Distribution of Pizzeria Ratings", pad=12)
 ax.set_xlabel("Rating")
 ax.set_ylabel("Count")
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))

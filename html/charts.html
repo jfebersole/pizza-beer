@@ -29,16 +29,109 @@
       </nav>
       <section class="content-panel charts-panel" aria-labelledby="page-title">
         <header class="page-heading"><p class="page-eyebrow">Visual analysis</p><h1 id="page-title">Charts</h1></header>
-        <div class="chart-grid">
-          <figure class="chart-card chart-card--wide"><img src="../images/vorb_chart.png" alt="Value over replacement brewery chart" /></figure>
-          <figure class="chart-card chart-card--wide"><img src="../images/vorb_chart_ipa.png" alt="Value over replacement brewery chart for IPAs" /></figure>
-          <figure class="chart-card"><img src="../images/style_density_plot.png" alt="Beer style rating density chart" /></figure>
-          <figure class="chart-card"><img src="../images/vorb_chart_lager.png" alt="Value over replacement brewery chart for lagers" /></figure>
-          <figure class="chart-card"><img src="../images/pizzeria_counts.png" alt="Pizzeria counts chart" /></figure>
-          <figure class="chart-card"><img src="../images/pizzeria_ratings.png" alt="Pizzeria ratings chart" /></figure>
-        </div>
+
+        <section class="analysis-section" aria-labelledby="rating-difference-title">
+          <header class="analysis-section-heading">
+            <p class="section-kicker">Palate fingerprint</p>
+            <h2 id="rating-difference-title">Overrated vs Underrated</h2>
+          </header>
+          <figure class="analysis-figure">
+            <img src="../images/rating_difference_by_style.png" alt="Average personal rating minus Untappd rating by beer style, with confidence intervals" />
+          </figure>
+          <div class="rating-comparison-grid">
+            <article class="rating-comparison-card" aria-labelledby="underrated-title">
+              <header class="rating-comparison-heading">
+                <h3 id="underrated-title">Some underrated beers</h3>
+              </header>
+              <div class="data-container analysis-table" id="underratedBeerTable"><p class="table-loading">Loading underrated beers…</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="analysis-section" aria-labelledby="abv-premium-title">
+          <header class="analysis-section-heading">
+            <p class="section-kicker">Strength and taste</p>
+            <h2 id="abv-premium-title">The Untappd ABV Premium</h2>
+          </header>
+          <figure class="analysis-figure">
+            <img src="../images/hoppy_ratings_by_abv.png" alt="Kernel-smoothed personal and Untappd average ratings by alcohol by volume, with the distribution of rated beer strengths" />
+            <figcaption>Kernel-smoothed averages for all hop-forward beers (IPAs and Pale Ales). The density panel shows where observations are concentrated; estimates are less stable at the edges.</figcaption>
+          </figure>
+        </section>
+
+        <section class="analysis-section" aria-labelledby="vorb-title">
+          <header class="analysis-section-heading">
+            <p class="section-kicker">Brewery depth</p>
+            <h2 id="vorb-title">Value Over Replacement Brewery</h2>
+          </header>
+          <div class="interactive-chart-controls" aria-label="VORB chart filters">
+            <label class="chart-control" for="vorbStyleFilter">
+              <span>Style</span>
+              <select id="vorbStyleFilter"><option value="all">All styles</option></select>
+            </label>
+            <label class="chart-control chart-control--range" for="vorbMinBeers">
+              <span>Minimum beers rated</span>
+              <span class="range-control-row">
+                <input id="vorbMinBeers" type="range" min="1" max="10" value="3" step="1" />
+                <output id="vorbMinBeersValue" for="vorbMinBeers">3+</output>
+              </span>
+            </label>
+          </div>
+          <figure class="interactive-chart-card" aria-labelledby="vorb-title" aria-describedby="vorbChartNote">
+            <p class="interactive-chart-summary" id="vorbChartSummary" aria-live="polite">Loading brewery ratings…</p>
+            <div class="interactive-chart-scroll">
+              <svg class="interactive-chart-svg interactive-chart-svg--vorb" id="vorbChart" role="img" aria-label="Interactive VORB chart"></svg>
+            </div>
+            <p class="chart-empty-state" id="vorbChartEmpty" hidden>No breweries match these filters.</p>
+            <div class="chart-tooltip" id="vorbTooltip" hidden></div>
+            <figcaption id="vorbChartNote"><strong>VORB:</strong> Value Over Replacement Brewery. Proprietary calculation.<br />Reference scale: +75 Exceptional · +50 Great · +25 Good · 0 Replacement level · −25 Poor.</figcaption>
+          </figure>
+        </section>
+
+        <section class="analysis-section" aria-labelledby="density-title">
+          <header class="analysis-section-heading">
+            <p class="section-kicker">Rating distributions</p>
+            <h2 id="density-title">Density of Ratings by Beer Style</h2>
+          </header>
+          <div class="interactive-chart-controls" aria-label="Rating density chart filters">
+            <label class="chart-control" for="densityStyleFilter">
+              <span>Style</span>
+              <select id="densityStyleFilter"><option value="all">All styles</option></select>
+            </label>
+            <div class="interactive-chart-legend" aria-label="Chart legend">
+              <span><i class="legend-swatch legend-swatch--personal"></i>My rating</span>
+              <span><i class="legend-swatch legend-swatch--untappd"></i>Untappd rating</span>
+            </div>
+          </div>
+          <figure class="interactive-chart-card" aria-labelledby="density-title" aria-describedby="densityChartNote">
+            <p class="interactive-chart-summary" id="densityChartSummary" aria-live="polite">Loading beer ratings…</p>
+            <div class="interactive-chart-scroll interactive-chart-scroll--fixed">
+              <svg class="interactive-chart-svg interactive-chart-svg--density" id="densityChart" role="img" aria-label="Interactive density chart of personal and Untappd beer ratings"></svg>
+            </div>
+            <p class="chart-empty-state" id="densityChartEmpty" hidden>No beers match this style.</p>
+            <figcaption id="densityChartNote">Kernel density estimates summarize the shape of the rating distributions; the Untappd series excludes the single beer without a valid Untappd average.</figcaption>
+          </figure>
+        </section>
+
+        <section class="analysis-section analysis-section--more" aria-labelledby="pizzeria-patterns-title">
+          <header class="analysis-section-heading">
+            <p class="section-kicker">Pizza archive</p>
+            <h2 id="pizzeria-patterns-title">Pizzeria Patterns</h2>
+          </header>
+          <div class="pizzeria-chart-grid">
+            <article class="site-chart-card" aria-labelledby="pizzeria-state-title">
+              <h3 id="pizzeria-state-title">Pizzeria Ratings by State / Country</h3>
+              <figure><img src="../images/pizzeria_counts.png" alt="Number of pizzeria ratings by state or country" /></figure>
+            </article>
+            <article class="site-chart-card" aria-labelledby="pizzeria-distribution-title">
+              <h3 id="pizzeria-distribution-title">Distribution of Pizzeria Ratings</h3>
+              <figure><img src="../images/pizzeria_ratings.png" alt="Distribution of personal pizzeria ratings" /></figure>
+            </article>
+          </div>
+        </section>
       </section>
     </main>
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/charts.js"></script>
   </body>
 </html>

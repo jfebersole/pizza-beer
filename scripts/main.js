@@ -109,6 +109,12 @@ function formatDisplayValue(header, value) {
         const rating = Number(value);
         return Number.isFinite(rating) ? rating.toFixed(2) : String(value);
     }
+    if (header === 'Difference' && !isBlank(value)) {
+        const difference = Number(value);
+        if (Number.isFinite(difference)) {
+            return `${difference > 0 ? '+' : ''}${difference.toFixed(2)}`;
+        }
+    }
     return isBlank(value) ? '—' : String(value);
 }
 
@@ -413,6 +419,37 @@ async function loadSiteStats() {
     }
 }
 
+function ratingDifferenceRows(beerData) {
+    return (beerData || [])
+        .map((beer) => {
+            const personalRating = Number(beer['My Rating']);
+            const untappdRating = Number(beer['Untappd Rating']);
+            if (!Number.isFinite(personalRating)
+                || !Number.isFinite(untappdRating)
+                || untappdRating <= 0) {
+                return null;
+            }
+            return {
+                Beer: beer.Beer,
+                Brewery: beer.Brewery,
+                Style: beer.Style,
+                'My Rating': personalRating,
+                'Untappd Rating': untappdRating,
+                Difference: personalRating - untappdRating
+            };
+        })
+        .filter(Boolean);
+}
+
+const widelyAvailableMacroLagers = new Set([
+    "Birra Moretti L'Autentica / Ricetta Originale",
+    'Bud Light',
+    'Michelob ULTRA',
+    'Miller Lite',
+    'Pabst Blue Ribbon',
+    'Stella Artois'
+]);
+
 async function loadTables() {
     if (document.getElementById('breweryTable')) {
         const breweryData = await fetchJsonData(breweryJsonUrl);
@@ -421,7 +458,26 @@ async function loadTables() {
 
     if (document.getElementById('beerTable')) {
         const beerData = await fetchJsonData(beerJsonUrl);
-        buildHtmlTable(beerData, 'beerTable', { imageColumn: 'Label' });
+        const tableData = beerData.map((beer) => {
+            const tableBeer = { ...beer };
+            delete tableBeer['Style Family'];
+            return tableBeer;
+        });
+        buildHtmlTable(tableData, 'beerTable', { imageColumn: 'Label' });
+    }
+
+    if (document.getElementById('underratedBeerTable')) {
+        const beerData = await fetchJsonData(beerJsonUrl);
+        const differences = ratingDifferenceRows(beerData);
+        const underrated = differences
+            .filter((beer) => beer.Difference > 0
+                && !widelyAvailableMacroLagers.has(beer.Beer))
+            .sort((a, b) => b.Difference - a.Difference
+                || textCollator.compare(a.Beer, b.Beer))
+            .slice(0, 10);
+        buildHtmlTable(underrated, 'underratedBeerTable', {
+            initialSort: { key: 'Difference', direction: 'desc' }
+        });
     }
 
     if (document.getElementById('pizzeriaTable')) {
@@ -556,21 +612,34 @@ async function initializeMap() {
         showCoverageOnHover: false,
         zoomToBoundsOnClick: false
     };
+    function createClusterIcon(cluster, type, iconPath, itemLabel) {
+        const count = cluster.getChildCount();
+        return L.divIcon({
+            className: `map-cluster-icon map-cluster-icon--${type}`,
+            html: `
+                <img src="${siteAssetUrl(iconPath)}" alt="">
+                <span class="map-cluster-count" aria-label="${count} clustered ${itemLabel}">${count}</span>`,
+            iconSize: [44, 44],
+            iconAnchor: [22, 40]
+        });
+    }
     const pizzeriaCluster = L.markerClusterGroup({
         ...clusterOptions,
-        iconCreateFunction: () => L.icon({
-            iconUrl: siteAssetUrl('images/icon_pizza.png'),
-            iconSize: [32, 32],
-            iconAnchor: [16, 32]
-        })
+        iconCreateFunction: (cluster) => createClusterIcon(
+            cluster,
+            'pizza',
+            'images/icon_pizza.png',
+            'pizzerias'
+        )
     });
     const breweryCluster = L.markerClusterGroup({
         ...clusterOptions,
-        iconCreateFunction: () => L.icon({
-            iconUrl: siteAssetUrl('images/icon_beer.png'),
-            iconSize: [32, 32],
-            iconAnchor: [16, 32]
-        })
+        iconCreateFunction: (cluster) => createClusterIcon(
+            cluster,
+            'beer',
+            'images/icon_beer.png',
+            'breweries'
+        )
     });
 
     let filterContainer;

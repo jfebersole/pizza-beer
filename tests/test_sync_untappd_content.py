@@ -124,11 +124,55 @@ class UntappdSyncTests(unittest.TestCase):
         if not dwell.empty:
             self.assertTrue(dwell.eq("Sours+Farmhouse+Wild").all())
 
+    def test_beer_output_includes_style_family_for_interactive_charts(self):
+        records = SYNC.build_beer_records(self.beers, self.style_crosswalk)
+        self.assertEqual(len(records), len(self.beers))
+        self.assertTrue(all(record["Style Family"] for record in records))
+        self.assertEqual(set(records[0]), set(SYNC.BEER_OUTPUT_COLUMNS))
+
     def test_unknown_style_must_be_added_to_crosswalk(self):
         beer = self.beers.iloc[[0]].copy()
         beer["Style"] = "Entirely New Untappd Style"
         with self.assertRaisesRegex(ValueError, "Entirely New Untappd Style"):
             SYNC.assign_style_families(beer, self.style_crosswalk)
+
+    def test_rating_difference_groups_split_regular_and_double_ipas(self):
+        self.assertEqual(
+            SYNC.rating_difference_group("IPA - New England / Hazy"),
+            "IPA",
+        )
+        self.assertEqual(
+            SYNC.rating_difference_group(
+                "IPA - Imperial / Double New England / Hazy"
+            ),
+            "Double IPA",
+        )
+        self.assertEqual(
+            SYNC.rating_difference_group("Pale Ale - American"), "Pale Ale"
+        )
+
+    def test_hoppy_analysis_includes_session_and_triple_ipas(self):
+        beers = pd.DataFrame(
+            {
+                "Style": [
+                    "IPA - Session",
+                    "IPA - Triple New England / Hazy",
+                    "Pale Ale - American",
+                    "Lager - Helles",
+                ],
+                "ABV": ["4.5%", "10%", "5.5%", "5%"],
+            }
+        )
+        hoppy = SYNC.select_hoppy_beers(beers)
+        self.assertEqual(
+            hoppy["Style"].tolist(),
+            [
+                "IPA - Session",
+                "IPA - Triple New England / Hazy",
+                "Pale Ale - American",
+            ],
+        )
+        self.assertEqual(hoppy["ABV Number"].tolist(), [4.5, 10.0, 5.5])
 
     def test_style_vorb_rankings_are_sorted_and_finite(self):
         for family in ["IPAs+", "Lagers+"]:

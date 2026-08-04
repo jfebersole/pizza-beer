@@ -36,6 +36,7 @@ from pathlib import Path
 from typing import Any
 
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 import requests
 import seaborn as sns
@@ -55,6 +56,7 @@ BEER_COLUMNS = [
     "My Rating",
     "Untappd Rating",
 ]
+BEER_OUTPUT_COLUMNS = [*BEER_COLUMNS, "Style Family"]
 BEER_CSV_COLUMNS = [
     "Beer Name",
     "Brewery Name",
@@ -82,7 +84,9 @@ BREWERY_CSV_COLUMNS = [
 STYLE_COLUMNS = ["Style", "Style Family"]
 MIN_BEERS_FOR_VORB = 3
 MIN_STYLE_BEERS_FOR_VORB = 2
+MIN_BEERS_FOR_RATING_DIFFERENCE = 15
 VORB_REPLACEMENT_RATING = 3.75
+ABV_KERNEL_BANDWIDTH = 0.52
 GEOCODING_DELAY_SECONDS = 0.25
 
 BEER_NAME_CORRECTIONS = {
@@ -104,6 +108,7 @@ C_BLUE = "xkcd:faded blue"
 C_ORANGE = "xkcd:faded orange"
 C_GREY = "xkcd:charcoal grey"
 C_LIGHT_GREY = "xkcd:light grey"
+C_MID_GREY = "xkcd:greyish"
 C_BG = "none"
 
 sns.set_theme(style="whitegrid", context="talk")
@@ -365,6 +370,13 @@ def assign_style_families(
             "Styles missing from the style crosswalk: " + ", ".join(missing_styles)
         )
     return styled
+
+
+def build_beer_records(
+    beers: pd.DataFrame, style_crosswalk: dict[str, str]
+) -> list[dict[str, Any]]:
+    styled = assign_style_families(beers, style_crosswalk)
+    return styled[BEER_OUTPUT_COLUMNS].to_dict(orient="records")
 
 
 def build_brewery_summary(beers: pd.DataFrame) -> pd.DataFrame:
@@ -852,6 +864,170 @@ def plot_style_density(
     plt.close(fig)
 
 
+def rating_difference_group(style: str) -> str:
+    if style.startswith("IPA - Imperial / Double"):
+        return "Double IPA"
+    if style.startswith("IPA - Triple"):
+        return "Triple IPA"
+    if style.startswith("IPA - Session"):
+        return "Session IPA"
+    if style.startswith("IPA - "):
+        return "IPA"
+    if style.startswith("Pale Ale - "):
+        return "Pale Ale"
+    return style.split(" - ", maxsplit=1)[0]
+
+
+def build_rating_difference_summary(beers: pd.DataFrame) -> pd.DataFrame:
+    rated = beers[beers["Untappd Rating"] > 0].copy()
+    rated["Style Group"] = rated["Style"].map(rating_difference_group)
+    rated["Rating Difference"] = (
+        rated["My Rating"] - rated["Untappd Rating"]
+    )
+    summary = (
+        rated.groupby("Style Group")
+        .agg(
+            beers_rated=("Beer", "size"),
+            average_difference=("Rating Difference", "mean"),
+            difference_sd=("Rating Difference", "std"),
+        )
+        .reset_index()
+    )
+    summary = summary[
+        summary["beers_rated"] >= MIN_BEERS_FOR_RATING_DIFFERENCE
+    ].copy()
+    summary["difference_se"] = summary["difference_sd"] / np.sqrt(
+        summary["beers_rated"]
+    )
+    summary["ci_low"] = (
+        summary["average_difference"] - 1.96 * summary["difference_se"]
+    )
+    summary["ci_high"] = (
+        summary["average_difference"] + 1.96 * summary["difference_se"]
+    )
+    return summary.sort_values("average_difference").reset_index(drop=True)
+
+
+def plot_rating_differences(beers: pd.DataFrame, path: Path) -> None:
+    summary = build_rating_difference_summary(beers)
+    positions = np.arange(len(summary))
+    differences = summary["average_difference"].to_numpy()
+    colors = [C_BLUE if difference >= 0 else C_ORANGE for difference in differences]
+
+    fig, ax = plt.subplots(figsize=(12, 7.5))
+    ax.hlines(
+        positions,
+        summary["ci_low"],
+        summary["ci_high"],
+        colors=colors,
+        linewidth=2.2,
+        alpha=0.85,
+        zorder=1,
+    )
+    ax.scatter(differences, positions, color=colors, s=90, zorder=2)
+    ax.axvline(0, color=C_GREY, linestyle="--", linewidth=1.8)
+    ax.set_yticks(
+        positions,
+        [
+            f"{row['Style Group']} · {int(row['beers_rated'])}"
+            for _, row in summary.iterrows()
+        ],
+    )
+    ax.set_xlabel("Avg. rating difference (personal − Untappd)")
+    ax.set_ylabel("")
+    ax.grid(True, axis="x", color=C_LIGHT_GREY, linewidth=0.8, alpha=0.6)
+    ax.grid(False, axis="y")
+    ax.text(
+        0,
+        1.015,
+        "Overrated ←",
+        transform=ax.transAxes,
+        color=C_ORANGE,
+        fontsize=12,
+        ha="left",
+        va="bottom",
+    )
+    ax.text(
+        1,
+        1.015,
+        "→ Underrated",
+        transform=ax.transAxes,
+        color=C_BLUE,
+        fontsize=12,
+        ha="right",
+        va="bottom",
+    )
+    plt.tight_layout()
+    fig.savefig(path, bbox_inches="tight", transparent=True)
+    plt.close(fig)
+
+
+def select_hoppy_beers(beers: pd.DataFrame) -> pd.DataFrame:
+    hoppy = beers[
+        beers["Style"].str.startswith("IPA - ")
+        | beers["Style"].str.startswith("Pale Ale - ")
+    ].copy()
+    hoppy["ABV Number"] = pd.to_numeric(
+        hoppy["ABV"].str.rstrip("%"), errors="raise"
+    )
+    return hoppy
+
+
+def gaussian_kernel_mean(
+    x: np.ndarray, y: np.ndarray, grid: np.ndarray, bandwidth: float
+) -> tuple[np.ndarray, np.ndarray]:
+    weights = np.exp(-((grid[:, None] - x[None, :]) ** 2) / (2 * bandwidth**2))
+    smoothed = weights @ y / weights.sum(axis=1)
+    density = weights.sum(axis=1) / (
+        len(x) * bandwidth * np.sqrt(2 * np.pi)
+    )
+    return smoothed, density
+
+
+def plot_abv_kernel_ratings(beers: pd.DataFrame, path: Path) -> None:
+    hoppy = select_hoppy_beers(beers)
+    abv = hoppy["ABV Number"].to_numpy()
+    grid = np.linspace(4, 9.5, 180)
+    personal, density = gaussian_kernel_mean(
+        abv,
+        hoppy["My Rating"].to_numpy(),
+        grid,
+        ABV_KERNEL_BANDWIDTH,
+    )
+    untappd, _ = gaussian_kernel_mean(
+        abv,
+        hoppy["Untappd Rating"].to_numpy(),
+        grid,
+        ABV_KERNEL_BANDWIDTH,
+    )
+
+    fig = plt.figure(figsize=(12, 7.5))
+    grid_spec = fig.add_gridspec(2, 1, height_ratios=[4, 1], hspace=0.06)
+    ax = fig.add_subplot(grid_spec[0])
+    density_ax = fig.add_subplot(grid_spec[1], sharex=ax)
+
+    ax.plot(grid, untappd, color=C_ORANGE, linewidth=3, label="Untappd rating")
+    ax.plot(grid, personal, color=C_BLUE, linewidth=3, label="My rating")
+    ax.set_ylabel("Average rating")
+    ax.set_ylim(3.5, 4.35)
+    ax.tick_params(axis="x", labelbottom=False)
+    ax.grid(True, axis="y", color=C_LIGHT_GREY, linewidth=0.8, alpha=0.6)
+    ax.grid(False, axis="x")
+    ax.legend(loc="upper left", frameon=False, ncol=2)
+    density_ax.fill_between(grid, density, color=C_LIGHT_GREY, alpha=0.65)
+    density_ax.plot(grid, density, color=C_MID_GREY, linewidth=1.5)
+    density_ax.set_xlabel("ABV")
+    density_ax.set_ylabel("Density")
+    density_ax.set_yticks([])
+    density_ax.grid(False)
+    density_ax.spines["left"].set_visible(False)
+    density_ax.set_xlim(grid.min(), grid.max())
+
+    fig.subplots_adjust(left=0.09, right=0.985, top=0.88, bottom=0.11, hspace=0.08)
+    fig.savefig(path, bbox_inches="tight", transparent=True)
+    plt.close(fig)
+
+
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
@@ -880,7 +1056,8 @@ def stage_outputs(
         images_dir.mkdir()
 
         write_json(
-            data_dir / "beer_data.json", beers[BEER_COLUMNS].to_dict(orient="records")
+            data_dir / "beer_data.json",
+            build_beer_records(beers, style_crosswalk),
         )
         write_json(data_dir / "VORB_data.json", rankings)
         write_json(data_dir / "brewery_data.json", brewery_records)
@@ -901,25 +1078,11 @@ def stage_outputs(
             ],
         )
 
-        ranking_frame = pd.DataFrame(rankings).rename(
-            columns={"Beers Rated": "Beers Rated"}
+        plot_rating_differences(
+            beers, images_dir / "rating_difference_by_style.png"
         )
-        plot_vorb(ranking_frame, images_dir / "vorb_chart.png", "VORB by Brewery")
-
-        for family, filename in [
-            ("IPAs+", "vorb_chart_ipa.png"),
-            ("Lagers+", "vorb_chart_lager.png"),
-        ]:
-            family_ranking = style_vorb(beers, family, style_crosswalk).rename(
-                columns={"beers_rated": "Beers Rated"}
-            )
-            plot_vorb(
-                family_ranking[["Brewery", "VORB", "Beers Rated"]],
-                images_dir / filename,
-                f"VORB for {family}",
-            )
-        plot_style_density(
-            beers, images_dir / "style_density_plot.png", style_crosswalk,
+        plot_abv_kernel_ratings(
+            beers, images_dir / "hoppy_ratings_by_abv.png"
         )
 
         relative_paths = [
@@ -928,10 +1091,8 @@ def stage_outputs(
             Path("data/brewery_data.json"),
             Path("data/brewery_data.geojson"),
             Path("data/pending_breweries.json"),
-            Path("images/vorb_chart.png"),
-            Path("images/vorb_chart_ipa.png"),
-            Path("images/vorb_chart_lager.png"),
-            Path("images/style_density_plot.png"),
+            Path("images/rating_difference_by_style.png"),
+            Path("images/hoppy_ratings_by_abv.png"),
         ]
         for relative_path in relative_paths:
             destination = output_root / relative_path
@@ -981,7 +1142,7 @@ def main() -> None:
 
     print(
         f"Built {len(beers)} beers, {len(summary)} breweries, "
-        f"{len(rankings)} VORB rankings, and 4 charts."
+        f"{len(rankings)} VORB rankings, and 2 static charts."
     )
     if unrated_count:
         print(f"Excluded {unrated_count} beers without a personal rating.")
