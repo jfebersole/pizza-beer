@@ -9,6 +9,13 @@ const CHART_COLORS = {
     paper: '#f4f1e8'
 };
 const STYLE_FAMILY_LABELS = {
+    Crisp: 'Crisp',
+    Hop: 'Hop',
+    Malt: 'Malt',
+    Roast: 'Roast',
+    Smoke: 'Smoke',
+    'Fruit & Spice': 'Fruit & Spice',
+    'Tart & Funky': 'Tart & Funky',
     'Ales - Other': 'Other ales',
     Belgian: 'Belgian',
     'IPAs+': 'IPAs',

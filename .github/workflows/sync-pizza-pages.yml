@@ -44,7 +44,7 @@ jobs:
           mkdir -p _site/scripts
           cp index.html icon_beer.png icon_pizza.png _site/
           cp -R data html images styles _site/
-          cp scripts/main.js _site/scripts/
+          cp scripts/*.js _site/scripts/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

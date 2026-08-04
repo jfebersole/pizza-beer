@@ -4,9 +4,11 @@
 By default, the script rebuilds every derived artifact from
 ``inputs/beer_data.csv`` and ``inputs/brewery_data.csv``. It can first refresh
 those inputs from their public Google Drive files. Rows without a personal
-rating are excluded from the rating analysis. Beer styles are assigned with
-``inputs/styles_cross.xlsx``. Existing coordinates are reused from
-``data/brewery_data.geojson`` and only new, pending breweries are geocoded.
+rating are excluded from the rating analysis. Beer styles use the reviewed NRG
+crosswalk in ``inputs/styles_cross_nrg.xlsx`` by default; pass
+``--family-taxonomy legacy`` to restore ``inputs/styles_cross.xlsx``. Existing
+coordinates are reused from ``data/brewery_data.geojson`` and only new,
+pending breweries are geocoded.
 
 Examples
 --------
@@ -82,6 +84,11 @@ BREWERY_CSV_COLUMNS = [
     "warningservesCuisine",
 ]
 STYLE_COLUMNS = ["Style", "Style Family"]
+BEER_REVIEW_COLUMNS = ["Beer", "Brewery", "Final Family", "Override?"]
+FAMILY_TAXONOMY_PATHS = {
+    "nrg": REPO_ROOT / "inputs/styles_cross_nrg.xlsx",
+    "legacy": REPO_ROOT / "inputs/styles_cross.xlsx",
+}
 MIN_BEERS_FOR_VORB = 3
 MIN_STYLE_BEERS_FOR_VORB = 2
 MIN_BEERS_FOR_RATING_DIFFERENCE = 15
@@ -100,9 +107,10 @@ BEER_LABEL_CORRECTIONS = {
         "FMIS_WithCoffee_BA_Lockup_Solid.png"
     ),
 }
-STYLE_FAMILY_OVERRIDES = {
+LEGACY_STYLE_FAMILY_OVERRIDES = {
     "Dwell (Batch 1)": "Sours+Farmhouse+Wild",
 }
+STYLE_FAMILY_OVERRIDES = LEGACY_STYLE_FAMILY_OVERRIDES
 
 C_BLUE = "xkcd:faded blue"
 C_ORANGE = "xkcd:faded orange"
@@ -149,10 +157,19 @@ def parse_args() -> argparse.Namespace:
         help="Directory that receives data/ and images/ (default: repository root).",
     )
     parser.add_argument(
+        "--family-taxonomy",
+        choices=sorted(FAMILY_TAXONOMY_PATHS),
+        default="nrg",
+        help=(
+            "Family system used by the website "
+            "(default: nrg; use legacy to switch back)."
+        ),
+    )
+    parser.add_argument(
         "--styles-cross",
         type=Path,
-        default=REPO_ROOT / "inputs/styles_cross.xlsx",
-        help="Style-to-family Excel crosswalk (default: inputs/styles_cross.xlsx).",
+        default=None,
+        help="Optional crosswalk override for the selected family taxonomy.",
     )
     parser.add_argument(
         "--skip-geocoding",
@@ -356,13 +373,66 @@ def load_style_crosswalk(path: Path) -> dict[str, str]:
     return dict(zip(styles["Style"], styles["Style Family"]))
 
 
+def load_reviewed_beer_overrides(path: Path) -> dict[tuple[str, str], str]:
+    reviews = pd.read_excel(path, sheet_name="Beer Review", dtype=str)
+    missing_columns = sorted(set(BEER_REVIEW_COLUMNS) - set(reviews.columns))
+    if missing_columns:
+        raise ValueError(
+            f"{path} Beer Review is missing columns: {', '.join(missing_columns)}"
+        )
+
+    reviews = reviews[BEER_REVIEW_COLUMNS].copy()
+    for column in BEER_REVIEW_COLUMNS:
+        reviews[column] = reviews[column].fillna("").astype(str).str.strip()
+    reviews = reviews[reviews["Override?"].str.casefold() == "yes"]
+    if reviews[["Beer", "Brewery", "Final Family"]].eq("").any().any():
+        raise ValueError(f"{path} contains an incomplete beer-level override")
+    duplicate_beers = reviews.duplicated(["Beer", "Brewery"], keep=False)
+    if duplicate_beers.any():
+        duplicates = sorted(
+            reviews.loc[duplicate_beers, ["Beer", "Brewery"]]
+            .agg(" — ".join, axis=1)
+            .unique()
+        )
+        raise ValueError(
+            f"{path} contains duplicate beer-level overrides: {', '.join(duplicates)}"
+        )
+    return {
+        (row["Beer"], row["Brewery"]): row["Final Family"]
+        for _, row in reviews.iterrows()
+    }
+
+
+def load_family_taxonomy(
+    taxonomy: str, crosswalk_path: Path | None = None
+) -> tuple[Path, dict[str, str], dict[str | tuple[str, str], str]]:
+    if taxonomy not in FAMILY_TAXONOMY_PATHS:
+        raise ValueError(f"Unknown family taxonomy: {taxonomy}")
+    path = crosswalk_path or FAMILY_TAXONOMY_PATHS[taxonomy]
+    style_crosswalk = load_style_crosswalk(path)
+    overrides: dict[str | tuple[str, str], str]
+    if taxonomy == "nrg":
+        overrides = load_reviewed_beer_overrides(path)
+    else:
+        overrides = dict(LEGACY_STYLE_FAMILY_OVERRIDES)
+    return path, style_crosswalk, overrides
+
+
 def assign_style_families(
-    beers: pd.DataFrame, style_crosswalk: dict[str, str]
+    beers: pd.DataFrame,
+    style_crosswalk: dict[str, str],
+    beer_overrides: dict[str | tuple[str, str], str] | None = None,
 ) -> pd.DataFrame:
     styled = beers.copy()
     styled["Style Family"] = styled["Style"].map(style_crosswalk)
-    for beer_name, family in STYLE_FAMILY_OVERRIDES.items():
-        styled.loc[styled["Beer"] == beer_name, "Style Family"] = family
+    overrides = STYLE_FAMILY_OVERRIDES if beer_overrides is None else beer_overrides
+    for beer_key, family in overrides.items():
+        if isinstance(beer_key, tuple):
+            beer_name, brewery = beer_key
+            matches = styled["Beer"].eq(beer_name) & styled["Brewery"].eq(brewery)
+        else:
+            matches = styled["Beer"].eq(beer_key)
+        styled.loc[matches, "Style Family"] = family
 
     missing_styles = sorted(styled.loc[styled["Style Family"].isna(), "Style"].unique())
     if missing_styles:
@@ -373,9 +443,11 @@ def assign_style_families(
 
 
 def build_beer_records(
-    beers: pd.DataFrame, style_crosswalk: dict[str, str]
+    beers: pd.DataFrame,
+    style_crosswalk: dict[str, str],
+    beer_overrides: dict[str | tuple[str, str], str] | None = None,
 ) -> list[dict[str, Any]]:
-    styled = assign_style_families(beers, style_crosswalk)
+    styled = assign_style_families(beers, style_crosswalk, beer_overrides)
     return styled[BEER_OUTPUT_COLUMNS].to_dict(orient="records")
 
 
@@ -1044,6 +1116,7 @@ def stage_outputs(
     pending_breweries: list[str],
     brewery_urls: dict[str, str],
     style_crosswalk: dict[str, str],
+    beer_overrides: dict[str | tuple[str, str], str],
 ) -> None:
     output_root.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(
@@ -1057,7 +1130,7 @@ def stage_outputs(
 
         write_json(
             data_dir / "beer_data.json",
-            build_beer_records(beers, style_crosswalk),
+            build_beer_records(beers, style_crosswalk, beer_overrides),
         )
         write_json(data_dir / "VORB_data.json", rankings)
         write_json(data_dir / "brewery_data.json", brewery_records)
@@ -1112,9 +1185,11 @@ def main() -> None:
     brewery_geojson_path = REPO_ROOT / "data/brewery_data.geojson"
 
     beers, brewery_urls, unrated_count = load_beer_csv(args.beer_csv)
-    style_crosswalk = load_style_crosswalk(args.styles_cross)
+    taxonomy_path, style_crosswalk, beer_overrides = load_family_taxonomy(
+        args.family_taxonomy, args.styles_cross
+    )
     # Validate before any optional geocoding call can consume a credit.
-    assign_style_families(beers, style_crosswalk)
+    assign_style_families(beers, style_crosswalk, beer_overrides)
 
     brewery_metadata = load_brewery_csv(args.brewery_csv)
     missing_breweries = sorted(set(beers["Brewery"]) - set(brewery_metadata))
@@ -1138,11 +1213,20 @@ def main() -> None:
         pending_breweries,
         brewery_urls,
         style_crosswalk,
+        beer_overrides,
     )
 
     print(
         f"Built {len(beers)} beers, {len(summary)} breweries, "
         f"{len(rankings)} VORB rankings, and 2 static charts."
+    )
+    try:
+        taxonomy_display_path = taxonomy_path.relative_to(REPO_ROOT)
+    except ValueError:
+        taxonomy_display_path = taxonomy_path
+    print(
+        f"Family taxonomy: {args.family_taxonomy.upper()} "
+        f"({taxonomy_display_path})"
     )
     if unrated_count:
         print(f"Excluded {unrated_count} beers without a personal rating.")

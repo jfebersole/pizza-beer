@@ -29,6 +29,16 @@ class UntappdSyncTests(unittest.TestCase):
         cls.style_crosswalk = SYNC.load_style_crosswalk(
             ROOT / "inputs/styles_cross.xlsx"
         )
+        (
+            cls.nrg_crosswalk_path,
+            cls.nrg_style_crosswalk,
+            cls.nrg_beer_overrides,
+        ) = SYNC.load_family_taxonomy("nrg")
+        (
+            cls.legacy_crosswalk_path,
+            cls.legacy_style_crosswalk,
+            cls.legacy_beer_overrides,
+        ) = SYNC.load_family_taxonomy("legacy")
 
     def test_csv_inputs_are_clean_and_complete(self):
         self.assertGreater(len(self.beers), 0)
@@ -123,6 +133,83 @@ class UntappdSyncTests(unittest.TestCase):
         dwell = styled.loc[styled["Beer"] == "Dwell (Batch 1)", "Style Family"]
         if not dwell.empty:
             self.assertTrue(dwell.eq("Sours+Farmhouse+Wild").all())
+
+    def test_nrg_taxonomy_covers_every_beer_with_seven_families(self):
+        styled = SYNC.assign_style_families(
+            self.beers, self.nrg_style_crosswalk, self.nrg_beer_overrides
+        )
+        self.assertEqual(
+            set(styled["Style Family"]),
+            {
+                "Crisp",
+                "Hop",
+                "Malt",
+                "Roast",
+                "Smoke",
+                "Fruit & Spice",
+                "Tart & Funky",
+            },
+        )
+        self.assertEqual(
+            styled["Style Family"].value_counts().to_dict(),
+            {
+                "Hop": 315,
+                "Crisp": 112,
+                "Tart & Funky": 53,
+                "Roast": 44,
+                "Fruit & Spice": 33,
+                "Smoke": 28,
+                "Malt": 22,
+            },
+        )
+
+    def test_nrg_reviewed_overrides_and_consistency_rules_are_applied(self):
+        self.assertEqual(len(self.nrg_beer_overrides), 9)
+        styled = SYNC.assign_style_families(
+            self.beers, self.nrg_style_crosswalk, self.nrg_beer_overrides
+        )
+        self.assertTrue(
+            styled.loc[
+                styled["Style"] == "Historical Beer - Lichtenhainer",
+                "Style Family",
+            ].eq("Smoke").all()
+        )
+        self.assertTrue(
+            styled.loc[
+                styled["Style"] == "Lager - Tmavé (Czech Dark)",
+                "Style Family",
+            ].eq("Malt").all()
+        )
+        growing_light = styled.loc[
+            styled["Beer"] == "Growing Light", "Style Family"
+        ]
+        self.assertTrue(growing_light.eq("Fruit & Spice").all())
+
+    def test_website_beer_json_uses_nrg_taxonomy(self):
+        expected = SYNC.build_beer_records(
+            self.beers, self.nrg_style_crosswalk, self.nrg_beer_overrides
+        )
+        actual = json.loads((ROOT / "data/beer_data.json").read_text())
+        expected_by_beer = {
+            (row["Beer"], row["Brewery"]): row["Style Family"]
+            for row in expected
+        }
+        actual_by_beer = {
+            (row["Beer"], row["Brewery"]): row["Style Family"]
+            for row in actual
+        }
+        self.assertEqual(actual_by_beer, expected_by_beer)
+
+    def test_legacy_taxonomy_remains_available_for_switchback(self):
+        self.assertEqual(
+            self.legacy_crosswalk_path, ROOT / "inputs/styles_cross.xlsx"
+        )
+        legacy = SYNC.assign_style_families(
+            self.beers, self.legacy_style_crosswalk, self.legacy_beer_overrides
+        )
+        dwell = legacy.loc[legacy["Beer"] == "Dwell (Batch 1)", "Style Family"]
+        self.assertTrue(dwell.eq("Sours+Farmhouse+Wild").all())
+        self.assertIn("IPAs+", set(legacy["Style Family"]))
 
     def test_beer_output_includes_style_family_for_interactive_charts(self):
         records = SYNC.build_beer_records(self.beers, self.style_crosswalk)
