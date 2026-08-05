@@ -474,7 +474,7 @@ async function loadTables() {
                 && !widelyAvailableMacroLagers.has(beer.Beer))
             .sort((a, b) => b.Difference - a.Difference
                 || textCollator.compare(a.Beer, b.Beer))
-            .slice(0, 10);
+            .slice(0, 5);
         buildHtmlTable(underrated, 'underratedBeerTable', {
             initialSort: { key: 'Difference', direction: 'desc' }
         });
@@ -619,8 +619,8 @@ async function initializeMap() {
             html: `
                 <img src="${siteAssetUrl(iconPath)}" alt="">
                 <span class="map-cluster-count" aria-label="${count} clustered ${itemLabel}">${count}</span>`,
-            iconSize: [44, 44],
-            iconAnchor: [22, 40]
+            iconSize: [40, 40],
+            iconAnchor: [20, 38]
         });
     }
     const pizzeriaCluster = L.markerClusterGroup({

@@ -442,6 +442,10 @@ function maximumBreweryCount(beers, selection) {
     return Math.max(1, ...counts.values());
 }
 
+function defaultVorbMinimum(selection) {
+    return selection === 'all' ? 5 : 2;
+}
+
 async function initializeInteractiveCharts() {
     const vorbChart = document.getElementById('vorbChart');
     const densityChart = document.getElementById('densityChart');
@@ -467,7 +471,7 @@ async function initializeInteractiveCharts() {
     const densitySummary = document.getElementById('densityChartSummary');
     const densityEmpty = document.getElementById('densityChartEmpty');
 
-    populateStyleFilter(vorbStyle, beers);
+    populateStyleFilter(vorbStyle, beers, false);
     populateStyleFilter(densityStyle, beers, false);
 
     function renderVorb() {
@@ -500,9 +504,13 @@ async function initializeInteractiveCharts() {
         }
     }
 
-    vorbStyle.addEventListener('change', renderVorb);
+    vorbStyle.addEventListener('change', () => {
+        vorbMinimum.value = String(defaultVorbMinimum(vorbStyle.value));
+        renderVorb();
+    });
     vorbMinimum.addEventListener('input', renderVorb);
     densityStyle.addEventListener('change', renderDensity);
+    vorbMinimum.value = String(defaultVorbMinimum(vorbStyle.value));
     renderVorb();
     renderDensity();
 }
@@ -510,6 +518,7 @@ async function initializeInteractiveCharts() {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         buildVorbRankings,
+        defaultVorbMinimum,
         filterBeersByStyle,
         gaussianDensity,
         maximumBreweryCount,
