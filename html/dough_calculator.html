@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A focused pizza dough calculator for scaling flour, water, salt, yeast, olive oil, sugar, and diastatic malt powder." />
+    <title>Dough Calculator · Pizza + Beer</title>
+    <link rel="icon" type="image/svg+xml" href="../images/icon3.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&amp;family=IBM+Plex+Sans:wght@400;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&amp;family=Rajdhani:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body class="dough-page">
+    <main class="app-shell">
+      <header class="masthead">
+        <a class="brand-block" href="../index.html" aria-label="Pizza + Beer Project home">
+          <img class="header-logo" src="../images/icon3.svg" alt="" />
+          <span class="brand-copy"><span class="issue-kicker">Ratings, maps, notes</span><span class="site-title">Pizza + Beer</span></span>
+        </a>
+        <div class="site-stats" aria-label="Ratings to date">
+          <span class="site-stat"><strong id="pizzeria-total">—</strong><span>Pizzerias</span></span>
+          <span class="site-stat"><strong id="beer-total">—</strong><span>Beers</span></span>
+        </div>
+      </header>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <div class="primary-nav-inner">
+          <a href="../index.html">Map</a><a href="brewery_rankings.html">Brewery Rankings</a><a href="beer_rankings.html">Beer Rankings</a><a href="pizzeria_rankings.html">Pizzeria Rankings</a><a href="dough_calculator.html" aria-current="page">Dough Calculator</a><a href="charts.html">Charts</a>
+        </div>
+      </nav>
+
+      <section class="content-panel calculator-panel" aria-labelledby="page-title">
+        <header class="calculator-heading">
+          <div class="page-heading">
+            <h1 id="page-title">Pizza Dough Calculator</h1>
+          </div>
+          <p class="calculator-intro">Calculate ingredient weights from pizza dimensions or a target dough-ball weight. Percentages are baker’s percentages.</p>
+        </header>
+
+        <div class="calculator-layout">
+          <form class="dough-form" id="dough-form" novalidate>
+            <fieldset class="calculator-section calculator-section--setup">
+              <legend><span>01</span> Dough setup</legend>
+
+              <label class="number-control number-control--compact" for="dough-balls">
+                <span class="calculator-label">Dough balls</span>
+                <input id="dough-balls" name="doughBalls" type="number" min="1" step="1" value="1" inputmode="numeric" />
+              </label>
+
+              <div class="calculator-control-group">
+                <span class="calculator-label" id="approach-label">Calculate from</span>
+                <div class="segmented-control" role="radiogroup" aria-labelledby="approach-label">
+                  <label><input type="radio" name="approach" value="size" checked /><span>Pizza size</span></label>
+                  <label><input type="radio" name="approach" value="weight" /><span>Ball weight</span></label>
+                </div>
+              </div>
+
+              <div class="size-controls" data-approach-panel="size">
+                <div class="calculator-control-group">
+                  <span class="calculator-label" id="shape-label">Shape</span>
+                  <div class="segmented-control" role="radiogroup" aria-labelledby="shape-label">
+                    <label><input type="radio" name="shape" value="round" checked /><span>Round</span></label>
+                    <label><input type="radio" name="shape" value="rectangular" /><span>Rectangular</span></label>
+                  </div>
+                </div>
+
+                <div class="dimension-controls" data-shape-panel="round">
+                  <label class="number-control" for="diameter">
+                    <span class="calculator-label">Diameter <small>in</small></span>
+                    <input id="diameter" name="diameter" type="number" min="0.1" step="0.1" value="14" inputmode="decimal" />
+                  </label>
+                </div>
+
+                <div class="dimension-controls dimension-controls--rectangle" data-shape-panel="rectangular" hidden>
+                  <label class="number-control" for="pan-length">
+                    <span class="calculator-label">Length <small>in</small></span>
+                    <input id="pan-length" name="panLength" type="number" min="0.1" step="0.1" value="14" inputmode="decimal" />
+                  </label>
+                  <span class="dimension-mark" aria-hidden="true">×</span>
+                  <label class="number-control" for="pan-width">
+                    <span class="calculator-label">Width <small>in</small></span>
+                    <input id="pan-width" name="panWidth" type="number" min="0.1" step="0.1" value="14" inputmode="decimal" />
+                  </label>
+                </div>
+
+                <label class="number-control" for="thickness-factor">
+                  <span class="calculator-label">Thickness factor</span>
+                  <input id="thickness-factor" name="thicknessFactor" type="number" min="0.001" step="0.001" value="0.08" inputmode="decimal" />
+                  <small class="field-note">Ounces of dough per square inch. 0.08 is a thin New York-style starting point.</small>
+                </label>
+              </div>
+
+              <div data-approach-panel="weight" hidden>
+                <label class="number-control" for="ball-weight">
+                  <span class="calculator-label">Weight per ball <small>g</small></span>
+                  <input id="ball-weight" name="ballWeight" type="number" min="0.1" step="0.1" value="300" inputmode="decimal" />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="calculator-section calculator-section--formula">
+              <legend><span>02</span> Formula</legend>
+              <div class="formula-grid">
+                <label class="percentage-control percentage-control--water" for="hydration">
+                  <span><strong>Water</strong><small>Hydration</small></span>
+                  <span class="percentage-input"><input id="hydration" name="hydration" type="number" min="0" step="0.1" value="62" inputmode="decimal" /><i>%</i></span>
+                </label>
+                <label class="percentage-control" for="salt">
+                  <span><strong>Salt</strong><small>Baker’s percentage</small></span>
+                  <span class="percentage-input"><input id="salt" name="salt" type="number" min="0" step="0.1" value="2.5" inputmode="decimal" /><i>%</i></span>
+                </label>
+                <label class="percentage-control" for="yeast">
+                  <span><strong>Yeast</strong><small>Baker’s percentage</small></span>
+                  <span class="percentage-input"><input id="yeast" name="yeast" type="number" min="0" step="0.1" value="0.4" inputmode="decimal" /><i>%</i></span>
+                </label>
+                <label class="percentage-control" for="olive-oil">
+                  <span><strong>Olive oil</strong><small>Optional</small></span>
+                  <span class="percentage-input"><input id="olive-oil" name="oliveOil" type="number" min="0" step="0.1" value="0" inputmode="decimal" /><i>%</i></span>
+                </label>
+                <label class="percentage-control" for="sugar">
+                  <span><strong>Sugar</strong><small>Optional</small></span>
+                  <span class="percentage-input"><input id="sugar" name="sugar" type="number" min="0" step="0.1" value="0" inputmode="decimal" /><i>%</i></span>
+                </label>
+                <label class="percentage-control" for="malt">
+                  <span><strong>Diastatic malt</strong><small>Optional</small></span>
+                  <span class="percentage-input"><input id="malt" name="malt" type="number" min="0" step="0.1" value="0" inputmode="decimal" /><i>%</i></span>
+                </label>
+              </div>
+            </fieldset>
+          </form>
+
+          <section class="recipe-section" aria-labelledby="recipe-section-title">
+            <h2 class="recipe-section-title" id="recipe-section-title"><span>03</span> Recipe</h2>
+            <aside class="recipe-card" aria-labelledby="recipe-title">
+            <header class="recipe-card-heading">
+              <div>
+                <p class="section-kicker">Your dough</p>
+                <h2 id="recipe-title"><span id="ball-count">1</span> <span id="ball-label">ball</span> <em>×</em> <strong id="ball-total">—</strong></h2>
+              </div>
+              <p id="recipe-summary">14 in round · 0.08 thickness</p>
+            </header>
+
+            <div class="recipe-table" role="table" aria-label="Calculated dough recipe" aria-live="polite">
+              <div class="recipe-table-head" role="row">
+                <span role="columnheader">Ingredient</span><span role="columnheader">Baker’s %</span><span role="columnheader">Weight</span>
+              </div>
+              <div id="recipe-rows"></div>
+              <div class="recipe-total-row" role="row">
+                <span role="cell">Total dough</span><span role="cell" id="total-percent">—</span><span role="cell"><strong id="total-weight">—</strong></span>
+              </div>
+            </div>
+
+            <p class="calculator-error" id="calculator-error" role="status" hidden>Enter positive values to calculate your dough.</p>
+            <div class="recipe-actions">
+              <button type="button" class="recipe-action recipe-action--primary" id="copy-recipe">Copy recipe</button>
+              <button type="button" class="recipe-action" id="reset-recipe">Reset</button>
+            </div>
+            <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+            </aside>
+          </section>
+        </div>
+
+        <footer class="calculator-notes">
+          <p>Thickness-factor formulas from <a href="https://www.pizzamaking.com/forum/index.php?topic=10805.0">Pete-zza</a>.</p>
+        </footer>
+      </section>
+    </main>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/dough-calculator.js"></script>
+  </body>
+</html>
