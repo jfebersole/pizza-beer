@@ -586,13 +586,22 @@ async function initializeMap() {
 
     const map = L.map('map', { zoomControl: false, maxZoom: 20 });
     L.control.zoom({ position: 'topright' }).addTo(map);
+
+    const cartoBasemapKey = 'cb1_4l0f_1_ec9eddce62f2d90a023a36a4';
+    const cartoBasemapUrl = (style) =>
+        `https://basemaps.cartocdn.com/rastertiles/${style}/{z}/{x}/{y}{r}.png?key=${cartoBasemapKey}`;
+
     L.tileLayer(
-        'https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}{r}.png?key=cb1_4l0f_1_ec9eddce62f2d90a023a36a4',
+        cartoBasemapUrl('light_nolabels'),
         {
             maxZoom: 20,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         }
     ).addTo(map);
+    L.tileLayer(cartoBasemapUrl('light_only_labels'), {
+        minZoom: 6,
+        maxZoom: 20
+    }).addTo(map);
     map.setView([34.8, -96], 4);
 
     const customIconPizza = L.icon({

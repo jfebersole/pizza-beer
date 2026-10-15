@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+import numpy as np
 import pandas as pd
 import requests
 
@@ -256,6 +257,34 @@ class UntappdSyncTests(unittest.TestCase):
             ],
         )
         self.assertEqual(hoppy["ABV Number"].tolist(), [4.5, 10.0, 5.5])
+
+    def test_hoppy_chart_uses_exact_central_ninety_percent(self):
+        hoppy = SYNC.select_hoppy_beers(self.beers)
+        bounds = np.quantile(
+            hoppy["ABV Number"].to_numpy(), SYNC.ABV_DISPLAY_QUANTILES
+        )
+
+        self.assertEqual(SYNC.ABV_DISPLAY_QUANTILES, (0.05, 0.95))
+        np.testing.assert_array_equal(bounds, [5.0, 8.5])
+
+    def test_local_linear_bootstrap_interval_is_reproducible_and_contains_fit(self):
+        x = np.array([4.0, 5.0, 6.0, 7.0, 8.0])
+        y = np.array([3.2, 3.6, 3.8, 4.0, 4.3])
+        grid = np.linspace(4.0, 8.0, 9)
+        fit = SYNC.gaussian_local_linear_mean(x, y, grid, 0.75)
+        low, high = SYNC.gaussian_local_linear_bootstrap_interval(
+            x, y, grid, 0.75, draws=250, seed=12
+        )
+        repeated_low, repeated_high = (
+            SYNC.gaussian_local_linear_bootstrap_interval(
+                x, y, grid, 0.75, draws=250, seed=12
+            )
+        )
+
+        np.testing.assert_array_equal(low, repeated_low)
+        np.testing.assert_array_equal(high, repeated_high)
+        self.assertTrue((low < fit).all())
+        self.assertTrue((fit < high).all())
 
     def test_style_vorb_rankings_are_sorted_and_finite(self):
         for family in ["IPAs+", "Lagers+"]:

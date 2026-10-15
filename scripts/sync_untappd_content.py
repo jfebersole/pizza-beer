@@ -93,7 +93,10 @@ MIN_BEERS_FOR_VORB = 3
 MIN_STYLE_BEERS_FOR_VORB = 2
 MIN_BEERS_FOR_RATING_DIFFERENCE = 15
 VORB_REPLACEMENT_RATING = 3.75
-ABV_KERNEL_BANDWIDTH = 0.52
+ABV_LOCAL_LINEAR_BANDWIDTH = 0.70
+ABV_DISPLAY_QUANTILES = (0.05, 0.95)
+ABV_BOOTSTRAP_DRAWS = 1_000
+ABV_BOOTSTRAP_SEED = 20261014
 GEOCODING_DELAY_SECONDS = 0.25
 
 BEER_NAME_CORRECTIONS = {
@@ -116,7 +119,6 @@ C_BLUE = "xkcd:faded blue"
 C_ORANGE = "xkcd:faded orange"
 C_GREY = "xkcd:charcoal grey"
 C_LIGHT_GREY = "xkcd:light grey"
-C_MID_GREY = "xkcd:greyish"
 C_BG = "none"
 
 sns.set_theme(style="whitegrid", context="talk")
@@ -1045,57 +1047,118 @@ def select_hoppy_beers(beers: pd.DataFrame) -> pd.DataFrame:
     return hoppy
 
 
-def gaussian_kernel_mean(
+def gaussian_local_linear_mean(
     x: np.ndarray, y: np.ndarray, grid: np.ndarray, bandwidth: float
-) -> tuple[np.ndarray, np.ndarray]:
-    weights = np.exp(-((grid[:, None] - x[None, :]) ** 2) / (2 * bandwidth**2))
-    smoothed = weights @ y / weights.sum(axis=1)
-    density = weights.sum(axis=1) / (
-        len(x) * bandwidth * np.sqrt(2 * np.pi)
+) -> np.ndarray:
+    offsets = x[None, :] - grid[:, None]
+    weights = np.exp(-(offsets**2) / (2 * bandwidth**2))
+    weight_sum = weights.sum(axis=1)
+    weighted_offset_sum = (weights * offsets).sum(axis=1)
+    weighted_offset_squared_sum = (weights * offsets**2).sum(axis=1)
+    weighted_rating_sum = weights @ y
+    weighted_offset_rating_sum = (weights * offsets) @ y
+    denominator = (
+        weight_sum * weighted_offset_squared_sum - weighted_offset_sum**2
     )
-    return smoothed, density
+    return (
+        weighted_offset_squared_sum * weighted_rating_sum
+        - weighted_offset_sum * weighted_offset_rating_sum
+    ) / denominator
 
 
-def plot_abv_kernel_ratings(beers: pd.DataFrame, path: Path) -> None:
+def gaussian_local_linear_bootstrap_interval(
+    x: np.ndarray,
+    y: np.ndarray,
+    grid: np.ndarray,
+    bandwidth: float,
+    draws: int = ABV_BOOTSTRAP_DRAWS,
+    seed: int = ABV_BOOTSTRAP_SEED,
+) -> tuple[np.ndarray, np.ndarray]:
+    offsets = x[None, :] - grid[:, None]
+    weights = np.exp(-(offsets**2) / (2 * bandwidth**2))
+    bootstrap_counts = np.random.default_rng(seed).multinomial(
+        len(x), np.full(len(x), 1 / len(x)), size=draws
+    )
+    weight_sum = bootstrap_counts @ weights.T
+    weighted_offset_sum = bootstrap_counts @ (weights * offsets).T
+    weighted_offset_squared_sum = bootstrap_counts @ (weights * offsets**2).T
+    weighted_rating_sum = bootstrap_counts @ (weights * y[None, :]).T
+    weighted_offset_rating_sum = (
+        bootstrap_counts @ (weights * offsets * y[None, :]).T
+    )
+    denominator = (
+        weight_sum * weighted_offset_squared_sum - weighted_offset_sum**2
+    )
+    bootstrap_fits = (
+        weighted_offset_squared_sum * weighted_rating_sum
+        - weighted_offset_sum * weighted_offset_rating_sum
+    ) / denominator
+    return tuple(np.quantile(bootstrap_fits, [0.025, 0.975], axis=0))
+
+
+def plot_abv_local_linear_ratings(beers: pd.DataFrame, path: Path) -> None:
     hoppy = select_hoppy_beers(beers)
     abv = hoppy["ABV Number"].to_numpy()
-    grid = np.linspace(4, 9.5, 180)
-    personal, density = gaussian_kernel_mean(
+    abv_min, abv_max = np.quantile(abv, ABV_DISPLAY_QUANTILES)
+    grid = np.linspace(abv_min, abv_max, 180)
+    personal = gaussian_local_linear_mean(
         abv,
         hoppy["My Rating"].to_numpy(),
         grid,
-        ABV_KERNEL_BANDWIDTH,
+        ABV_LOCAL_LINEAR_BANDWIDTH,
     )
-    untappd, _ = gaussian_kernel_mean(
+    personal_low, personal_high = gaussian_local_linear_bootstrap_interval(
+        abv,
+        hoppy["My Rating"].to_numpy(),
+        grid,
+        ABV_LOCAL_LINEAR_BANDWIDTH,
+    )
+    untappd = gaussian_local_linear_mean(
         abv,
         hoppy["Untappd Rating"].to_numpy(),
         grid,
-        ABV_KERNEL_BANDWIDTH,
+        ABV_LOCAL_LINEAR_BANDWIDTH,
+    )
+    untappd_low, untappd_high = gaussian_local_linear_bootstrap_interval(
+        abv,
+        hoppy["Untappd Rating"].to_numpy(),
+        grid,
+        ABV_LOCAL_LINEAR_BANDWIDTH,
     )
 
-    fig = plt.figure(figsize=(12, 7.5))
-    grid_spec = fig.add_gridspec(2, 1, height_ratios=[4, 1], hspace=0.06)
-    ax = fig.add_subplot(grid_spec[0])
-    density_ax = fig.add_subplot(grid_spec[1], sharex=ax)
-
-    ax.plot(grid, untappd, color=C_ORANGE, linewidth=3, label="Untappd rating")
-    ax.plot(grid, personal, color=C_BLUE, linewidth=3, label="My rating")
+    fig, ax = plt.subplots(figsize=(12, 7.5))
+    ax.fill_between(
+        grid,
+        untappd_low,
+        untappd_high,
+        color=C_ORANGE,
+        alpha=0.14,
+        linewidth=0,
+    )
+    ax.fill_between(
+        grid,
+        personal_low,
+        personal_high,
+        color=C_BLUE,
+        alpha=0.14,
+        linewidth=0,
+    )
+    ax.plot(grid, untappd, color=C_ORANGE, linewidth=3.2, label="Untappd rating")
+    ax.plot(grid, personal, color=C_BLUE, linewidth=3.2, label="My rating")
     ax.set_ylabel("Average rating")
-    ax.set_ylim(3.5, 4.35)
-    ax.tick_params(axis="x", labelbottom=False)
+    ax.set_xlabel("ABV")
+    interval_min = min(personal_low.min(), untappd_low.min())
+    interval_max = max(personal_high.max(), untappd_high.max())
+    ax.set_ylim(
+        np.floor((interval_min - 0.02) * 20) / 20,
+        np.ceil((interval_max + 0.02) * 20) / 20,
+    )
+    ax.set_xlim(grid.min(), grid.max())
     ax.grid(True, axis="y", color=C_LIGHT_GREY, linewidth=0.8, alpha=0.6)
     ax.grid(False, axis="x")
     ax.legend(loc="upper left", frameon=False, ncol=2)
-    density_ax.fill_between(grid, density, color=C_LIGHT_GREY, alpha=0.65)
-    density_ax.plot(grid, density, color=C_MID_GREY, linewidth=1.5)
-    density_ax.set_xlabel("ABV")
-    density_ax.set_ylabel("Density")
-    density_ax.set_yticks([])
-    density_ax.grid(False)
-    density_ax.spines["left"].set_visible(False)
-    density_ax.set_xlim(grid.min(), grid.max())
 
-    fig.subplots_adjust(left=0.09, right=0.985, top=0.88, bottom=0.11, hspace=0.08)
+    plt.tight_layout()
     fig.savefig(path, bbox_inches="tight", transparent=True)
     plt.close(fig)
 
@@ -1154,7 +1217,7 @@ def stage_outputs(
         plot_rating_differences(
             beers, images_dir / "rating_difference_by_style.png"
         )
-        plot_abv_kernel_ratings(
+        plot_abv_local_linear_ratings(
             beers, images_dir / "hoppy_ratings_by_abv.png"
         )
 
