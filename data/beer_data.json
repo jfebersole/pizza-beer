@@ -6,7 +6,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 5.0,
-    "Untappd Rating": 4.48293,
+    "Untappd Rating": 4.48175,
     "Style Family": "Hop"
   },
   {
@@ -16,7 +16,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 5.0,
-    "Untappd Rating": 4.40292,
+    "Untappd Rating": 4.40124,
     "Style Family": "Hop"
   },
   {
@@ -36,7 +36,17 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.46111,
+    "Untappd Rating": 4.46012,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3835048_b8560_sm.jpeg",
+    "Beer": "Jasper with Nelson",
+    "Brewery": "Fidens Brewing Co.",
+    "Style": "IPA - Imperial / Double New England / Hazy",
+    "ABV": "7.90%",
+    "My Rating": 4.75,
+    "Untappd Rating": 4.42014,
     "Style Family": "Hop"
   },
   {
@@ -46,7 +56,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.40%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.42272,
+    "Untappd Rating": 4.41886,
     "Style Family": "Hop"
   },
   {
@@ -56,18 +66,8 @@
     "Style": "Stout - Imperial / Double",
     "ABV": "13%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.42219,
+    "Untappd Rating": 4.417,
     "Style Family": "Roast"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-3835048_b8560_sm.jpeg",
-    "Beer": "Jasper with Nelson",
-    "Brewery": "Fidens Brewing Co.",
-    "Style": "IPA - Imperial / Double New England / Hazy",
-    "ABV": "7.90%",
-    "My Rating": 4.75,
-    "Untappd Rating": 4.42082,
-    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4166126_02cf5_sm.jpeg",
@@ -76,7 +76,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.41011,
+    "Untappd Rating": 4.40989,
     "Style Family": "Hop"
   },
   {
@@ -86,7 +86,7 @@
     "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "5%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.31837,
+    "Untappd Rating": 4.31755,
     "Style Family": "Malt"
   },
   {
@@ -96,7 +96,7 @@
     "Style": "Stout - Imperial / Double Coffee",
     "ABV": "12.75%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.2772,
+    "Untappd Rating": 4.2793,
     "Style Family": "Roast"
   },
   {
@@ -106,7 +106,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.25321,
+    "Untappd Rating": 4.2529,
     "Style Family": "Hop"
   },
   {
@@ -126,7 +126,7 @@
     "Style": "IPA - American",
     "ABV": "6.70%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.17242,
+    "Untappd Rating": 4.1705,
     "Style Family": "Hop"
   },
   {
@@ -136,7 +136,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5.20%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.14535,
+    "Untappd Rating": 4.1447,
     "Style Family": "Hop"
   },
   {
@@ -156,8 +156,18 @@
     "Style": "Wild Ale - Other",
     "ABV": "6.30%",
     "My Rating": 4.75,
-    "Untappd Rating": 4.09524,
+    "Untappd Rating": 4.0967,
     "Style Family": "Tart & Funky"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3631079_318af_sm.jpeg",
+    "Beer": "Czech 10°",
+    "Brewery": "Human Robot",
+    "Style": "Lager - Světlé (Czech Pale)",
+    "ABV": "4.20%",
+    "My Rating": 4.75,
+    "Untappd Rating": 4.03606,
+    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3651795_cb1c0_sm.jpeg",
@@ -166,7 +176,7 @@
     "Style": "Pilsner - German",
     "ABV": "5.20%",
     "My Rating": 4.75,
-    "Untappd Rating": 3.99183,
+    "Untappd Rating": 3.99297,
     "Style Family": "Crisp"
   },
   {
@@ -176,7 +186,7 @@
     "Style": "Porter - Smoked",
     "ABV": "9%",
     "My Rating": 4.75,
-    "Untappd Rating": 3.95584,
+    "Untappd Rating": 3.95762,
     "Style Family": "Smoke"
   },
   {
@@ -186,7 +196,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.80%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.58846,
+    "Untappd Rating": 4.5878,
     "Style Family": "Hop"
   },
   {
@@ -196,7 +206,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.30%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.55753,
+    "Untappd Rating": 4.5566,
     "Style Family": "Hop"
   },
   {
@@ -206,7 +216,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.5497,
+    "Untappd Rating": 4.54854,
     "Style Family": "Hop"
   },
   {
@@ -216,7 +226,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.42237,
+    "Untappd Rating": 4.4223,
     "Style Family": "Hop"
   },
   {
@@ -226,7 +236,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.41485,
+    "Untappd Rating": 4.41413,
     "Style Family": "Hop"
   },
   {
@@ -236,7 +246,17 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.41199,
+    "Untappd Rating": 4.4104,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5375734_3aed0_sm.jpeg",
+    "Beer": "Silver Fern",
+    "Brewery": "Tree House Brewing Company",
+    "Style": "IPA - Imperial / Double New England / Hazy",
+    "ABV": "7.80%",
+    "My Rating": 4.5,
+    "Untappd Rating": 4.40891,
     "Style Family": "Hop"
   },
   {
@@ -246,18 +266,8 @@
     "Style": "Stout - Imperial / Double",
     "ABV": "14%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.40901,
+    "Untappd Rating": 4.40793,
     "Style Family": "Roast"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5375734_3aed0_sm.jpeg",
-    "Beer": "Silver Fern",
-    "Brewery": "Tree House Brewing Company",
-    "Style": "IPA - Imperial / Double New England / Hazy",
-    "ABV": "7.80%",
-    "My Rating": 4.5,
-    "Untappd Rating": 4.40895,
-    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4623851_62bbd_sm.jpeg",
@@ -266,7 +276,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.40661,
+    "Untappd Rating": 4.40644,
     "Style Family": "Hop"
   },
   {
@@ -276,7 +286,7 @@
     "Style": "IPA - American",
     "ABV": "7%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.39357,
+    "Untappd Rating": 4.39287,
     "Style Family": "Hop"
   },
   {
@@ -286,7 +296,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "7.80%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.39279,
+    "Untappd Rating": 4.39234,
     "Style Family": "Hop"
   },
   {
@@ -296,7 +306,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.70%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.38083,
+    "Untappd Rating": 4.38027,
     "Style Family": "Hop"
   },
   {
@@ -306,7 +316,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.37437,
+    "Untappd Rating": 4.37231,
     "Style Family": "Hop"
   },
   {
@@ -316,7 +326,7 @@
     "Style": "Stout - Imperial / Double Coffee",
     "ABV": "12%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.36823,
+    "Untappd Rating": 4.36759,
     "Style Family": "Roast"
   },
   {
@@ -326,7 +336,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.36528,
+    "Untappd Rating": 4.36517,
     "Style Family": "Hop"
   },
   {
@@ -336,7 +346,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.33628,
+    "Untappd Rating": 4.33618,
     "Style Family": "Hop"
   },
   {
@@ -346,17 +356,17 @@
     "Style": "Farmhouse Ale - Brett",
     "ABV": "6.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.32766,
+    "Untappd Rating": 4.32564,
     "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
-    "Beer": "Happy New Year (2022)",
+    "Beer": "Happy New Year",
     "Brewery": "Tree House Brewing Company",
     "Style": "IPA - Imperial / Double",
     "ABV": "8.60%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.32601,
+    "Untappd Rating": 4.30062,
     "Style Family": "Hop"
   },
   {
@@ -366,7 +376,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.29614,
+    "Untappd Rating": 4.29527,
     "Style Family": "Hop"
   },
   {
@@ -376,17 +386,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.29391,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6205520_a2bb4_sm.jpeg",
-    "Beer": "Juicy Machine",
-    "Brewery": "Tree House Brewing Company",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7.10%",
-    "My Rating": 4.5,
-    "Untappd Rating": 4.29254,
+    "Untappd Rating": 4.29235,
     "Style Family": "Hop"
   },
   {
@@ -396,18 +396,18 @@
     "Style": "Stout - Imperial / Double Milk",
     "ABV": "9.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.29233,
+    "Untappd Rating": 4.29228,
     "Style Family": "Roast"
   },
   {
-    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
-    "Beer": "Symposia",
-    "Brewery": "Hill Farmstead Brewery",
-    "Style": "Rauchbier",
-    "ABV": "5%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6205520_a2bb4_sm.jpeg",
+    "Beer": "Juicy Machine",
+    "Brewery": "Tree House Brewing Company",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7.10%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.28711,
-    "Style Family": "Smoke"
+    "Untappd Rating": 4.29102,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-6190149_1d5b7_sm.jpeg",
@@ -416,8 +416,18 @@
     "Style": "Pilsner - Czech / Bohemian",
     "ABV": "5%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.28565,
+    "Untappd Rating": 4.28476,
     "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
+    "Beer": "Symposia",
+    "Brewery": "Hill Farmstead Brewery",
+    "Style": "Rauchbier",
+    "ABV": "5%",
+    "My Rating": 4.5,
+    "Untappd Rating": 4.27885,
+    "Style Family": "Smoke"
   },
   {
     "Label": "https://assets.untappd.com/site/brewery_logos/brewery-82753_b6ced.jpeg",
@@ -446,7 +456,7 @@
     "Style": "Pale Ale - New England / Hazy",
     "ABV": "5.80%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.26448,
+    "Untappd Rating": 4.26343,
     "Style Family": "Hop"
   },
   {
@@ -456,7 +466,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.25157,
+    "Untappd Rating": 4.25168,
     "Style Family": "Hop"
   },
   {
@@ -466,7 +476,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.90%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.24071,
+    "Untappd Rating": 4.24005,
     "Style Family": "Hop"
   },
   {
@@ -476,7 +486,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5.60%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.23197,
+    "Untappd Rating": 4.23131,
     "Style Family": "Hop"
   },
   {
@@ -486,7 +496,7 @@
     "Style": "IPA - New Zealand",
     "ABV": "7%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.22786,
+    "Untappd Rating": 4.22771,
     "Style Family": "Hop"
   },
   {
@@ -506,7 +516,7 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "5.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.22395,
+    "Untappd Rating": 4.22388,
     "Style Family": "Tart & Funky"
   },
   {
@@ -526,7 +536,7 @@
     "Style": "IPA - New Zealand",
     "ABV": "6.60%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.21883,
+    "Untappd Rating": 4.21877,
     "Style Family": "Hop"
   },
   {
@@ -536,7 +546,17 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8.10%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.21794,
+    "Untappd Rating": 4.21758,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5818918_e8be9_sm.jpeg",
+    "Beer": "Little Fern",
+    "Brewery": "Tree House Brewing Company",
+    "Style": "IPA - New Zealand",
+    "ABV": "6.20%",
+    "My Rating": 4.5,
+    "Untappd Rating": 4.21,
     "Style Family": "Hop"
   },
   {
@@ -546,7 +566,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.60%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.1957,
+    "Untappd Rating": 4.19383,
     "Style Family": "Hop"
   },
   {
@@ -580,23 +600,13 @@
     "Style Family": "Tart & Funky"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6400618_2d9da_sm.jpeg",
-    "Beer": "robotic humans",
-    "Brewery": "everywhere",
-    "Style": "Kellerbier / Zwickelbier - Kellerpils",
-    "ABV": "5.10%",
-    "My Rating": 4.5,
-    "Untappd Rating": 4.14934,
-    "Style Family": "Crisp"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-6494215_97196_sm.jpeg",
     "Beer": "Forager’s Dusk Dreaming",
     "Brewery": "Timber Ales",
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.14066,
+    "Untappd Rating": 4.13637,
     "Style Family": "Hop"
   },
   {
@@ -610,13 +620,23 @@
     "Style Family": "Tart & Funky"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6400618_2d9da_sm.jpeg",
+    "Beer": "robotic humans",
+    "Brewery": "everywhere",
+    "Style": "Kellerbier / Zwickelbier - Kellerpils",
+    "ABV": "5.10%",
+    "My Rating": 4.5,
+    "Untappd Rating": 4.12559,
+    "Style Family": "Crisp"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4454396_756e0_sm.jpeg",
     "Beer": "Little Machine",
     "Brewery": "Tree House Brewing Company",
     "Style": "Pale Ale - New England / Hazy",
     "ABV": "5.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.1221,
+    "Untappd Rating": 4.12211,
     "Style Family": "Hop"
   },
   {
@@ -626,17 +646,17 @@
     "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "5.30%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.119,
+    "Untappd Rating": 4.12177,
     "Style Family": "Malt"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-545798_173aa_sm.jpeg",
-    "Beer": "Eureka (w/ Citra)",
+    "Beer": "Eureka Citra",
     "Brewery": "Tree House Brewing Company",
     "Style": "Blonde / Golden Ale - Other",
     "ABV": "4.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.11727,
+    "Untappd Rating": 4.11625,
     "Style Family": "Crisp"
   },
   {
@@ -646,7 +666,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.60%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.11443,
+    "Untappd Rating": 4.1134,
     "Style Family": "Hop"
   },
   {
@@ -656,8 +676,18 @@
     "Style": "Pale Ale - American",
     "ABV": "5.80%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.10146,
+    "Untappd Rating": 4.10067,
     "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-17845_cbae1_sm.jpeg",
+    "Beer": "Holger Danske",
+    "Brewery": "Hill Farmstead Brewery",
+    "Style": "Smoked Beer",
+    "ABV": "7%",
+    "My Rating": 4.5,
+    "Untappd Rating": 4.09638,
+    "Style Family": "Smoke"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5982157_5f5a7_sm.jpeg",
@@ -666,7 +696,7 @@
     "Style": "Lager - Světlé (Czech Pale)",
     "ABV": "4.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.07924,
+    "Untappd Rating": 4.07818,
     "Style Family": "Crisp"
   },
   {
@@ -686,7 +716,7 @@
     "Style": "Lager - Polotmavé (Czech Amber)",
     "ABV": "5%",
     "My Rating": 4.5,
-    "Untappd Rating": 4.04309,
+    "Untappd Rating": 4.04296,
     "Style Family": "Crisp"
   },
   {
@@ -696,7 +726,7 @@
     "Style": "IPA - American",
     "ABV": "6.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 3.88728,
+    "Untappd Rating": 3.88601,
     "Style Family": "Hop"
   },
   {
@@ -706,7 +736,7 @@
     "Style": "Lager - Světlé (Czech Pale)",
     "ABV": "4.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 3.84947,
+    "Untappd Rating": 3.8483,
     "Style Family": "Crisp"
   },
   {
@@ -726,7 +756,7 @@
     "Style": "Rauchbier",
     "ABV": "4.20%",
     "My Rating": 4.5,
-    "Untappd Rating": 3.79555,
+    "Untappd Rating": 3.79097,
     "Style Family": "Smoke"
   },
   {
@@ -736,17 +766,17 @@
     "Style": "Rauchbier",
     "ABV": "6.50%",
     "My Rating": 4.5,
-    "Untappd Rating": 3.73596,
+    "Untappd Rating": 3.73619,
     "Style Family": "Smoke"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-1311963_56451_sm.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1311963_fba1f_sm.jpeg",
     "Beer": "Trösten",
     "Brewery": "von Trapp Brewing",
     "Style": "Lager - Smoked",
     "ABV": "6%",
     "My Rating": 4.5,
-    "Untappd Rating": 3.7342,
+    "Untappd Rating": 3.73423,
     "Style Family": "Smoke"
   },
   {
@@ -763,20 +793,20 @@
     "Label": "https://assets.untappd.com/site/beer_logos/beer-10366_f4099_sm.jpeg",
     "Beer": "Bière Ambrée parfumée au Tarry Suchong (BATS)",
     "Brewery": "Brasserie des Franches-Montagnes (BFM)",
-    "Style": "Red Ale - Ambrée",
+    "Style": "Smoked Beer",
     "ABV": "6%",
     "My Rating": 4.5,
-    "Untappd Rating": 3.61176,
-    "Style Family": "Malt"
+    "Untappd Rating": 3.61293,
+    "Style Family": "Smoke"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-32200_ee666_sm.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-32200_197d4_sm.jpeg",
     "Beer": "Helles",
     "Brewery": "von Trapp Brewing",
     "Style": "Lager - Helles",
     "ABV": "4.90%",
     "My Rating": 4.5,
-    "Untappd Rating": 3.58916,
+    "Untappd Rating": 3.59046,
     "Style Family": "Crisp"
   },
   {
@@ -786,7 +816,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.51694,
+    "Untappd Rating": 4.5159,
     "Style Family": "Hop"
   },
   {
@@ -796,7 +826,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.48796,
+    "Untappd Rating": 4.48728,
     "Style Family": "Hop"
   },
   {
@@ -806,7 +836,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.47696,
+    "Untappd Rating": 4.4744,
     "Style Family": "Hop"
   },
   {
@@ -816,7 +846,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.46024,
+    "Untappd Rating": 4.45608,
     "Style Family": "Hop"
   },
   {
@@ -826,7 +856,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.10%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.4341,
+    "Untappd Rating": 4.43422,
     "Style Family": "Hop"
   },
   {
@@ -836,7 +866,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.41952,
+    "Untappd Rating": 4.41935,
     "Style Family": "Hop"
   },
   {
@@ -846,7 +876,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.40%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.41938,
+    "Untappd Rating": 4.4182,
     "Style Family": "Hop"
   },
   {
@@ -856,7 +886,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.41694,
+    "Untappd Rating": 4.41725,
     "Style Family": "Hop"
   },
   {
@@ -866,7 +896,7 @@
     "Style": "Stout - Imperial / Double Coffee",
     "ABV": "15%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.41044,
+    "Untappd Rating": 4.40862,
     "Style Family": "Roast"
   },
   {
@@ -876,7 +906,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.40506,
+    "Untappd Rating": 4.40174,
     "Style Family": "Hop"
   },
   {
@@ -886,7 +916,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.38067,
+    "Untappd Rating": 4.38032,
     "Style Family": "Hop"
   },
   {
@@ -896,7 +926,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "7.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.38055,
+    "Untappd Rating": 4.37693,
     "Style Family": "Hop"
   },
   {
@@ -906,7 +936,7 @@
     "Style": "IPA - Sour",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.37375,
+    "Untappd Rating": 4.37395,
     "Style Family": "Tart & Funky"
   },
   {
@@ -916,7 +946,7 @@
     "Style": "Stout - Imperial / Double",
     "ABV": "14.10%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.37017,
+    "Untappd Rating": 4.36951,
     "Style Family": "Roast"
   },
   {
@@ -926,7 +956,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.34803,
+    "Untappd Rating": 4.34726,
     "Style Family": "Hop"
   },
   {
@@ -936,7 +966,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.33576,
+    "Untappd Rating": 4.33531,
     "Style Family": "Hop"
   },
   {
@@ -946,7 +976,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "7.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.33248,
+    "Untappd Rating": 4.3294,
     "Style Family": "Hop"
   },
   {
@@ -956,7 +986,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.3324,
+    "Untappd Rating": 4.32717,
     "Style Family": "Hop"
   },
   {
@@ -966,7 +996,7 @@
     "Style": "Sour - Fruited Gose",
     "ABV": "5.10%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.32153,
+    "Untappd Rating": 4.31998,
     "Style Family": "Tart & Funky"
   },
   {
@@ -976,7 +1006,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.31487,
+    "Untappd Rating": 4.31481,
     "Style Family": "Hop"
   },
   {
@@ -986,7 +1016,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.30045,
+    "Untappd Rating": 4.30138,
     "Style Family": "Hop"
   },
   {
@@ -996,7 +1026,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.29676,
+    "Untappd Rating": 4.29646,
     "Style Family": "Hop"
   },
   {
@@ -1006,17 +1036,17 @@
     "Style": "Pale Ale - New England / Hazy",
     "ABV": "5.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.29398,
+    "Untappd Rating": 4.29271,
     "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-1322232_cb17b_sm.jpeg",
     "Beer": "Single Shot",
     "Brewery": "Tree House Brewing Company",
-    "Style": "Stout - Milk / Sweet",
+    "Style": "Stout - Coffee",
     "ABV": "6.40%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.28121,
+    "Untappd Rating": 4.28114,
     "Style Family": "Roast"
   },
   {
@@ -1026,18 +1056,8 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "7.70%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.27948,
+    "Untappd Rating": 4.27959,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6486774_4caf3_sm.jpeg",
-    "Beer": "Duration 2021",
-    "Brewery": "Wheatland Spring Farm + Brewery",
-    "Style": "Sour - Flanders Red Ale",
-    "ABV": "9%",
-    "My Rating": 4.25,
-    "Untappd Rating": 4.26731,
-    "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5040864_d76a0_sm.jpeg",
@@ -1046,7 +1066,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.26635,
+    "Untappd Rating": 4.265,
     "Style Family": "Hop"
   },
   {
@@ -1056,7 +1076,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.25561,
+    "Untappd Rating": 4.25518,
     "Style Family": "Hop"
   },
   {
@@ -1066,18 +1086,8 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "6%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.24782,
+    "Untappd Rating": 4.24737,
     "Style Family": "Tart & Funky"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-467174_84d9e_sm.jpeg",
-    "Beer": "Congress Street",
-    "Brewery": "Trillium Brewing Company",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7.20%",
-    "My Rating": 4.25,
-    "Untappd Rating": 4.24741,
-    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4167696_3e614_sm.jpeg",
@@ -1086,7 +1096,17 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.24489,
+    "Untappd Rating": 4.24386,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-467174_84d9e_sm.jpeg",
+    "Beer": "Congress Street",
+    "Brewery": "Trillium Brewing Company",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7.20%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.24341,
     "Style Family": "Hop"
   },
   {
@@ -1096,28 +1116,8 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.24274,
+    "Untappd Rating": 4.24315,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-_361211_sm_ec8a180a3b612ea7e73e444889e757.jpeg",
-    "Beer": "Brother Soigné",
-    "Brewery": "Grassroots Brewing",
-    "Style": "Farmhouse Ale - Saison",
-    "ABV": "5%",
-    "My Rating": 4.25,
-    "Untappd Rating": 4.24035,
-    "Style Family": "Tart & Funky"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6643855_fb530_sm.jpeg",
-    "Beer": "Return Estate Pilsner B6",
-    "Brewery": "Wheatland Spring Farm + Brewery",
-    "Style": "Pilsner - Other",
-    "ABV": "5.20%",
-    "My Rating": 4.25,
-    "Untappd Rating": 4.23989,
-    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5118581_0ec51_sm.jpeg",
@@ -1126,7 +1126,17 @@
     "Style": "Sour - Other",
     "ABV": "11%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.23897,
+    "Untappd Rating": 4.24075,
+    "Style Family": "Tart & Funky"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-_361211_sm_ec8a180a3b612ea7e73e444889e757.jpeg",
+    "Beer": "Brother Soigné",
+    "Brewery": "Grassroots Brewing",
+    "Style": "Farmhouse Ale - Saison",
+    "ABV": "5%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.24016,
     "Style Family": "Tart & Funky"
   },
   {
@@ -1146,7 +1156,7 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "5.90%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.23785,
+    "Untappd Rating": 4.23661,
     "Style Family": "Tart & Funky"
   },
   {
@@ -1156,7 +1166,7 @@
     "Style": "IPA - American",
     "ABV": "6.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.23754,
+    "Untappd Rating": 4.23658,
     "Style Family": "Hop"
   },
   {
@@ -1166,7 +1176,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.23242,
+    "Untappd Rating": 4.23144,
     "Style Family": "Hop"
   },
   {
@@ -1176,7 +1186,7 @@
     "Style": "IPA - American",
     "ABV": "6%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.22672,
+    "Untappd Rating": 4.2258,
     "Style Family": "Hop"
   },
   {
@@ -1200,6 +1210,16 @@
     "Style Family": "Roast"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5249828_042b7_sm.jpeg",
+    "Beer": "Thursday (2023)",
+    "Brewery": "Cycle Brewing Company",
+    "Style": "Stout - Imperial / Double Coffee",
+    "ABV": "12.50%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.21601,
+    "Style Family": "Roast"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5142971_6b186_sm.jpeg",
     "Beer": "CÉPAGE Argentin",
     "Brewery": "BreWskey",
@@ -1220,26 +1240,6 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-1562806_aea96_sm.jpeg",
-    "Beer": "Galaxy Dry Hop Pseudo Sue",
-    "Brewery": "Toppling Goliath Brewing Co.",
-    "Style": "Pale Ale - American",
-    "ABV": "5.80%",
-    "My Rating": 4.25,
-    "Untappd Rating": 4.21358,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
-    "Beer": "Double Manilita",
-    "Brewery": "Hill Farmstead Brewery",
-    "Style": "IPA - Imperial / Double New England / Hazy",
-    "ABV": "8%",
-    "My Rating": 4.25,
-    "Untappd Rating": 4.21314,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2497388_35889_sm.jpeg",
     "Beer": "Rye Barrel-Aged COLOSSAL® Six",
     "Brewery": "Port City Brewing",
@@ -1250,14 +1250,24 @@
     "Style Family": "Roast"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5249828_042b7_sm.jpeg",
-    "Beer": "Thursday (2023)",
-    "Brewery": "Cycle Brewing Company",
-    "Style": "Stout - Imperial / Double Coffee",
-    "ABV": "12.50%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1562806_aea96_sm.jpeg",
+    "Beer": "Galaxy Dry Hop Pseudo Sue",
+    "Brewery": "Toppling Goliath Brewing Co.",
+    "Style": "Pale Ale - American",
+    "ABV": "5.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.21132,
-    "Style Family": "Roast"
+    "Untappd Rating": 4.21142,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
+    "Beer": "Double Manilita",
+    "Brewery": "Hill Farmstead Brewery",
+    "Style": "IPA - Imperial / Double New England / Hazy",
+    "ABV": "8%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.21044,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-13559_b484d_sm.jpeg",
@@ -1266,7 +1276,7 @@
     "Style": "Pale Ale - American",
     "ABV": "6.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.20621,
+    "Untappd Rating": 4.20426,
     "Style Family": "Hop"
   },
   {
@@ -1276,8 +1286,18 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "6.30%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.20016,
+    "Untappd Rating": 4.20113,
     "Style Family": "Tart & Funky"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6643855_fb530_sm.jpeg",
+    "Beer": "Return Estate Pilsner B6",
+    "Brewery": "Wheatland Spring Farm + Brewery",
+    "Style": "Pilsner - Other",
+    "ABV": "5.20%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.2,
+    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5756788_1c3b4_sm.jpeg",
@@ -1286,7 +1306,17 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "6%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.19711,
+    "Untappd Rating": 4.19653,
+    "Style Family": "Tart & Funky"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6486774_4caf3_sm.jpeg",
+    "Beer": "Duration 2021",
+    "Brewery": "Wheatland Spring Farm + Brewery",
+    "Style": "Sour - Flanders Red Ale",
+    "ABV": "9%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.18984,
     "Style Family": "Tart & Funky"
   },
   {
@@ -1296,7 +1326,7 @@
     "Style": "Sour - Fruited Berliner Weisse",
     "ABV": "4.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.18989,
+    "Untappd Rating": 4.18959,
     "Style Family": "Tart & Funky"
   },
   {
@@ -1306,7 +1336,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.18924,
+    "Untappd Rating": 4.1888,
     "Style Family": "Hop"
   },
   {
@@ -1316,7 +1346,17 @@
     "Style": "IPA - American",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.18628,
+    "Untappd Rating": 4.18576,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5523977_adc84_sm.jpeg",
+    "Beer": "Foster",
+    "Brewery": "Hill Farmstead Brewery",
+    "Style": "IPA - American",
+    "ABV": "6%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.18362,
     "Style Family": "Hop"
   },
   {
@@ -1326,7 +1366,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.1681,
+    "Untappd Rating": 4.16647,
     "Style Family": "Hop"
   },
   {
@@ -1336,7 +1376,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7.30%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.15799,
+    "Untappd Rating": 4.15756,
     "Style Family": "Hop"
   },
   {
@@ -1346,7 +1386,7 @@
     "Style": "IPA - American",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.14169,
+    "Untappd Rating": 4.14099,
     "Style Family": "Hop"
   },
   {
@@ -1356,7 +1396,7 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.13988,
+    "Untappd Rating": 4.14002,
     "Style Family": "Tart & Funky"
   },
   {
@@ -1370,13 +1410,13 @@
     "Style Family": "Tart & Funky"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5472330_5cd92_sm.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5472330_b9c3c_sm.jpeg",
     "Beer": "Fardeau XTRM TURBO",
     "Brewery": "Messorem",
     "Style": "IPA - New England / Hazy",
     "ABV": "6.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.12832,
+    "Untappd Rating": 4.13498,
     "Style Family": "Hop"
   },
   {
@@ -1386,7 +1426,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.12576,
+    "Untappd Rating": 4.12298,
     "Style Family": "Hop"
   },
   {
@@ -1416,7 +1456,7 @@
     "Style": "Stout - Imperial / Double Coffee",
     "ABV": "9.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.09751,
+    "Untappd Rating": 4.09726,
     "Style Family": "Roast"
   },
   {
@@ -1426,7 +1466,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.0951,
+    "Untappd Rating": 4.09518,
     "Style Family": "Hop"
   },
   {
@@ -1436,7 +1476,7 @@
     "Style": "Brett Beer",
     "ABV": "5.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.08235,
+    "Untappd Rating": 4.08193,
     "Style Family": "Tart & Funky"
   },
   {
@@ -1446,7 +1486,7 @@
     "Style": "Brown Ale - American",
     "ABV": "6%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.07718,
+    "Untappd Rating": 4.07773,
     "Style Family": "Roast"
   },
   {
@@ -1456,7 +1496,7 @@
     "Style": "Pilsner - Other",
     "ABV": "5.10%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.06065,
+    "Untappd Rating": 4.05949,
     "Style Family": "Crisp"
   },
   {
@@ -1480,34 +1520,24 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-960066_0cd6b_sm.jpeg",
-    "Beer": "LUX",
-    "Brewery": "Bissell Brothers Brewing Company",
-    "Style": "Pale Ale - American",
-    "ABV": "5.10%",
-    "My Rating": 4.25,
-    "Untappd Rating": 4.04727,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4927495_0a7f7_sm.jpeg",
     "Beer": "Rösten",
     "Brewery": "Human Robot",
     "Style": "Lager - Helles",
     "ABV": "4.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.04697,
+    "Untappd Rating": 4.04799,
     "Style Family": "Crisp"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6129888_11534_sm.jpeg",
-    "Beer": "Apple Brandy Barrel-Aged Colossal Anniversary Ale",
-    "Brewery": "Port City Brewing",
-    "Style": "Old / Stock Ale",
-    "ABV": "11.50%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-960066_0cd6b_sm.jpeg",
+    "Beer": "LUX",
+    "Brewery": "Bissell Brothers Brewing Company",
+    "Style": "Pale Ale - American",
+    "ABV": "5.10%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.04452,
-    "Style Family": "Malt"
+    "Untappd Rating": 4.04641,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3263741_e3360_sm.jpeg",
@@ -1516,18 +1546,18 @@
     "Style": "IPA - American",
     "ABV": "6.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.04198,
+    "Untappd Rating": 4.0412,
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-4061166_b26fa_sm.jpeg",
-    "Beer": "Loam",
-    "Brewery": "The Drowned Lands Brewery",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "6.50%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6129888_11534_sm.jpeg",
+    "Beer": "Apple Brandy Barrel-Aged Colossal Anniversary Ale",
+    "Brewery": "Port City Brewing",
+    "Style": "Old / Stock Ale",
+    "ABV": "11.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.03873,
-    "Style Family": "Hop"
+    "Untappd Rating": 4.04008,
+    "Style Family": "Malt"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-6050250_86827_sm.jpeg",
@@ -1540,8 +1570,18 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-4061166_b26fa_sm.jpeg",
+    "Beer": "Loam",
+    "Brewery": "The Drowned Lands Brewery",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "6.50%",
+    "My Rating": 4.25,
+    "Untappd Rating": 4.03018,
+    "Style Family": "Hop"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2641050_4b16a_sm.jpeg",
-    "Beer": "Late Night Thriller",
+    "Beer": "Late Night Thriller (2018-2022)",
     "Brewery": "Bluejacket",
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
@@ -1556,7 +1596,7 @@
     "Style": "Kölsch",
     "ABV": "4.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.0177,
+    "Untappd Rating": 4.01782,
     "Style Family": "Crisp"
   },
   {
@@ -1566,7 +1606,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.0128,
+    "Untappd Rating": 4.00868,
     "Style Family": "Hop"
   },
   {
@@ -1586,7 +1626,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 4.00525,
+    "Untappd Rating": 4.00143,
     "Style Family": "Hop"
   },
   {
@@ -1636,7 +1676,7 @@
     "Style": "Stout - Irish Dry",
     "ABV": "5.40%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.96425,
+    "Untappd Rating": 3.95998,
     "Style Family": "Roast"
   },
   {
@@ -1646,7 +1686,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.95934,
+    "Untappd Rating": 3.95944,
     "Style Family": "Hop"
   },
   {
@@ -1666,7 +1706,7 @@
     "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "4%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.94715,
+    "Untappd Rating": 3.94472,
     "Style Family": "Malt"
   },
   {
@@ -1686,7 +1726,7 @@
     "Style": "Festbier",
     "ABV": "5.60%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.93334,
+    "Untappd Rating": 3.93924,
     "Style Family": "Crisp"
   },
   {
@@ -1696,7 +1736,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.91386,
+    "Untappd Rating": 3.91367,
     "Style Family": "Hop"
   },
   {
@@ -1706,7 +1746,7 @@
     "Style": "Lager - Polotmavé (Czech Amber)",
     "ABV": "4.10%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.91061,
+    "Untappd Rating": 3.91138,
     "Style Family": "Crisp"
   },
   {
@@ -1716,7 +1756,7 @@
     "Style": "IPA - American",
     "ABV": "5.70%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.89052,
+    "Untappd Rating": 3.88994,
     "Style Family": "Hop"
   },
   {
@@ -1726,7 +1766,7 @@
     "Style": "Belgian Strong Dark Ale",
     "ABV": "9%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.88705,
+    "Untappd Rating": 3.88616,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -1754,9 +1794,9 @@
     "Beer": "Schwarz",
     "Brewery": "von Trapp Brewing",
     "Style": "Schwarzbier",
-    "ABV": "5.20%",
+    "ABV": "5%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.84485,
+    "Untappd Rating": 3.84338,
     "Style Family": "Roast"
   },
   {
@@ -1766,7 +1806,7 @@
     "Style": "Pale Ale - New England / Hazy",
     "ABV": "4.50%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.83329,
+    "Untappd Rating": 3.83284,
     "Style Family": "Hop"
   },
   {
@@ -1776,7 +1816,7 @@
     "Style": "Lager - Helles",
     "ABV": "5%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.78,
+    "Untappd Rating": 3.78042,
     "Style Family": "Crisp"
   },
   {
@@ -1786,7 +1826,7 @@
     "Style": "Wheat Beer - Hefeweizen",
     "ABV": "5.40%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.77631,
+    "Untappd Rating": 3.77592,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -1796,7 +1836,7 @@
     "Style": "Pilsner - German",
     "ABV": "5.60%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.77283,
+    "Untappd Rating": 3.77399,
     "Style Family": "Crisp"
   },
   {
@@ -1806,7 +1846,7 @@
     "Style": "Rauchbier",
     "ABV": "7%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.76751,
+    "Untappd Rating": 3.76719,
     "Style Family": "Smoke"
   },
   {
@@ -1816,17 +1856,17 @@
     "Style": "Historical Beer - Grodziskie / Grätzer",
     "ABV": "3.80%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.60638,
+    "Untappd Rating": 3.61043,
     "Style Family": "Smoke"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-705199_003a9_sm.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-705199_f17b0_sm.jpeg",
     "Beer": "Pilsner",
     "Brewery": "von Trapp Brewing",
     "Style": "Pilsner - Czech / Bohemian",
     "ABV": "5.40%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.58103,
+    "Untappd Rating": 3.58232,
     "Style Family": "Crisp"
   },
   {
@@ -1836,7 +1876,7 @@
     "Style": "Rauchbier",
     "ABV": "5.20%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.53943,
+    "Untappd Rating": 3.53868,
     "Style Family": "Smoke"
   },
   {
@@ -1846,7 +1886,7 @@
     "Style": "Pilsner - Other",
     "ABV": "4.60%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.53859,
+    "Untappd Rating": 3.53861,
     "Style Family": "Crisp"
   },
   {
@@ -1856,7 +1896,7 @@
     "Style": "Rauchbier",
     "ABV": "5.10%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.46215,
+    "Untappd Rating": 3.46048,
     "Style Family": "Smoke"
   },
   {
@@ -1866,7 +1906,7 @@
     "Style": "Lager - Pale",
     "ABV": "5%",
     "My Rating": 4.25,
-    "Untappd Rating": 3.21295,
+    "Untappd Rating": 3.21894,
     "Style Family": "Crisp"
   },
   {
@@ -1876,7 +1916,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.58569,
+    "Untappd Rating": 4.58506,
     "Style Family": "Hop"
   },
   {
@@ -1886,7 +1926,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.4734,
+    "Untappd Rating": 4.47224,
     "Style Family": "Hop"
   },
   {
@@ -1896,7 +1936,7 @@
     "Style": "Stout - Milk / Sweet",
     "ABV": "7.70%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.45082,
+    "Untappd Rating": 4.44993,
     "Style Family": "Roast"
   },
   {
@@ -1906,7 +1946,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.30%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.38093,
+    "Untappd Rating": 4.38078,
     "Style Family": "Hop"
   },
   {
@@ -1916,7 +1956,7 @@
     "Style": "Stout - Imperial / Double Coffee",
     "ABV": "10%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.35422,
+    "Untappd Rating": 4.3525,
     "Style Family": "Roast"
   },
   {
@@ -1926,7 +1966,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.35179,
+    "Untappd Rating": 4.35108,
     "Style Family": "Hop"
   },
   {
@@ -1936,7 +1976,7 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "6%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.33242,
+    "Untappd Rating": 4.33262,
     "Style Family": "Tart & Funky"
   },
   {
@@ -1956,7 +1996,7 @@
     "Style": "Porter - American",
     "ABV": "7.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.32701,
+    "Untappd Rating": 4.32685,
     "Style Family": "Roast"
   },
   {
@@ -1966,17 +2006,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.3072,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-4784006_6ea1d_sm.jpeg",
-    "Beer": "Teacher’s Pet",
-    "Brewery": "Fidens Brewing Co.",
-    "Style": "Pale Ale - New England / Hazy",
-    "ABV": "5.40%",
-    "My Rating": 4.0,
-    "Untappd Rating": 4.29699,
+    "Untappd Rating": 4.30638,
     "Style Family": "Hop"
   },
   {
@@ -1986,7 +2016,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "7.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.29698,
+    "Untappd Rating": 4.29643,
     "Style Family": "Hop"
   },
   {
@@ -2000,13 +2030,33 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-4784006_6ea1d_sm.jpeg",
+    "Beer": "Teacher’s Pet",
+    "Brewery": "Fidens Brewing Co.",
+    "Style": "Pale Ale - New England / Hazy",
+    "ABV": "5.40%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.29575,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-149173_b3b0a_sm.jpeg",
+    "Beer": "Society & Solitude #3",
+    "Brewery": "Hill Farmstead Brewery",
+    "Style": "IPA - Imperial / Double",
+    "ABV": "8%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.29282,
+    "Style Family": "Hop"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3464055_a861c_sm.jpeg",
     "Beer": "Pop Crimes",
     "Brewery": "Foam Brewers",
     "Style": "IPA - Triple New England / Hazy",
     "ABV": "10%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.29053,
+    "Untappd Rating": 4.28983,
     "Style Family": "Hop"
   },
   {
@@ -2026,7 +2076,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.27002,
+    "Untappd Rating": 4.26761,
     "Style Family": "Hop"
   },
   {
@@ -2036,7 +2086,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.26888,
+    "Untappd Rating": 4.26684,
     "Style Family": "Hop"
   },
   {
@@ -2066,17 +2116,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.25528,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-1802264_e269b_sm.jpeg",
-    "Beer": "whiteferrari",
-    "Brewery": "The Veil Brewing Co.",
-    "Style": "IPA - Imperial / Double New England / Hazy",
-    "ABV": "8%",
-    "My Rating": 4.0,
-    "Untappd Rating": 4.25427,
+    "Untappd Rating": 4.25286,
     "Style Family": "Hop"
   },
   {
@@ -2086,7 +2126,17 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "7.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.25351,
+    "Untappd Rating": 4.25268,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1802264_e269b_sm.jpeg",
+    "Beer": "whiteferrari",
+    "Brewery": "The Veil Brewing Co.",
+    "Style": "IPA - Imperial / Double New England / Hazy",
+    "ABV": "8%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.24984,
     "Style Family": "Hop"
   },
   {
@@ -2096,17 +2146,17 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.40%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.24438,
+    "Untappd Rating": 4.24165,
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-282634_11a16_sm.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-282634_429dd_sm.jpeg",
     "Beer": "Sap",
     "Brewery": "Tree House Brewing Company",
     "Style": "IPA - New England / Hazy",
     "ABV": "7.30%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.24008,
+    "Untappd Rating": 4.24003,
     "Style Family": "Hop"
   },
   {
@@ -2116,7 +2166,7 @@
     "Style": "IPA - American",
     "ABV": "6.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.23459,
+    "Untappd Rating": 4.23441,
     "Style Family": "Hop"
   },
   {
@@ -2126,7 +2176,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8.20%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.23224,
+    "Untappd Rating": 4.23203,
     "Style Family": "Hop"
   },
   {
@@ -2140,16 +2190,6 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-1611103_2e19f_sm.jpeg",
-    "Beer": "Double Orange Starfish",
-    "Brewery": "Aslin Beer Company",
-    "Style": "IPA - Imperial / Double New England / Hazy",
-    "ABV": "8.30%",
-    "My Rating": 4.0,
-    "Untappd Rating": 4.21027,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/brewery_logos/brewery-64039_65d26.jpeg",
     "Beer": "The Frais: Strata",
     "Brewery": "de Garde Brewing",
@@ -2160,13 +2200,23 @@
     "Style Family": "Tart & Funky"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1611103_2e19f_sm.jpeg",
+    "Beer": "Double Orange Starfish",
+    "Brewery": "Aslin Beer Company",
+    "Style": "IPA - Imperial / Double New England / Hazy",
+    "ABV": "8.30%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.20798,
+    "Style Family": "Hop"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5552519_13091_sm.jpeg",
     "Beer": "Upon This Earth",
     "Brewery": "Fidens Brewing Co.",
     "Style": "IPA - New England / Hazy",
     "ABV": "6.40%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.20807,
+    "Untappd Rating": 4.20656,
     "Style Family": "Hop"
   },
   {
@@ -2176,7 +2226,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7.30%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.20165,
+    "Untappd Rating": 4.20069,
     "Style Family": "Hop"
   },
   {
@@ -2186,7 +2236,7 @@
     "Style": "Pale Ale - Fruited",
     "ABV": "5.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.19849,
+    "Untappd Rating": 4.19547,
     "Style Family": "Hop"
   },
   {
@@ -2196,7 +2246,7 @@
     "Style": "Stout - Coffee",
     "ABV": "6.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.19431,
+    "Untappd Rating": 4.1939,
     "Style Family": "Roast"
   },
   {
@@ -2216,7 +2266,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.1922,
+    "Untappd Rating": 4.19045,
     "Style Family": "Hop"
   },
   {
@@ -2226,7 +2276,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "9%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.18555,
+    "Untappd Rating": 4.18485,
     "Style Family": "Hop"
   },
   {
@@ -2246,7 +2296,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.16881,
+    "Untappd Rating": 4.1687,
     "Style Family": "Hop"
   },
   {
@@ -2256,7 +2306,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.165,
+    "Untappd Rating": 4.16437,
     "Style Family": "Hop"
   },
   {
@@ -2266,7 +2316,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.15834,
+    "Untappd Rating": 4.15786,
     "Style Family": "Hop"
   },
   {
@@ -2276,7 +2326,7 @@
     "Style": "IPA - American",
     "ABV": "7%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.15429,
+    "Untappd Rating": 4.15363,
     "Style Family": "Hop"
   },
   {
@@ -2286,7 +2336,7 @@
     "Style": "IPA - American",
     "ABV": "6.25%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.14788,
+    "Untappd Rating": 4.14748,
     "Style Family": "Hop"
   },
   {
@@ -2296,7 +2346,7 @@
     "Style": "Stout - Imperial / Double Milk",
     "ABV": "12.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.14465,
+    "Untappd Rating": 4.14412,
     "Style Family": "Roast"
   },
   {
@@ -2307,6 +2357,16 @@
     "ABV": "8%",
     "My Rating": 4.0,
     "Untappd Rating": 4.14345,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1704051_aae34_sm.jpeg",
+    "Beer": "Pride & Purpose",
+    "Brewery": "Tree House Brewing Company",
+    "Style": "Pale Ale - New England / Hazy",
+    "ABV": "5.10%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.13555,
     "Style Family": "Hop"
   },
   {
@@ -2326,7 +2386,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.10%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.10945,
+    "Untappd Rating": 4.1089,
     "Style Family": "Hop"
   },
   {
@@ -2346,17 +2406,7 @@
     "Style": "IPA - American",
     "ABV": "7%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.0968,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-3791257_43dbb_sm.jpeg",
-    "Beer": "Dreamstate",
-    "Brewery": "Kettlehead Brewing",
-    "Style": "IPA - Imperial / Double New England / Hazy",
-    "ABV": "8%",
-    "My Rating": 4.0,
-    "Untappd Rating": 4.09603,
+    "Untappd Rating": 4.09569,
     "Style Family": "Hop"
   },
   {
@@ -2370,13 +2420,23 @@
     "Style Family": "Smoke"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3791257_43dbb_sm.jpeg",
+    "Beer": "Dreamstate",
+    "Brewery": "Kettlehead Brewing",
+    "Style": "IPA - Imperial / Double New England / Hazy",
+    "ABV": "8%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.09346,
+    "Style Family": "Hop"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2300605_e8234_sm.jpeg",
     "Beer": "NOBO",
     "Brewery": "Monument City Brewing",
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.06825,
+    "Untappd Rating": 4.06768,
     "Style Family": "Hop"
   },
   {
@@ -2396,7 +2456,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.06315,
+    "Untappd Rating": 4.06272,
     "Style Family": "Hop"
   },
   {
@@ -2406,18 +2466,8 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "7%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.06226,
+    "Untappd Rating": 4.06204,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5701605_da94b_sm.jpeg",
-    "Beer": "Adorn",
-    "Brewery": "Wheatland Spring Farm + Brewery",
-    "Style": "Pilsner - Italian",
-    "ABV": "5.30%",
-    "My Rating": 4.0,
-    "Untappd Rating": 4.06222,
-    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5171303_0aa30_sm.jpeg",
@@ -2426,8 +2476,18 @@
     "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "4.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.05694,
+    "Untappd Rating": 4.05827,
     "Style Family": "Malt"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5701605_da94b_sm.jpeg",
+    "Beer": "Adorn",
+    "Brewery": "Wheatland Spring Farm + Brewery",
+    "Style": "Pilsner - Italian",
+    "ABV": "5.30%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.05755,
+    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-6133441_3fbe0_sm.jpeg",
@@ -2456,7 +2516,7 @@
     "Style": "Pale Ale - American",
     "ABV": "4%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.04716,
+    "Untappd Rating": 4.04216,
     "Style Family": "Hop"
   },
   {
@@ -2466,7 +2526,7 @@
     "Style": "Pilsner - Czech / Bohemian",
     "ABV": "5.40%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.03742,
+    "Untappd Rating": 4.03763,
     "Style Family": "Crisp"
   },
   {
@@ -2476,7 +2536,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.03522,
+    "Untappd Rating": 4.03321,
     "Style Family": "Hop"
   },
   {
@@ -2486,7 +2546,7 @@
     "Style": "Sour - Fruited Gose",
     "ABV": "4.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.02819,
+    "Untappd Rating": 4.02762,
     "Style Family": "Tart & Funky"
   },
   {
@@ -2516,18 +2576,8 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "5.75%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.01409,
+    "Untappd Rating": 4.01842,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-2147346_34a0a_sm.jpeg",
-    "Beer": "Saison Rosé",
-    "Brewery": "Oxbow Brewing Company",
-    "Style": "Farmhouse Ale - Saison",
-    "ABV": "6%",
-    "My Rating": 4.0,
-    "Untappd Rating": 4.01399,
-    "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5006837_db28e_sm.jpeg",
@@ -2540,14 +2590,14 @@
     "Style Family": "Smoke"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5838994_75908_sm.jpeg",
-    "Beer": "The Green Place",
-    "Brewery": "Magnanimous Brewing",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7.50%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-2147346_34a0a_sm.jpeg",
+    "Beer": "Saison Rosé",
+    "Brewery": "Oxbow Brewing Company",
+    "Style": "Farmhouse Ale - Saison",
+    "ABV": "6%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.01283,
-    "Style Family": "Hop"
+    "Untappd Rating": 4.01254,
+    "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2476907_35e61_sm.jpeg",
@@ -2556,8 +2606,18 @@
     "Style": "Sour - Berliner Weisse",
     "ABV": "5%",
     "My Rating": 4.0,
-    "Untappd Rating": 4.00887,
+    "Untappd Rating": 4.01087,
     "Style Family": "Tart & Funky"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5838994_75908_sm.jpeg",
+    "Beer": "The Green Place",
+    "Brewery": "Magnanimous Brewing",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7.50%",
+    "My Rating": 4.0,
+    "Untappd Rating": 4.00511,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5210218_d6c41_sm.jpeg",
@@ -2570,13 +2630,23 @@
     "Style Family": "Crisp"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-4621974_9f4cd_sm.jpeg",
+    "Beer": "Push",
+    "Brewery": "The Veil Brewing Co.",
+    "Style": "Farmhouse Ale - Other",
+    "ABV": "6%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.99698,
+    "Style Family": "Tart & Funky"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3449533_b7b48_sm.jpeg",
     "Beer": "Hemingway",
     "Brewery": "Commonwealth Brewing Company",
     "Style": "Sour - Fruited Gose",
     "ABV": "5.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.99307,
+    "Untappd Rating": 3.99309,
     "Style Family": "Tart & Funky"
   },
   {
@@ -2600,26 +2670,6 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-4621974_9f4cd_sm.jpeg",
-    "Beer": "Push",
-    "Brewery": "The Veil Brewing Co.",
-    "Style": "Farmhouse Ale - Other",
-    "ABV": "6%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.99229,
-    "Style Family": "Tart & Funky"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-2357140_b241a_sm.jpeg",
-    "Beer": "The Agent",
-    "Brewery": "Kettlehead Brewing",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.99087,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-6129882_b32a6_sm.jpeg",
     "Beer": "Tyranny of the Unimaginative",
     "Brewery": "Lost Generation Brewing Company",
@@ -2640,13 +2690,23 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-2357140_b241a_sm.jpeg",
+    "Beer": "The Agent",
+    "Brewery": "Kettlehead Brewing",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.98878,
+    "Style Family": "Hop"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3929960_1fcc0_sm.jpeg",
     "Beer": "Blue Noir",
     "Brewery": "Oxbow Brewing Company",
     "Style": "Farmhouse Ale - Other",
     "ABV": "7%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.9868,
+    "Untappd Rating": 3.9819,
     "Style Family": "Tart & Funky"
   },
   {
@@ -2666,7 +2726,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.96114,
+    "Untappd Rating": 3.96123,
     "Style Family": "Hop"
   },
   {
@@ -2676,7 +2736,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.95871,
+    "Untappd Rating": 3.96119,
     "Style Family": "Hop"
   },
   {
@@ -2686,17 +2746,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.95694,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-4675543_b5f71_sm.jpeg",
-    "Beer": "Green Flowers",
-    "Brewery": "Other Half Brewing Co.",
-    "Style": "IPA - American",
-    "ABV": "6.80%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.9511,
+    "Untappd Rating": 3.9579,
     "Style Family": "Hop"
   },
   {
@@ -2706,18 +2756,18 @@
     "Style": "Pilsner - German",
     "ABV": "5%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.95034,
+    "Untappd Rating": 3.94842,
     "Style Family": "Crisp"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5265246_4d724_sm.jpeg",
-    "Beer": "Dying Moons & Shadows",
-    "Brewery": "Lost Generation Brewing Company",
-    "Style": "Lager - Tmavé (Czech Dark)",
-    "ABV": "5%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-4675543_b5f71_sm.jpeg",
+    "Beer": "Green Flowers",
+    "Brewery": "Other Half Brewing Co.",
+    "Style": "IPA - American",
+    "ABV": "6.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.94092,
-    "Style Family": "Malt"
+    "Untappd Rating": 3.94797,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5028703_6ddbe_sm.jpeg",
@@ -2736,7 +2786,7 @@
     "Style": "Lager - Světlé (Czech Pale)",
     "ABV": "4.20%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.93564,
+    "Untappd Rating": 3.93494,
     "Style Family": "Crisp"
   },
   {
@@ -2746,28 +2796,18 @@
     "Style": "Belgian Strong Golden Ale",
     "ABV": "7.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.93479,
+    "Untappd Rating": 3.93449,
     "Style Family": "Fruit & Spice"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-3849797_f3713_sm.jpeg",
-    "Beer": "Alien Observer",
-    "Brewery": "Foam Brewers",
-    "Style": "Sour - Fruited Gose",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5265246_4d724_sm.jpeg",
+    "Beer": "Dying Moons & Shadows",
+    "Brewery": "Lost Generation Brewing Company",
+    "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "5%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.93355,
-    "Style Family": "Tart & Funky"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-451361_dac98.jpeg",
-    "Beer": "Nebular Velvet",
-    "Brewery": "Heliotrope Brewery",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7.30%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.92742,
-    "Style Family": "Hop"
+    "Untappd Rating": 3.93265,
+    "Style Family": "Malt"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3728920_4e972_sm.jpeg",
@@ -2776,8 +2816,28 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "5.70%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.92635,
+    "Untappd Rating": 3.92646,
     "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-451361_dac98.jpeg",
+    "Beer": "Church Camp Hookup",
+    "Brewery": "Heliotrope Brewery",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "6.60%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.92609,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3849797_f3713_sm.jpeg",
+    "Beer": "Alien Observer",
+    "Brewery": "Foam Brewers",
+    "Style": "Sour - Fruited Gose",
+    "ABV": "5%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.92448,
+    "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3751431_af31c_sm.jpeg",
@@ -2786,8 +2846,18 @@
     "Style": "Historical Beer - Pre-Prohibition Lager",
     "ABV": "5.30%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.91958,
+    "Untappd Rating": 3.91831,
     "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-451361_dac98.jpeg",
+    "Beer": "Nebular Velvet",
+    "Brewery": "Heliotrope Brewery",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7.30%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.91667,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2449923_a813c_sm.jpeg",
@@ -2796,7 +2866,7 @@
     "Style": "Pale Ale - New England / Hazy",
     "ABV": "5%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.91373,
+    "Untappd Rating": 3.91375,
     "Style Family": "Hop"
   },
   {
@@ -2820,16 +2890,6 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-451361_dac98.jpeg",
-    "Beer": "Church Camp Hookup",
-    "Brewery": "Heliotrope Brewery",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "6.60%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.90787,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4341966_5480c_sm.jpeg",
     "Beer": "TSTF",
     "Brewery": "Bluejacket",
@@ -2846,7 +2906,7 @@
     "Style": "Lager - Smoked",
     "ABV": "5.10%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.90288,
+    "Untappd Rating": 3.90301,
     "Style Family": "Smoke"
   },
   {
@@ -2866,7 +2926,7 @@
     "Style": "Pale Ale - New Zealand",
     "ABV": "4.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.89776,
+    "Untappd Rating": 3.89648,
     "Style Family": "Hop"
   },
   {
@@ -2876,18 +2936,8 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.88304,
+    "Untappd Rating": 3.88305,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-272842_a994d.jpeg",
-    "Beer": "Lichtenhainer",
-    "Brewery": "Dovetail Brewery",
-    "Style": "Historical Beer - Lichtenhainer",
-    "ABV": "3.80%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.88202,
-    "Style Family": "Smoke"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5624797_00479_sm.jpeg",
@@ -2920,13 +2970,23 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-272842_a994d.jpeg",
+    "Beer": "Lichtenhainer",
+    "Brewery": "Dovetail Brewery",
+    "Style": "Historical Beer - Lichtenhainer",
+    "ABV": "3.80%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.86447,
+    "Style Family": "Smoke"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2994936_d90ac_sm.jpeg",
     "Beer": "Baby Shark",
     "Brewery": "Aslin Beer Company",
     "Style": "IPA - New England / Hazy",
     "ABV": "5.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.85922,
+    "Untappd Rating": 3.85911,
     "Style Family": "Hop"
   },
   {
@@ -2956,7 +3016,7 @@
     "Style": "Sour - Flanders Red Ale",
     "ABV": "5.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.83912,
+    "Untappd Rating": 3.83895,
     "Style Family": "Tart & Funky"
   },
   {
@@ -2966,7 +3026,7 @@
     "Style": "Wheat Beer - Hefeweizen",
     "ABV": "6.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.83641,
+    "Untappd Rating": 3.83572,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -2976,18 +3036,8 @@
     "Style": "IPA - American",
     "ABV": "6%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.83557,
+    "Untappd Rating": 3.83517,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-7408_a806b_sm.jpeg",
-    "Beer": "Weihenstephaner Vitus",
-    "Brewery": "Bayerische Staatsbrauerei Weihenstephan",
-    "Style": "Bock - Weizenbock",
-    "ABV": "7.70%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.82828,
-    "Style Family": "Fruit & Spice"
   },
   {
     "Label": "https://assets.untappd.com/site/brewery_logos/brewery-11094_742f6.jpeg",
@@ -2996,8 +3046,18 @@
     "Style": "Stout - English",
     "ABV": "4.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.82828,
+    "Untappd Rating": 3.83457,
     "Style Family": "Roast"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-7408_a806b_sm.jpeg",
+    "Beer": "Weihenstephaner Vitus",
+    "Brewery": "Bayerische Staatsbrauerei Weihenstephan",
+    "Style": "Bock - Weizenbock",
+    "ABV": "7.70%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.82778,
+    "Style Family": "Fruit & Spice"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3782613_dc08c_sm.jpeg",
@@ -3016,8 +3076,18 @@
     "Style": "Belgian Strong Golden Ale",
     "ABV": "8%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.81084,
+    "Untappd Rating": 3.81009,
     "Style Family": "Fruit & Spice"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5979662_18259_sm.jpeg",
+    "Beer": "Moonrise Kingdom",
+    "Brewery": "Bluejacket",
+    "Style": "Mild - Other",
+    "ABV": "3.50%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.80578,
+    "Style Family": "Malt"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5227064_67a64_sm.jpeg",
@@ -3026,18 +3096,8 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "5.30%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.8058,
+    "Untappd Rating": 3.80565,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-29950_92ca3_sm.jpeg",
-    "Beer": "Porter",
-    "Brewery": "Port City Brewing",
-    "Style": "Porter - American",
-    "ABV": "7.20%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.7823,
-    "Style Family": "Roast"
   },
   {
     "Label": "https://assets.untappd.com/site/brewery_logos/brewery-88_ae3c3.jpeg",
@@ -3046,8 +3106,18 @@
     "Style": "Lager - Helles",
     "ABV": "4.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.78139,
+    "Untappd Rating": 3.79052,
     "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-29950_92ca3_sm.jpeg",
+    "Beer": "Porter",
+    "Brewery": "Port City Brewing",
+    "Style": "Porter - American",
+    "ABV": "7.20%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.78241,
+    "Style Family": "Roast"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-1572639_528f0_sm.jpeg",
@@ -3056,7 +3126,7 @@
     "Style": "Rauchbier",
     "ABV": "5.30%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.77839,
+    "Untappd Rating": 3.778,
     "Style Family": "Smoke"
   },
   {
@@ -3066,7 +3136,7 @@
     "Style": "Rauchbier",
     "ABV": "4.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.77136,
+    "Untappd Rating": 3.7696,
     "Style Family": "Smoke"
   },
   {
@@ -3076,7 +3146,7 @@
     "Style": "Stout - Irish Dry",
     "ABV": "4.20%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.76798,
+    "Untappd Rating": 3.76875,
     "Style Family": "Roast"
   },
   {
@@ -3096,18 +3166,8 @@
     "Style": "Wheat Beer - Witbier / Blanche",
     "ABV": "5.20%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.74565,
+    "Untappd Rating": 3.74557,
     "Style Family": "Fruit & Spice"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-71833_50a27_sm.jpeg",
-    "Beer": "Smoke & Dagger",
-    "Brewery": "Jack’s Abby Craft Lagers",
-    "Style": "Lager - Smoked",
-    "ABV": "5.60%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.72649,
-    "Style Family": "Smoke"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4359309_ecb15_sm.jpeg",
@@ -3120,13 +3180,23 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-71833_50a27_sm.jpeg",
+    "Beer": "Smoke & Dagger",
+    "Brewery": "Jack’s Abby Craft Lagers",
+    "Style": "Lager - Smoked",
+    "ABV": "5.60%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.72132,
+    "Style Family": "Smoke"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-87492_3e408_sm.jpeg",
     "Beer": "OxtoberFest",
     "Brewery": "Oxbow Brewing Company",
     "Style": "Farmhouse Ale - Bière de Garde",
     "ABV": "5.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.68192,
+    "Untappd Rating": 3.68529,
     "Style Family": "Malt"
   },
   {
@@ -3136,17 +3206,17 @@
     "Style": "Wheat Beer - Kristallweizen",
     "ABV": "5.40%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.67855,
+    "Untappd Rating": 3.67861,
     "Style Family": "Fruit & Spice"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-15677_e4b29_sm.jpeg",
-    "Beer": "Paulaner Hefe-Weißbier / Hefe-Weizen / Weissbier",
+    "Beer": "Hefe-Weißbier / Hefe-Weizen / Weissbier",
     "Brewery": "Paulaner Brauerei",
     "Style": "Wheat Beer - Hefeweizen",
     "ABV": "5.50%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.67098,
+    "Untappd Rating": 3.67123,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -3160,24 +3230,24 @@
     "Style Family": "Fruit & Spice"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-82397_6a9e5_sm.jpeg",
+    "Beer": "Oktoberfest",
+    "Brewery": "von Trapp Brewing",
+    "Style": "Märzen",
+    "ABV": "5.60%",
+    "My Rating": 4.0,
+    "Untappd Rating": 3.66176,
+    "Style Family": "Crisp"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-8935_4c8c7_sm.jpeg",
     "Beer": "Brown Ale",
     "Brewery": "Legend Brewing Company",
     "Style": "Brown Ale - American",
     "ABV": "6%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.66073,
+    "Untappd Rating": 3.66106,
     "Style Family": "Roast"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-82397_361a4_sm.jpeg",
-    "Beer": "Oktoberfest",
-    "Brewery": "von Trapp Brewing",
-    "Style": "Märzen",
-    "ABV": "5.60%",
-    "My Rating": 4.0,
-    "Untappd Rating": 3.65734,
-    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-12563_265a0_sm.jpeg",
@@ -3186,7 +3256,7 @@
     "Style": "Red Ale - American Amber / Red",
     "ABV": "5%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.62619,
+    "Untappd Rating": 3.62626,
     "Style Family": "Hop"
   },
   {
@@ -3196,7 +3266,7 @@
     "Style": "IPA - Session",
     "ABV": "4.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.61948,
+    "Untappd Rating": 3.61929,
     "Style Family": "Hop"
   },
   {
@@ -3206,7 +3276,7 @@
     "Style": "Belgian Blonde",
     "ABV": "6.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.58359,
+    "Untappd Rating": 3.5833,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -3216,7 +3286,7 @@
     "Style": "Wheat Beer - Hefeweizen",
     "ABV": "5.20%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.57349,
+    "Untappd Rating": 3.58099,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -3226,7 +3296,7 @@
     "Style": "Lager - Helles",
     "ABV": "4.30%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.47835,
+    "Untappd Rating": 3.47718,
     "Style Family": "Crisp"
   },
   {
@@ -3236,7 +3306,7 @@
     "Style": "Pilsner - Other",
     "ABV": "4.90%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.44816,
+    "Untappd Rating": 3.44802,
     "Style Family": "Crisp"
   },
   {
@@ -3246,7 +3316,7 @@
     "Style": "Wheat Beer - American Pale Wheat",
     "ABV": "4.80%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.36992,
+    "Untappd Rating": 3.37053,
     "Style Family": "Crisp"
   },
   {
@@ -3256,7 +3326,7 @@
     "Style": "Lager - Pale",
     "ABV": "5%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.2852,
+    "Untappd Rating": 3.28707,
     "Style Family": "Crisp"
   },
   {
@@ -3266,7 +3336,7 @@
     "Style": "Lager - Pale",
     "ABV": "4.60%",
     "My Rating": 4.0,
-    "Untappd Rating": 3.20038,
+    "Untappd Rating": 3.20429,
     "Style Family": "Crisp"
   },
   {
@@ -3276,7 +3346,7 @@
     "Style": "Lager - American Light",
     "ABV": "4.20%",
     "My Rating": 4.0,
-    "Untappd Rating": 2.34885,
+    "Untappd Rating": 2.35026,
     "Style Family": "Crisp"
   },
   {
@@ -3286,7 +3356,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.60107,
+    "Untappd Rating": 4.59933,
     "Style Family": "Hop"
   },
   {
@@ -3296,7 +3366,7 @@
     "Style": "Stout - Imperial / Double",
     "ABV": "11.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.39863,
+    "Untappd Rating": 4.39839,
     "Style Family": "Roast"
   },
   {
@@ -3306,7 +3376,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.32699,
+    "Untappd Rating": 4.32681,
     "Style Family": "Hop"
   },
   {
@@ -3316,7 +3386,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.28442,
+    "Untappd Rating": 4.28328,
     "Style Family": "Hop"
   },
   {
@@ -3346,7 +3416,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.23614,
+    "Untappd Rating": 4.23585,
     "Style Family": "Hop"
   },
   {
@@ -3366,7 +3436,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.23068,
+    "Untappd Rating": 4.22965,
     "Style Family": "Hop"
   },
   {
@@ -3396,17 +3466,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.19361,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-2935238_8b7a1_sm.jpeg",
-    "Beer": "Hyperfocus Citra",
-    "Brewery": "Grimm Artisanal Ales",
-    "Style": "IPA - Imperial / Double New England / Hazy",
-    "ABV": "8%",
-    "My Rating": 3.75,
-    "Untappd Rating": 4.18195,
+    "Untappd Rating": 4.1937,
     "Style Family": "Hop"
   },
   {
@@ -3426,7 +3486,17 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8.40%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.17545,
+    "Untappd Rating": 4.17373,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-2935238_8b7a1_sm.jpeg",
+    "Beer": "Hyperfocus Citra",
+    "Brewery": "Grimm Artisanal Ales",
+    "Style": "IPA - Imperial / Double New England / Hazy",
+    "ABV": "8%",
+    "My Rating": 3.75,
+    "Untappd Rating": 4.17121,
     "Style Family": "Hop"
   },
   {
@@ -3436,7 +3506,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.16954,
+    "Untappd Rating": 4.16668,
     "Style Family": "Hop"
   },
   {
@@ -3446,17 +3516,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.13664,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6686910_3cb44_sm.jpeg",
-    "Beer": "Priam",
-    "Brewery": "Lolev Beer",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7%",
-    "My Rating": 3.75,
-    "Untappd Rating": 4.13367,
+    "Untappd Rating": 4.13585,
     "Style Family": "Hop"
   },
   {
@@ -3466,7 +3526,17 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.11697,
+    "Untappd Rating": 4.11695,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6686910_4ea9c_sm.jpeg",
+    "Beer": "Priam",
+    "Brewery": "Lolev Beer",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7%",
+    "My Rating": 3.75,
+    "Untappd Rating": 4.1158,
     "Style Family": "Hop"
   },
   {
@@ -3476,7 +3546,7 @@
     "Style": "Stout - Imperial / Double Coffee",
     "ABV": "8.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.10717,
+    "Untappd Rating": 4.10686,
     "Style Family": "Roast"
   },
   {
@@ -3486,7 +3556,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.10571,
+    "Untappd Rating": 4.10397,
     "Style Family": "Hop"
   },
   {
@@ -3496,7 +3566,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "9.40%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.08835,
+    "Untappd Rating": 4.0877,
     "Style Family": "Hop"
   },
   {
@@ -3506,7 +3576,7 @@
     "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "5.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.08231,
+    "Untappd Rating": 4.08371,
     "Style Family": "Malt"
   },
   {
@@ -3526,7 +3596,7 @@
     "Style": "Lager - Světlé (Czech Pale)",
     "ABV": "4.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.06297,
+    "Untappd Rating": 4.06351,
     "Style Family": "Crisp"
   },
   {
@@ -3556,7 +3626,7 @@
     "Style": "IPA - American",
     "ABV": "6%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.04653,
+    "Untappd Rating": 4.04504,
     "Style Family": "Hop"
   },
   {
@@ -3576,7 +3646,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.04078,
+    "Untappd Rating": 4.04064,
     "Style Family": "Hop"
   },
   {
@@ -3596,7 +3666,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.02085,
+    "Untappd Rating": 4.02107,
     "Style Family": "Hop"
   },
   {
@@ -3610,16 +3680,6 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-3355394_4d1a9_sm.jpeg",
-    "Beer": "Source of Hoppiness",
-    "Brewery": "Source Brewing",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "6.50%",
-    "My Rating": 3.75,
-    "Untappd Rating": 4.01347,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4401716_f7b00_sm.jpeg",
     "Beer": "Acheron",
     "Brewery": "Ghost Town Brewing",
@@ -3630,13 +3690,13 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-1086721_32bd2_sm.jpeg",
-    "Beer": "Lustra",
-    "Brewery": "Dancing Gnome",
-    "Style": "Pale Ale - New England / Hazy",
-    "ABV": "5.80%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3355394_4d1a9_sm.jpeg",
+    "Beer": "Source of Hoppiness",
+    "Brewery": "Source Brewing",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "6.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.0108,
+    "Untappd Rating": 4.01151,
     "Style Family": "Hop"
   },
   {
@@ -3650,13 +3710,23 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1086721_32bd2_sm.jpeg",
+    "Beer": "Lustra",
+    "Brewery": "Dancing Gnome",
+    "Style": "Pale Ale - New England / Hazy",
+    "ABV": "5.80%",
+    "My Rating": 3.75,
+    "Untappd Rating": 4.00971,
+    "Style Family": "Hop"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5963070_3d9ac_sm.jpeg",
     "Beer": "Narwhal Imperial Stout (2024)",
     "Brewery": "Sierra Nevada Brewing Co.",
     "Style": "Stout - Imperial / Double",
     "ABV": "10.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 4.00767,
+    "Untappd Rating": 4.0087,
     "Style Family": "Roast"
   },
   {
@@ -3700,16 +3770,6 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-4133710_52c19_sm.jpeg",
-    "Beer": "Aosta",
-    "Brewery": "Schilling Beer Co.",
-    "Style": "Pilsner - Italian",
-    "ABV": "5%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.98491,
-    "Style Family": "Crisp"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5610000_2233e_sm.jpeg",
     "Beer": "Cranksgiving '23",
     "Brewery": "Groove Brewing",
@@ -3720,24 +3780,14 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-3832058_03200_sm.jpeg",
-    "Beer": "Little Sip",
-    "Brewery": "Lawson’s Finest Liquids",
-    "Style": "IPA - American",
-    "ABV": "6.20%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-4133710_52c19_sm.jpeg",
+    "Beer": "Aosta",
+    "Brewery": "Schilling Beer Co.",
+    "Style": "Pilsner - Italian",
+    "ABV": "5%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.95982,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-856504_1bb0a_sm.jpeg",
-    "Beer": "Citrennial",
-    "Brewery": "Foley Brothers Brewing",
-    "Style": "IPA - American",
-    "ABV": "6.70%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.95916,
-    "Style Family": "Hop"
+    "Untappd Rating": 3.98146,
+    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4544686_b873d_sm.jpeg",
@@ -3746,8 +3796,28 @@
     "Style": "Lager - Smoked",
     "ABV": "5.70%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.95604,
+    "Untappd Rating": 3.96018,
     "Style Family": "Smoke"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-856504_1bb0a_sm.jpeg",
+    "Beer": "Citrennial",
+    "Brewery": "Foley Brothers Brewing",
+    "Style": "IPA - American",
+    "ABV": "6.70%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.95919,
+    "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3832058_03200_sm.jpeg",
+    "Beer": "Little Sip",
+    "Brewery": "Lawson’s Finest Liquids",
+    "Style": "IPA - American",
+    "ABV": "6.20%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.95735,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2743_4cdb5_sm.jpeg",
@@ -3756,7 +3826,7 @@
     "Style": "Pale Ale - American",
     "ABV": "6.66%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.95444,
+    "Untappd Rating": 3.95415,
     "Style Family": "Hop"
   },
   {
@@ -3770,34 +3840,24 @@
     "Style Family": "Smoke"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-883318_6a64c_sm.jpeg",
-    "Beer": "Pernicious",
-    "Brewery": "Wicked Weed Brewing",
-    "Style": "IPA - American",
-    "ABV": "7.30%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.94002,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-978286_43899_sm.jpeg",
     "Beer": "Forever Ever",
     "Brewery": "Other Half Brewing Co.",
     "Style": "IPA - Session New England / Hazy",
     "ABV": "4.70%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.93933,
+    "Untappd Rating": 3.93914,
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5312634_4adbf_sm.jpeg",
-    "Beer": "Old Blush",
-    "Brewery": "Fonta Flora Brewery",
-    "Style": "Grape Ale - Other",
-    "ABV": "7.20%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-883318_6a64c_sm.jpeg",
+    "Beer": "Pernicious",
+    "Brewery": "Wicked Weed Brewing",
+    "Style": "IPA - American",
+    "ABV": "7.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.93793,
-    "Style Family": "Tart & Funky"
+    "Untappd Rating": 3.93893,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/brewery_logos/brewery-451361_dac98.jpeg",
@@ -3810,13 +3870,23 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5312634_4adbf_sm.jpeg",
+    "Beer": "Old Blush",
+    "Brewery": "Fonta Flora Brewery",
+    "Style": "Grape Ale - Other",
+    "ABV": "7.20%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.92759,
+    "Style Family": "Tart & Funky"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2745195_fe0a5_sm.jpeg",
     "Beer": "Pretentious Hopper",
     "Brewery": "Rekˈ·lis Brewing Company",
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.92326,
+    "Untappd Rating": 3.92334,
     "Style Family": "Hop"
   },
   {
@@ -3836,7 +3906,7 @@
     "Style": "Lager - Helles",
     "ABV": "4.80%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.91983,
+    "Untappd Rating": 3.92025,
     "Style Family": "Crisp"
   },
   {
@@ -3846,7 +3916,7 @@
     "Style": "Farmhouse Ale - Brett",
     "ABV": "6.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.90565,
+    "Untappd Rating": 3.90537,
     "Style Family": "Tart & Funky"
   },
   {
@@ -3906,7 +3976,7 @@
     "Style": "IPA - American",
     "ABV": "7.10%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.8827,
+    "Untappd Rating": 3.88249,
     "Style Family": "Hop"
   },
   {
@@ -3930,16 +4000,6 @@
     "Style Family": "Tart & Funky"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-2389896_14876_sm.jpeg",
-    "Beer": "Partly Cloudy",
-    "Brewery": "Solace Brewing Company",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7.50%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.87849,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4266029_bdf6f_sm.jpeg",
     "Beer": "Exotic Talk",
     "Brewery": "Bluejacket",
@@ -3950,14 +4010,14 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5564019_0163d_sm.jpeg",
-    "Beer": "West Coast Pils",
-    "Brewery": "von Trapp Brewing",
-    "Style": "Pilsner - American",
-    "ABV": "6%",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-2389896_14876_sm.jpeg",
+    "Beer": "Partly Cloudy",
+    "Brewery": "Solace Brewing Company",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.87138,
-    "Style Family": "Crisp"
+    "Untappd Rating": 3.87808,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5953484_b5b4e_sm.jpeg",
@@ -3980,13 +4040,23 @@
     "Style Family": "Hop"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5564019_0163d_sm.jpeg",
+    "Beer": "West Coast Pils",
+    "Brewery": "von Trapp Brewing",
+    "Style": "Pilsner - American",
+    "ABV": "6%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.86781,
+    "Style Family": "Crisp"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5749186_ed2a2_sm.jpeg",
     "Beer": "Little Wizard",
     "Brewery": "Burlington Beer Co.",
     "Style": "IPA - New England / Hazy",
     "ABV": "6%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.86114,
+    "Untappd Rating": 3.86038,
     "Style Family": "Hop"
   },
   {
@@ -4006,7 +4076,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "5.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.85479,
+    "Untappd Rating": 3.85468,
     "Style Family": "Hop"
   },
   {
@@ -4016,7 +4086,7 @@
     "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "4.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.85297,
+    "Untappd Rating": 3.85255,
     "Style Family": "Malt"
   },
   {
@@ -4036,7 +4106,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.83368,
+    "Untappd Rating": 3.83386,
     "Style Family": "Hop"
   },
   {
@@ -4046,7 +4116,7 @@
     "Style": "Wheat Beer - Witbier / Blanche",
     "ABV": "4.80%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.82717,
+    "Untappd Rating": 3.82616,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -4056,8 +4126,18 @@
     "Style": "Märzen",
     "ABV": "5.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.81769,
+    "Untappd Rating": 3.81788,
     "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6255972_d76cf_sm.jpeg",
+    "Beer": "Voyage Into Infinity",
+    "Brewery": "Bluejacket",
+    "Style": "IPA - New England / Hazy",
+    "ABV": "7%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.79852,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4422184_c8b87_sm.jpeg",
@@ -4070,23 +4150,13 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6255972_d76cf_sm.jpeg",
-    "Beer": "Voyage Into Infinity",
-    "Brewery": "Bluejacket",
-    "Style": "IPA - New England / Hazy",
-    "ABV": "7%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.79732,
-    "Style Family": "Hop"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3437102_4dd5a_sm.jpeg",
     "Beer": "Tmavé Pivo",
     "Brewery": "Port City Brewing",
     "Style": "Lager - Tmavé (Czech Dark)",
     "ABV": "4.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.78785,
+    "Untappd Rating": 3.78798,
     "Style Family": "Malt"
   },
   {
@@ -4100,13 +4170,23 @@
     "Style Family": "Tart & Funky"
   },
   {
+    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-4939_b41ba.jpeg",
+    "Beer": "Rhinelager",
+    "Brewery": "Devils Backbone Brewing Company",
+    "Style": "Pilsner - German",
+    "ABV": "5%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.77222,
+    "Style Family": "Crisp"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2412786_c2d78_sm.jpeg",
     "Beer": "Hazy Little Thing",
     "Brewery": "Sierra Nevada Brewing Co.",
     "Style": "IPA - New England / Hazy",
     "ABV": "6.70%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.77161,
+    "Untappd Rating": 3.77082,
     "Style Family": "Hop"
   },
   {
@@ -4136,18 +4216,8 @@
     "Style": "Scotch Ale / Wee Heavy",
     "ABV": "8.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.7654,
+    "Untappd Rating": 3.76528,
     "Style Family": "Malt"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-4939_b41ba.jpeg",
-    "Beer": "Rhinelager",
-    "Brewery": "Devils Backbone Brewing Company",
-    "Style": "Pilsner - German",
-    "ABV": "5%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.76506,
-    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-6683_e3943_sm.jpeg",
@@ -4156,7 +4226,7 @@
     "Style": "Bock - Doppelbock",
     "ABV": "6.70%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.76255,
+    "Untappd Rating": 3.76199,
     "Style Family": "Malt"
   },
   {
@@ -4170,24 +4240,24 @@
     "Style Family": "Roast"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6349826_ecf0a_sm.jpeg",
-    "Beer": "Aecht Schlenkerla á la Grodziskie",
-    "Brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
-    "Style": "Historical Beer - Grodziskie / Grätzer",
-    "ABV": "2.90%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.7417,
-    "Style Family": "Smoke"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-1799205_2d9b8_sm.jpeg",
     "Beer": "The 6th Lord",
     "Brewery": "Basic City Beer Co",
     "Style": "IPA - American",
     "ABV": "5.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.73457,
+    "Untappd Rating": 3.73456,
     "Style Family": "Hop"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6349826_ecf0a_sm.jpeg",
+    "Beer": "Aecht Schlenkerla á la Grodziskie",
+    "Brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
+    "Style": "Historical Beer - Grodziskie / Grätzer",
+    "ABV": "2.90%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.72727,
+    "Style Family": "Smoke"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-16630_5a42c_sm.jpeg",
@@ -4196,7 +4266,7 @@
     "Style": "IPA - American",
     "ABV": "6.80%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.72422,
+    "Untappd Rating": 3.72402,
     "Style Family": "Hop"
   },
   {
@@ -4206,7 +4276,7 @@
     "Style": "IPA - American",
     "ABV": "5.90%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.72376,
+    "Untappd Rating": 3.72367,
     "Style Family": "Hop"
   },
   {
@@ -4216,7 +4286,7 @@
     "Style": "IPA - American",
     "ABV": "5.80%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.7167,
+    "Untappd Rating": 3.71638,
     "Style Family": "Hop"
   },
   {
@@ -4236,7 +4306,7 @@
     "Style": "Rauchbier",
     "ABV": "5.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.71405,
+    "Untappd Rating": 3.7143,
     "Style Family": "Smoke"
   },
   {
@@ -4250,23 +4320,23 @@
     "Style Family": "Crisp"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-14564_16384_sm.jpeg",
-    "Beer": "Franziskaner Premium Weissbier Naturtrüb",
-    "Brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
-    "Style": "Wheat Beer - Hefeweizen",
-    "ABV": "5%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.69136,
-    "Style Family": "Fruit & Spice"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2711064_ef30f_sm.jpeg",
     "Beer": "No Backsies",
     "Brewery": "Aslin Beer Company",
     "Style": "Wheat Beer - Hefeweizen",
     "ABV": "5.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.69001,
+    "Untappd Rating": 3.69154,
+    "Style Family": "Fruit & Spice"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-14564_16384_sm.jpeg",
+    "Beer": "Franziskaner Premium Weissbier Naturtrüb",
+    "Brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+    "Style": "Wheat Beer - Hefeweizen",
+    "ABV": "5%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.69093,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -4286,7 +4356,7 @@
     "Style": "Pale Ale - American",
     "ABV": "5%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.6587,
+    "Untappd Rating": 3.65866,
     "Style Family": "Hop"
   },
   {
@@ -4296,7 +4366,7 @@
     "Style": "Märzen",
     "ABV": "5.90%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.65536,
+    "Untappd Rating": 3.65712,
     "Style Family": "Crisp"
   },
   {
@@ -4306,7 +4376,7 @@
     "Style": "Lager - Helles",
     "ABV": "5.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.64668,
+    "Untappd Rating": 3.64807,
     "Style Family": "Crisp"
   },
   {
@@ -4316,18 +4386,8 @@
     "Style": "Wheat Beer - Hefeweizen",
     "ABV": "5.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.6464,
+    "Untappd Rating": 3.64648,
     "Style Family": "Fruit & Spice"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-3831948_eb7c8_sm.jpeg",
-    "Beer": "Matches the Drapes",
-    "Brewery": "Hoptimystic Brewing",
-    "Style": "Blonde / Golden Ale - Other",
-    "ABV": "5.10%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.6381,
-    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-6115086_08101_sm.jpeg",
@@ -4336,7 +4396,17 @@
     "Style": "Lager - Helles",
     "ABV": "5.10%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.63518,
+    "Untappd Rating": 3.64484,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3831948_eb7c8_sm.jpeg",
+    "Beer": "Matches the Drapes",
+    "Brewery": "Hoptimystic Brewing",
+    "Style": "Blonde / Golden Ale - Other",
+    "ABV": "5.10%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.64005,
     "Style Family": "Crisp"
   },
   {
@@ -4346,7 +4416,7 @@
     "Style": "Pilsner - Czech / Bohemian",
     "ABV": "5%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.63385,
+    "Untappd Rating": 3.63443,
     "Style Family": "Crisp"
   },
   {
@@ -4360,23 +4430,23 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6067133_1b486_sm.jpeg",
-    "Beer": "Kirkland Signature Helles-Style Lager",
-    "Brewery": "Deschutes Brewery",
-    "Style": "Lager - Helles",
-    "ABV": "4.50%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.61125,
-    "Style Family": "Crisp"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-14192_14cae_sm.jpeg",
     "Beer": "Weihenstephaner Festbier",
     "Brewery": "Bayerische Staatsbrauerei Weihenstephan",
     "Style": "Festbier",
     "ABV": "5.80%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.60979,
+    "Untappd Rating": 3.6125,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6067133_1b486_sm.jpeg",
+    "Beer": "Kirkland Signature Helles-Style Lager",
+    "Brewery": "Deschutes Brewery",
+    "Style": "Lager - Helles",
+    "ABV": "4.50%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.61056,
     "Style Family": "Crisp"
   },
   {
@@ -4386,7 +4456,7 @@
     "Style": "Pilsner - German",
     "ABV": "5.10%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.56588,
+    "Untappd Rating": 3.56608,
     "Style Family": "Crisp"
   },
   {
@@ -4396,7 +4466,7 @@
     "Style": "Pale Ale - Belgian",
     "ABV": "5%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.55997,
+    "Untappd Rating": 3.55816,
     "Style Family": "Hop"
   },
   {
@@ -4406,7 +4476,7 @@
     "Style": "Farmhouse Ale - Bière de Garde",
     "ABV": "5.50%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.55148,
+    "Untappd Rating": 3.55199,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -4416,7 +4486,17 @@
     "Style": "Pilsner - German",
     "ABV": "5.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.52278,
+    "Untappd Rating": 3.52393,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-74539_12b9e_sm.jpeg",
+    "Beer": "Pivo Pils",
+    "Brewery": "Firestone Walker Brewing Company",
+    "Style": "Pilsner - Italian",
+    "ABV": "5.30%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.50733,
     "Style Family": "Crisp"
   },
   {
@@ -4426,7 +4506,7 @@
     "Style": "Bock - Single / Traditional",
     "ABV": "4.40%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.50509,
+    "Untappd Rating": 3.50551,
     "Style Family": "Malt"
   },
   {
@@ -4436,7 +4516,7 @@
     "Style": "Pilsner - German",
     "ABV": "5.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.44635,
+    "Untappd Rating": 3.44654,
     "Style Family": "Crisp"
   },
   {
@@ -4446,7 +4526,7 @@
     "Style": "Historical Beer - Lichtenhainer",
     "ABV": "4.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.41793,
+    "Untappd Rating": 3.42018,
     "Style Family": "Smoke"
   },
   {
@@ -4454,9 +4534,9 @@
     "Beer": "Modelo Negra",
     "Brewery": "Grupo Modelo",
     "Style": "Lager - Munich Dunkel",
-    "ABV": "5.40%",
+    "ABV": "5.30%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.31732,
+    "Untappd Rating": 3.31847,
     "Style Family": "Malt"
   },
   {
@@ -4466,17 +4546,17 @@
     "Style": "Pilsner - Other",
     "ABV": "5%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.22868,
+    "Untappd Rating": 3.2303,
     "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-18580_c6ab8_sm.jpeg",
-    "Beer": "Birra Dolomiti Pils",
+    "Beer": "Dolomiti Pils",
     "Brewery": "Fabbrica di Pedavena",
     "Style": "Pilsner - Italian",
     "ABV": "4.90%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.20111,
+    "Untappd Rating": 3.20717,
     "Style Family": "Crisp"
   },
   {
@@ -4486,7 +4566,27 @@
     "Style": "Lager - Vienna",
     "ABV": "4%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.18537,
+    "Untappd Rating": 3.18751,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-10887_ea426_sm.jpeg",
+    "Beer": "Dos Equis Lager Especial",
+    "Brewery": "Cervecería Cuauhtémoc Moctezuma",
+    "Style": "Lager - Mexican",
+    "ABV": "4.20%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.10771,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-33495_b34b6_sm.jpeg",
+    "Beer": "Premium",
+    "Brewery": "Birra Forst",
+    "Style": "Lager - Pale",
+    "ABV": "4.80%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.10682,
     "Style Family": "Crisp"
   },
   {
@@ -4500,33 +4600,13 @@
     "Style Family": "Fruit & Spice"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-33495_b34b6_sm.jpeg",
-    "Beer": "Premium",
-    "Brewery": "Birra Forst",
-    "Style": "Lager - Pale",
-    "ABV": "4.80%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.1008,
-    "Style Family": "Crisp"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-7057_46c43_sm.jpeg",
     "Beer": "Presidente",
     "Brewery": "Cervecería Nacional Dominicana",
     "Style": "Pilsner - Other",
     "ABV": "5%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.03553,
-    "Style Family": "Crisp"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5905_c0c11_sm.jpeg",
-    "Beer": "National Bohemian",
-    "Brewery": "Pabst Brewing Company",
-    "Style": "Lager - American",
-    "ABV": "4.50%",
-    "My Rating": 3.75,
-    "Untappd Rating": 3.01735,
+    "Untappd Rating": 3.03721,
     "Style Family": "Crisp"
   },
   {
@@ -4536,7 +4616,17 @@
     "Style": "Lager - Pale",
     "ABV": "4.70%",
     "My Rating": 3.75,
-    "Untappd Rating": 3.0148,
+    "Untappd Rating": 3.02194,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5905_c0c11_sm.jpeg",
+    "Beer": "National Bohemian",
+    "Brewery": "Pabst Brewing Company",
+    "Style": "Lager - American",
+    "ABV": "4.50%",
+    "My Rating": 3.75,
+    "Untappd Rating": 3.02045,
     "Style Family": "Crisp"
   },
   {
@@ -4546,7 +4636,7 @@
     "Style": "Lager - American Light",
     "ABV": "4.20%",
     "My Rating": 3.75,
-    "Untappd Rating": 2.95278,
+    "Untappd Rating": 2.95816,
     "Style Family": "Crisp"
   },
   {
@@ -4556,7 +4646,7 @@
     "Style": "Lager - American",
     "ABV": "4.70%",
     "My Rating": 3.75,
-    "Untappd Rating": 2.85716,
+    "Untappd Rating": 2.85826,
     "Style Family": "Crisp"
   },
   {
@@ -4568,6 +4658,16 @@
     "My Rating": 3.75,
     "Untappd Rating": 0.0,
     "Style Family": "Roast"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6726565_f39ce_sm.jpeg",
+    "Beer": "Carrie Furnace",
+    "Brewery": "Dancing Gnome",
+    "Style": "IPA - American",
+    "ABV": "6.80%",
+    "My Rating": 3.6,
+    "Untappd Rating": 4.02114,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5149951_3421b_sm.jpeg",
@@ -4586,7 +4686,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 4.24183,
+    "Untappd Rating": 4.24181,
     "Style Family": "Hop"
   },
   {
@@ -4606,7 +4706,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 3.5,
-    "Untappd Rating": 4.18004,
+    "Untappd Rating": 4.17801,
     "Style Family": "Hop"
   },
   {
@@ -4616,7 +4716,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8%",
     "My Rating": 3.5,
-    "Untappd Rating": 4.17023,
+    "Untappd Rating": 4.16934,
     "Style Family": "Hop"
   },
   {
@@ -4656,7 +4756,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 3.5,
-    "Untappd Rating": 4.08141,
+    "Untappd Rating": 4.07916,
     "Style Family": "Hop"
   },
   {
@@ -4666,17 +4766,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 3.5,
-    "Untappd Rating": 4.05794,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6726565_f39ce_sm.jpeg",
-    "Beer": "Carrie Furnace",
-    "Brewery": "Dancing Gnome",
-    "Style": "IPA - American",
-    "ABV": "6.80%",
-    "My Rating": 3.5,
-    "Untappd Rating": 4.02641,
+    "Untappd Rating": 4.05711,
     "Style Family": "Hop"
   },
   {
@@ -4706,7 +4796,7 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "7%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.97888,
+    "Untappd Rating": 3.9816,
     "Style Family": "Tart & Funky"
   },
   {
@@ -4716,7 +4806,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.97664,
+    "Untappd Rating": 3.97623,
     "Style Family": "Hop"
   },
   {
@@ -4726,7 +4816,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.96602,
+    "Untappd Rating": 3.96523,
     "Style Family": "Hop"
   },
   {
@@ -4736,17 +4826,7 @@
     "Style": "Blonde / Golden Ale - Other",
     "ABV": "4.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.95774,
-    "Style Family": "Crisp"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-6383582_54e3c_sm.jpeg",
-    "Beer": "Polotmavý",
-    "Brewery": "von Trapp Brewing",
-    "Style": "Lager - Polotmavé (Czech Amber)",
-    "ABV": "5.50%",
-    "My Rating": 3.5,
-    "Untappd Rating": 3.95363,
+    "Untappd Rating": 3.95848,
     "Style Family": "Crisp"
   },
   {
@@ -4756,8 +4836,28 @@
     "Style": "Belgian Tripel",
     "ABV": "9%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.95356,
+    "Untappd Rating": 3.95343,
     "Style Family": "Fruit & Spice"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6383582_54e3c_sm.jpeg",
+    "Beer": "Polotmavý",
+    "Brewery": "von Trapp Brewing",
+    "Style": "Lager - Polotmavé (Czech Amber)",
+    "ABV": "5.50%",
+    "My Rating": 3.5,
+    "Untappd Rating": 3.95342,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5017928_531c0_sm.jpeg",
+    "Beer": "Never Calm",
+    "Brewery": "The Veil Brewing Co.",
+    "Style": "Sour - Fruited Gose",
+    "ABV": "4.90%",
+    "My Rating": 3.5,
+    "Untappd Rating": 3.92511,
+    "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4041205_6ea91_sm.jpeg",
@@ -4770,23 +4870,13 @@
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5017928_531c0_sm.jpeg",
-    "Beer": "Never Calm",
-    "Brewery": "The Veil Brewing Co.",
-    "Style": "Sour - Fruited Gose",
-    "ABV": "4.90%",
-    "My Rating": 3.5,
-    "Untappd Rating": 3.92379,
-    "Style Family": "Tart & Funky"
-  },
-  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-4886_456c5_sm.jpeg",
     "Beer": "Pumking",
     "Brewery": "Southern Tier Brewing Company",
     "Style": "Pumpkin / Yam Beer",
     "ABV": "8.60%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.92263,
+    "Untappd Rating": 3.92224,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -4796,7 +4886,7 @@
     "Style": "Pilsner - American",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.90563,
+    "Untappd Rating": 3.89524,
     "Style Family": "Crisp"
   },
   {
@@ -4826,7 +4916,7 @@
     "Style": "Pale Ale - New England / Hazy",
     "ABV": "6%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.8416,
+    "Untappd Rating": 3.84019,
     "Style Family": "Hop"
   },
   {
@@ -4886,7 +4976,7 @@
     "Style": "IPA - American",
     "ABV": "5.70%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.8032,
+    "Untappd Rating": 3.80282,
     "Style Family": "Hop"
   },
   {
@@ -4896,7 +4986,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.79862,
+    "Untappd Rating": 3.79884,
     "Style Family": "Hop"
   },
   {
@@ -4906,7 +4996,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.79132,
+    "Untappd Rating": 3.79145,
     "Style Family": "Hop"
   },
   {
@@ -4916,7 +5006,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.78686,
+    "Untappd Rating": 3.78889,
     "Style Family": "Hop"
   },
   {
@@ -4926,7 +5016,7 @@
     "Style": "Bock - Doppelbock",
     "ABV": "7.40%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.76952,
+    "Untappd Rating": 3.76846,
     "Style Family": "Malt"
   },
   {
@@ -4936,7 +5026,7 @@
     "Style": "IPA - American",
     "ABV": "6.50%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.75077,
+    "Untappd Rating": 3.75073,
     "Style Family": "Hop"
   },
   {
@@ -4946,7 +5036,7 @@
     "Style": "IPA - American",
     "ABV": "6.80%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.74498,
+    "Untappd Rating": 3.74451,
     "Style Family": "Hop"
   },
   {
@@ -4956,18 +5046,8 @@
     "Style": "IPA - American",
     "ABV": "7.50%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.72478,
+    "Untappd Rating": 3.72423,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-2359727_b92ce_sm.jpeg",
-    "Beer": "Hill House",
-    "Brewery": "Bluejacket",
-    "Style": "Märzen",
-    "ABV": "6.50%",
-    "My Rating": 3.5,
-    "Untappd Rating": 3.72159,
-    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-3342223_5a9b7_sm.jpeg",
@@ -4976,8 +5056,18 @@
     "Style": "Table Beer",
     "ABV": "3.50%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.7194,
+    "Untappd Rating": 3.72176,
     "Style Family": "Tart & Funky"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-2359727_b92ce_sm.jpeg",
+    "Beer": "Hill House",
+    "Brewery": "Bluejacket",
+    "Style": "Märzen",
+    "ABV": "6.50%",
+    "My Rating": 3.5,
+    "Untappd Rating": 3.72018,
+    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/brewery_logos/brewery-170844_e2a8f.jpeg",
@@ -4986,7 +5076,17 @@
     "Style": "Märzen",
     "ABV": "6.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.71492,
+    "Untappd Rating": 3.71543,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-4826665_f5742_sm.jpeg",
+    "Beer": "Pizza Night",
+    "Brewery": "Port City Brewing",
+    "Style": "Lager - Polotmavé (Czech Amber)",
+    "ABV": "4.80%",
+    "My Rating": 3.5,
+    "Untappd Rating": 3.68466,
     "Style Family": "Crisp"
   },
   {
@@ -4996,18 +5096,8 @@
     "Style": "IPA - American",
     "ABV": "7%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.68424,
+    "Untappd Rating": 3.68423,
     "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-4826665_f5742_sm.jpeg",
-    "Beer": "Pizza Night",
-    "Brewery": "Port City Brewing",
-    "Style": "Lager - Polotmavé (Czech Amber)",
-    "ABV": "4.80%",
-    "My Rating": 3.5,
-    "Untappd Rating": 3.68152,
-    "Style Family": "Crisp"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-81327_fb759_sm.jpeg",
@@ -5016,7 +5106,7 @@
     "Style": "Schwarzbier",
     "ABV": "5.10%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.67493,
+    "Untappd Rating": 3.67525,
     "Style Family": "Roast"
   },
   {
@@ -5036,7 +5126,7 @@
     "Style": "Wheat Beer - American Pale Wheat",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.64851,
+    "Untappd Rating": 3.64867,
     "Style Family": "Crisp"
   },
   {
@@ -5046,7 +5136,7 @@
     "Style": "Lager - Vienna",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.62546,
+    "Untappd Rating": 3.62571,
     "Style Family": "Crisp"
   },
   {
@@ -5066,7 +5156,7 @@
     "Style": "Märzen",
     "ABV": "5.30%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.61285,
+    "Untappd Rating": 3.61373,
     "Style Family": "Crisp"
   },
   {
@@ -5076,7 +5166,7 @@
     "Style": "IPA - Red",
     "ABV": "6.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.59988,
+    "Untappd Rating": 3.59984,
     "Style Family": "Hop"
   },
   {
@@ -5086,7 +5176,7 @@
     "Style": "Wheat Beer - Hefeweizen",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.59716,
+    "Untappd Rating": 3.59717,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -5096,17 +5186,7 @@
     "Style": "Wheat Beer - Witbier / Blanche",
     "ABV": "4.90%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.59282,
-    "Style Family": "Fruit & Spice"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-1995_bb4d4_sm.jpeg",
-    "Beer": "Helles Hefe Weizen",
-    "Brewery": "Tucher Bräu",
-    "Style": "Wheat Beer - Hefeweizen",
-    "ABV": "5.20%",
-    "My Rating": 3.5,
-    "Untappd Rating": 3.59012,
+    "Untappd Rating": 3.59309,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -5116,7 +5196,17 @@
     "Style": "Wheat Beer - Witbier / Blanche",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.58819,
+    "Untappd Rating": 3.58735,
+    "Style Family": "Fruit & Spice"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1995_bb4d4_sm.jpeg",
+    "Beer": "Helles Hefe Weizen",
+    "Brewery": "Tucher Bräu",
+    "Style": "Wheat Beer - Hefeweizen",
+    "ABV": "5.20%",
+    "My Rating": 3.5,
+    "Untappd Rating": 3.58716,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -5126,7 +5216,7 @@
     "Style": "Farmhouse Ale - Saison",
     "ABV": "6.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.58582,
+    "Untappd Rating": 3.58602,
     "Style Family": "Tart & Funky"
   },
   {
@@ -5136,17 +5226,17 @@
     "Style": "Lager - American Light",
     "ABV": "4.90%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.57098,
+    "Untappd Rating": 3.57151,
     "Style Family": "Crisp"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-64864_fa02f_sm.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-64864_082c2_sm.jpeg",
     "Beer": "Vienna",
     "Brewery": "von Trapp Brewing",
     "Style": "Lager - Vienna",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.56045,
+    "Untappd Rating": 3.56193,
     "Style Family": "Crisp"
   },
   {
@@ -5156,18 +5246,8 @@
     "Style": "Red Ale - Irish",
     "ABV": "4.50%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.55525,
+    "Untappd Rating": 3.55564,
     "Style Family": "Malt"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-1982592_62554_sm.jpeg",
-    "Beer": "Margarita Gose",
-    "Brewery": "Cigar City Brewing®",
-    "Style": "Sour - Fruited Gose",
-    "ABV": "4.20%",
-    "My Rating": 3.5,
-    "Untappd Rating": 3.551,
-    "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-38001_ef2b9_sm.jpeg",
@@ -5176,8 +5256,18 @@
     "Style": "Lager - Helles",
     "ABV": "5.10%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.55046,
+    "Untappd Rating": 3.55133,
     "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-1982592_62554_sm.jpeg",
+    "Beer": "Margarita Gose",
+    "Brewery": "Cigar City Brewing®",
+    "Style": "Sour - Fruited Gose",
+    "ABV": "4.20%",
+    "My Rating": 3.5,
+    "Untappd Rating": 3.55099,
+    "Style Family": "Tart & Funky"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-1447373_451ab_sm.jpeg",
@@ -5186,17 +5276,7 @@
     "Style": "Lager - Mexican",
     "ABV": "4.70%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.53675,
-    "Style Family": "Crisp"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-5841138_db7c8_sm.jpeg",
-    "Beer": "All-Purpose Pils",
-    "Brewery": "DC Brau Brewing Company",
-    "Style": "Pilsner - Italian",
-    "ABV": "4.50%",
-    "My Rating": 3.5,
-    "Untappd Rating": 3.53606,
+    "Untappd Rating": 3.53742,
     "Style Family": "Crisp"
   },
   {
@@ -5206,7 +5286,17 @@
     "Style": "Pilsner - German",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.53328,
+    "Untappd Rating": 3.53383,
+    "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-5841138_db7c8_sm.jpeg",
+    "Beer": "All-Purpose Pils",
+    "Brewery": "DC Brau Brewing Company",
+    "Style": "Pilsner - Italian",
+    "ABV": "4.50%",
+    "My Rating": 3.5,
+    "Untappd Rating": 3.53241,
     "Style Family": "Crisp"
   },
   {
@@ -5216,7 +5306,7 @@
     "Style": "Lager - Pale",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.50689,
+    "Untappd Rating": 3.50684,
     "Style Family": "Crisp"
   },
   {
@@ -5226,7 +5316,7 @@
     "Style": "Pilsner - German",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.49601,
+    "Untappd Rating": 3.49636,
     "Style Family": "Crisp"
   },
   {
@@ -5236,7 +5326,7 @@
     "Style": "Wheat Beer - Witbier / Blanche",
     "ABV": "5.30%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.49316,
+    "Untappd Rating": 3.49312,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -5246,7 +5336,7 @@
     "Style": "Lager - Pale",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.44872,
+    "Untappd Rating": 3.45014,
     "Style Family": "Crisp"
   },
   {
@@ -5256,7 +5346,7 @@
     "Style": "Kellerbier / Zwickelbier",
     "ABV": "4.80%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.40573,
+    "Untappd Rating": 3.40651,
     "Style Family": "Crisp"
   },
   {
@@ -5266,7 +5356,7 @@
     "Style": "Lager - Helles",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.39338,
+    "Untappd Rating": 3.39545,
     "Style Family": "Crisp"
   },
   {
@@ -5276,7 +5366,7 @@
     "Style": "Kölsch",
     "ABV": "4.80%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.35474,
+    "Untappd Rating": 3.35542,
     "Style Family": "Crisp"
   },
   {
@@ -5286,7 +5376,7 @@
     "Style": "Lager - Munich Dunkel",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.3354,
+    "Untappd Rating": 3.34178,
     "Style Family": "Malt"
   },
   {
@@ -5296,7 +5386,7 @@
     "Style": "Lager - Munich Dunkel",
     "ABV": "5.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.32662,
+    "Untappd Rating": 3.32709,
     "Style Family": "Malt"
   },
   {
@@ -5316,7 +5406,7 @@
     "Style": "Lager - American",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.25305,
+    "Untappd Rating": 3.25777,
     "Style Family": "Crisp"
   },
   {
@@ -5326,7 +5416,7 @@
     "Style": "Lager - Pale",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.10452,
+    "Untappd Rating": 3.1102,
     "Style Family": "Crisp"
   },
   {
@@ -5336,7 +5426,7 @@
     "Style": "Lager - Pale",
     "ABV": "5%",
     "My Rating": 3.5,
-    "Untappd Rating": 3.07456,
+    "Untappd Rating": 3.07636,
     "Style Family": "Crisp"
   },
   {
@@ -5346,7 +5436,7 @@
     "Style": "Pilsner - Other",
     "ABV": "4.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 2.99207,
+    "Untappd Rating": 2.99535,
     "Style Family": "Crisp"
   },
   {
@@ -5356,7 +5446,7 @@
     "Style": "Lager - Pale",
     "ABV": "4.70%",
     "My Rating": 3.5,
-    "Untappd Rating": 2.9143,
+    "Untappd Rating": 2.91756,
     "Style Family": "Crisp"
   },
   {
@@ -5366,7 +5456,7 @@
     "Style": "Lager - American Light",
     "ABV": "4.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 2.57486,
+    "Untappd Rating": 2.57986,
     "Style Family": "Crisp"
   },
   {
@@ -5376,7 +5466,7 @@
     "Style": "Lager - American Light",
     "ABV": "4.20%",
     "My Rating": 3.5,
-    "Untappd Rating": 2.57413,
+    "Untappd Rating": 2.57679,
     "Style Family": "Crisp"
   },
   {
@@ -5386,7 +5476,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 3.25,
-    "Untappd Rating": 4.51407,
+    "Untappd Rating": 4.50615,
     "Style Family": "Hop"
   },
   {
@@ -5396,7 +5486,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8.80%",
     "My Rating": 3.25,
-    "Untappd Rating": 4.33366,
+    "Untappd Rating": 4.33164,
     "Style Family": "Hop"
   },
   {
@@ -5406,7 +5496,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "8%",
     "My Rating": 3.25,
-    "Untappd Rating": 4.20274,
+    "Untappd Rating": 4.19686,
     "Style Family": "Hop"
   },
   {
@@ -5416,7 +5506,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "8.30%",
     "My Rating": 3.25,
-    "Untappd Rating": 4.06607,
+    "Untappd Rating": 4.066,
     "Style Family": "Hop"
   },
   {
@@ -5436,7 +5526,7 @@
     "Style": "Lager - Smoked",
     "ABV": "4.80%",
     "My Rating": 3.25,
-    "Untappd Rating": 4.03452,
+    "Untappd Rating": 4.03501,
     "Style Family": "Smoke"
   },
   {
@@ -5446,7 +5536,7 @@
     "Style": "Sour - Fruited Gose",
     "ABV": "6%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.98019,
+    "Untappd Rating": 3.97187,
     "Style Family": "Tart & Funky"
   },
   {
@@ -5516,7 +5606,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7.50%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.82206,
+    "Untappd Rating": 3.82208,
     "Style Family": "Hop"
   },
   {
@@ -5526,7 +5616,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.8071,
+    "Untappd Rating": 3.80743,
     "Style Family": "Hop"
   },
   {
@@ -5536,7 +5626,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "7%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.80406,
+    "Untappd Rating": 3.804,
     "Style Family": "Hop"
   },
   {
@@ -5556,7 +5646,7 @@
     "Style": "Kölsch",
     "ABV": "5%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.76581,
+    "Untappd Rating": 3.76728,
     "Style Family": "Crisp"
   },
   {
@@ -5566,7 +5656,7 @@
     "Style": "Winter Ale",
     "ABV": "10%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.74517,
+    "Untappd Rating": 3.74473,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -5576,17 +5666,17 @@
     "Style": "Märzen",
     "ABV": "8%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.72394,
+    "Untappd Rating": 3.72542,
     "Style Family": "Crisp"
   },
   {
-    "Label": "https://assets.untappd.com/site/brewery_logos/brewery-4157_a3c2b.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-6652452_b4318_sm.jpeg",
     "Beer": "Summer Ale",
     "Brewery": "von Trapp Brewing",
     "Style": "Wheat Beer - Witbier / Blanche",
     "ABV": "5%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.70299,
+    "Untappd Rating": 3.70293,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -5596,7 +5686,7 @@
     "Style": "Stout - Foreign / Export",
     "ABV": "7.50%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.65239,
+    "Untappd Rating": 3.65155,
     "Style Family": "Roast"
   },
   {
@@ -5606,7 +5696,7 @@
     "Style": "Red Ale - American Amber / Red",
     "ABV": "4.60%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.56868,
+    "Untappd Rating": 3.56735,
     "Style Family": "Hop"
   },
   {
@@ -5616,7 +5706,7 @@
     "Style": "Lager - Helles",
     "ABV": "4.80%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.5435,
+    "Untappd Rating": 3.5446,
     "Style Family": "Crisp"
   },
   {
@@ -5626,7 +5716,7 @@
     "Style": "Lager - Vienna",
     "ABV": "5.20%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.54171,
+    "Untappd Rating": 3.54167,
     "Style Family": "Crisp"
   },
   {
@@ -5636,7 +5726,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.50%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.53634,
+    "Untappd Rating": 3.534,
     "Style Family": "Hop"
   },
   {
@@ -5646,7 +5736,7 @@
     "Style": "Lager - American Amber / Red",
     "ABV": "4.50%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.50127,
+    "Untappd Rating": 3.50152,
     "Style Family": "Crisp"
   },
   {
@@ -5656,7 +5746,7 @@
     "Style": "Wheat Beer - Witbier / Blanche",
     "ABV": "5.40%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.499,
+    "Untappd Rating": 3.49876,
     "Style Family": "Fruit & Spice"
   },
   {
@@ -5666,17 +5756,7 @@
     "Style": "California Common",
     "ABV": "4.90%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.49147,
-    "Style Family": "Hop"
-  },
-  {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-2660559_5aa2b_sm.jpeg",
-    "Beer": "Rec. League",
-    "Brewery": "Harpoon Brewery",
-    "Style": "Pale Ale - New England / Hazy",
-    "ABV": "4%",
-    "My Rating": 3.25,
-    "Untappd Rating": 3.48192,
+    "Untappd Rating": 3.49157,
     "Style Family": "Hop"
   },
   {
@@ -5686,8 +5766,18 @@
     "Style": "Lager - American",
     "ABV": "4%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.48179,
+    "Untappd Rating": 3.48262,
     "Style Family": "Crisp"
+  },
+  {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-2660559_5aa2b_sm.jpeg",
+    "Beer": "Rec. League",
+    "Brewery": "Harpoon Brewery",
+    "Style": "Pale Ale - New England / Hazy",
+    "ABV": "4%",
+    "My Rating": 3.25,
+    "Untappd Rating": 3.48205,
+    "Style Family": "Hop"
   },
   {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-2395_6a68d_sm.jpeg",
@@ -5696,7 +5786,7 @@
     "Style": "Pilsner - German",
     "ABV": "5.10%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.47094,
+    "Untappd Rating": 3.47037,
     "Style Family": "Crisp"
   },
   {
@@ -5706,7 +5796,7 @@
     "Style": "Lager - American Light",
     "ABV": "3.80%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.37595,
+    "Untappd Rating": 3.37971,
     "Style Family": "Crisp"
   },
   {
@@ -5716,7 +5806,7 @@
     "Style": "Lager - American",
     "ABV": "4%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.37528,
+    "Untappd Rating": 3.37337,
     "Style Family": "Crisp"
   },
   {
@@ -5736,7 +5826,7 @@
     "Style": "Lager - Helles",
     "ABV": "4.80%",
     "My Rating": 3.25,
-    "Untappd Rating": 3.21798,
+    "Untappd Rating": 3.22201,
     "Style Family": "Crisp"
   },
   {
@@ -5746,7 +5836,7 @@
     "Style": "Lager - American",
     "ABV": "4.60%",
     "My Rating": 3.25,
-    "Untappd Rating": 2.76917,
+    "Untappd Rating": 2.77301,
     "Style Family": "Crisp"
   },
   {
@@ -5756,7 +5846,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "9%",
     "My Rating": 3.0,
-    "Untappd Rating": 4.21532,
+    "Untappd Rating": 4.21518,
     "Style Family": "Hop"
   },
   {
@@ -5776,7 +5866,7 @@
     "Style": "IPA - Imperial / Double Milkshake",
     "ABV": "8.50%",
     "My Rating": 3.0,
-    "Untappd Rating": 4.05898,
+    "Untappd Rating": 4.05639,
     "Style Family": "Hop"
   },
   {
@@ -5786,17 +5876,17 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6.30%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.99021,
+    "Untappd Rating": 3.98958,
     "Style Family": "Hop"
   },
   {
-    "Label": "https://assets.untappd.com/site/beer_logos/beer-3195565_14f42_sm.jpeg",
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-3195565_1b66a_sm.jpeg",
     "Beer": "Bodem",
     "Brewery": "Half Acre Beer Company",
     "Style": "IPA - American",
     "ABV": "6.70%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.90245,
+    "Untappd Rating": 3.9024,
     "Style Family": "Hop"
   },
   {
@@ -5846,7 +5936,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "9%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.73611,
+    "Untappd Rating": 3.73591,
     "Style Family": "Hop"
   },
   {
@@ -5856,7 +5946,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "6%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.696,
+    "Untappd Rating": 3.6935,
     "Style Family": "Hop"
   },
   {
@@ -5866,7 +5956,7 @@
     "Style": "IPA - New England / Hazy",
     "ABV": "5%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.5818,
+    "Untappd Rating": 3.58323,
     "Style Family": "Hop"
   },
   {
@@ -5876,7 +5966,7 @@
     "Style": "Lager - Pale",
     "ABV": "4.50%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.47131,
+    "Untappd Rating": 3.47135,
     "Style Family": "Crisp"
   },
   {
@@ -5886,7 +5976,7 @@
     "Style": "Pilsner - Czech / Bohemian",
     "ABV": "4.80%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.43587,
+    "Untappd Rating": 3.43652,
     "Style Family": "Crisp"
   },
   {
@@ -5896,7 +5986,7 @@
     "Style": "Pilsner - German",
     "ABV": "4.50%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.30034,
+    "Untappd Rating": 3.30066,
     "Style Family": "Crisp"
   },
   {
@@ -5906,7 +5996,7 @@
     "Style": "Blonde / Golden Ale - Other",
     "ABV": "4.50%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.21567,
+    "Untappd Rating": 3.21922,
     "Style Family": "Crisp"
   },
   {
@@ -5916,7 +6006,7 @@
     "Style": "Lager - Strong",
     "ABV": "6%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.20081,
+    "Untappd Rating": 3.20943,
     "Style Family": "Crisp"
   },
   {
@@ -5926,7 +6016,7 @@
     "Style": "Lager - Pale",
     "ABV": "4.80%",
     "My Rating": 3.0,
-    "Untappd Rating": 3.0614,
+    "Untappd Rating": 3.06617,
     "Style Family": "Crisp"
   },
   {
@@ -5946,7 +6036,7 @@
     "Style": "IPA - Imperial / Double New England / Hazy",
     "ABV": "7.50%",
     "My Rating": 2.75,
-    "Untappd Rating": 3.85772,
+    "Untappd Rating": 3.85606,
     "Style Family": "Hop"
   },
   {
@@ -5956,7 +6046,7 @@
     "Style": "Porter - American",
     "ABV": "7%",
     "My Rating": 2.75,
-    "Untappd Rating": 3.69431,
+    "Untappd Rating": 3.69385,
     "Style Family": "Roast"
   },
   {
@@ -5970,13 +6060,23 @@
     "Style Family": "Crisp"
   },
   {
+    "Label": "https://assets.untappd.com/site/beer_logos/beer-4971_00313_sm.jpeg",
+    "Beer": "Philadelphia Pale Ale",
+    "Brewery": "Yards Brewing Co.",
+    "Style": "Pale Ale - American",
+    "ABV": "4.60%",
+    "My Rating": 2.75,
+    "Untappd Rating": 3.54183,
+    "Style Family": "Hop"
+  },
+  {
     "Label": "https://assets.untappd.com/site/beer_logos/beer-5275157_c3978_sm.jpeg",
     "Beer": "Take-A-Day IPA",
     "Brewery": "Samuel Adams",
     "Style": "IPA - American",
     "ABV": "6%",
     "My Rating": 2.75,
-    "Untappd Rating": 3.53946,
+    "Untappd Rating": 3.53938,
     "Style Family": "Hop"
   },
   {
@@ -6026,7 +6126,7 @@
     "Style": "Sour - Fruited",
     "ABV": "5%",
     "My Rating": 2.5,
-    "Untappd Rating": 3.39965,
+    "Untappd Rating": 3.39808,
     "Style Family": "Tart & Funky"
   },
   {
@@ -6046,7 +6146,7 @@
     "Style": "IPA - Imperial / Double",
     "ABV": "9%",
     "My Rating": 2.25,
-    "Untappd Rating": 3.80809,
+    "Untappd Rating": 3.80861,
     "Style Family": "Hop"
   },
   {
@@ -6066,7 +6166,7 @@
     "Style": "IPA - American",
     "ABV": "6.50%",
     "My Rating": 1.5,
-    "Untappd Rating": 3.66499,
+    "Untappd Rating": 3.66472,
     "Style Family": "Hop"
   }
 ]
