@@ -73,7 +73,6 @@ function buildVorbRankings(beers, selection = 'all', minimumBeers = 3) {
         rankings.push({
             brewery,
             beersRated: ratings.length,
-            breweryRating,
             vorb: (breweryRating - VORB_REPLACEMENT_RATING) * 100
         });
     });
@@ -161,7 +160,7 @@ function showVorbTooltip(tooltip, card, event, ranking) {
     const score = document.createElement('span');
     score.textContent = `VORB ${ranking.vorb.toFixed(1)}`;
     const count = document.createElement('span');
-    count.textContent = `${ranking.beersRated} beers rated · brewery rating ${ranking.breweryRating.toFixed(2)}`;
+    count.textContent = `${ranking.beersRated} beers rated`;
     tooltip.replaceChildren(heading, score, count);
     tooltip.hidden = false;
 
