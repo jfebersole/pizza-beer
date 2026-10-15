@@ -1610,10 +1610,6 @@ input[type="checkbox"] {
 }
 
 .calculator-heading {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 42ch);
-  align-items: end;
-  gap: 32px;
   padding: 28px 0 24px;
   border-bottom: 1px solid var(--line-strong);
 }
@@ -1627,14 +1623,6 @@ input[type="checkbox"] {
   max-width: none;
   font-size: clamp(2.45rem, 4.8vw, 4.4rem);
   line-height: 0.9;
-}
-
-.calculator-intro {
-  margin: 0;
-  color: var(--muted);
-  font-family: "Newsreader", Georgia, serif;
-  font-size: 1.08rem;
-  line-height: 1.35;
 }
 
 .calculator-layout {
@@ -1889,10 +1877,19 @@ input[type="checkbox"] {
   line-height: 1.05;
 }
 
-.percentage-control small {
+.ingredient-optional-badge {
+  display: inline-block;
+  margin-left: 0.45em;
+  padding: 0.2em 0.45em 0.16em;
+  border: 1px solid var(--line);
   color: var(--muted);
+  font-family: "Archivo Narrow", sans-serif;
   font-size: 0.66rem;
-  line-height: 1.2;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  vertical-align: 0.18em;
 }
 
 .percentage-input {
@@ -2138,16 +2135,6 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 980px) {
-  .calculator-heading {
-    grid-template-columns: 1fr;
-    align-items: start;
-    gap: 14px;
-  }
-
-  .calculator-intro {
-    max-width: 62ch;
-  }
-
   .calculator-layout {
     grid-template-columns: 1fr;
   }

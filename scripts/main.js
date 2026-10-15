@@ -587,9 +587,8 @@ async function initializeMap() {
     const map = L.map('map', { zoomControl: false, maxZoom: 20 });
     L.control.zoom({ position: 'topright' }).addTo(map);
     L.tileLayer(
-        'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+        'https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}{r}.png?key=cb1_4l0f_1_ec9eddce62f2d90a023a36a4',
         {
-            subdomains: 'abcd',
             maxZoom: 20,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         }
