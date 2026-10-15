@@ -58,10 +58,8 @@ jobs:
             data/brewery_data.json \
             data/brewery_data.geojson \
             data/pending_breweries.json \
-            images/vorb_chart.png \
-            images/vorb_chart_ipa.png \
-            images/vorb_chart_lager.png \
-            images/style_density_plot.png
+            images/rating_difference_by_style.png \
+            images/hoppy_ratings_by_abv.png
 
           if git diff --cached --quiet; then
             echo "changed=false" >> "${GITHUB_OUTPUT}"
