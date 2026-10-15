@@ -2,11 +2,11 @@
   {
     "Logo": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
     "Brewery": "Hill Farmstead Brewery",
-    "Beers Rated": 24,
-    "VORB": 94,
-    "My Rating": 4.42,
-    "Untappd Rating": 4.26,
-    "Avg Diff": 0.16,
+    "Beers Rated": 27,
+    "VORB": 93,
+    "My Rating": 4.4,
+    "Untappd Rating": 4.25,
+    "Avg Diff": 0.15,
     "State": "VT"
   },
   {
@@ -20,24 +20,24 @@
     "State": "NY"
   },
   {
-    "Logo": "https://assets.untappd.com/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
-    "Brewery": "Tree House Brewing Company",
-    "Beers Rated": 33,
-    "VORB": 77,
-    "My Rating": 4.32,
-    "Untappd Rating": 4.31,
-    "Avg Diff": 0.01,
-    "State": "MA"
-  },
-  {
     "Logo": "https://assets.untappd.com/site/brewery_logos_hd/brewery-455967_48a86_hd.jpeg",
     "Brewery": "Human Robot",
-    "Beers Rated": 7,
-    "VORB": 75,
-    "My Rating": 4.32,
+    "Beers Rated": 8,
+    "VORB": 78,
+    "My Rating": 4.38,
     "Untappd Rating": 4.03,
-    "Avg Diff": 0.29,
+    "Avg Diff": 0.34,
     "State": "PA"
+  },
+  {
+    "Logo": "https://assets.untappd.com/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
+    "Brewery": "Tree House Brewing Company",
+    "Beers Rated": 35,
+    "VORB": 77,
+    "My Rating": 4.31,
+    "Untappd Rating": 4.3,
+    "Avg Diff": 0.01,
+    "State": "MA"
   },
   {
     "Logo": "https://assets.untappd.com/site/brewery_logos_hd/brewery-3758_8ca25_hd.jpeg",
@@ -85,8 +85,8 @@
     "Beers Rated": 7,
     "VORB": 60,
     "My Rating": 4.25,
-    "Untappd Rating": 4.26,
-    "Avg Diff": -0.01,
+    "Untappd Rating": 4.25,
+    "Avg Diff": -0.0,
     "State": "IA"
   },
   {
@@ -115,8 +115,8 @@
     "Beers Rated": 7,
     "VORB": 56,
     "My Rating": 4.18,
-    "Untappd Rating": 3.65,
-    "Avg Diff": 0.53,
+    "Untappd Rating": 3.64,
+    "Avg Diff": 0.54,
     "State": "Bayern"
   },
   {
@@ -126,7 +126,7 @@
     "VORB": 50,
     "My Rating": 4.17,
     "Untappd Rating": 3.8,
-    "Avg Diff": 0.37,
+    "Avg Diff": 0.36,
     "State": "Jura"
   },
   {
@@ -135,8 +135,8 @@
     "Beers Rated": 11,
     "VORB": 48,
     "My Rating": 4.02,
-    "Untappd Rating": 4.03,
-    "Avg Diff": -0.01,
+    "Untappd Rating": 4.02,
+    "Avg Diff": 0.0,
     "State": "VA"
   },
   {
@@ -155,8 +155,8 @@
     "Beers Rated": 19,
     "VORB": 48,
     "My Rating": 4.0,
-    "Untappd Rating": 4.18,
-    "Avg Diff": -0.18,
+    "Untappd Rating": 4.17,
+    "Avg Diff": -0.17,
     "State": "NY"
   },
   {
@@ -215,7 +215,7 @@
     "Beers Rated": 4,
     "VORB": 37,
     "My Rating": 4.06,
-    "Untappd Rating": 3.78,
+    "Untappd Rating": 3.77,
     "Avg Diff": 0.29,
     "State": "IL"
   },
@@ -255,8 +255,8 @@
     "Beers Rated": 3,
     "VORB": 31,
     "My Rating": 4.0,
-    "Untappd Rating": 4.31,
-    "Avg Diff": -0.31,
+    "Untappd Rating": 4.3,
+    "Avg Diff": -0.3,
     "State": "NC"
   },
   {
@@ -280,6 +280,16 @@
     "State": "NY"
   },
   {
+    "Logo": "https://assets.untappd.com/site/brewery_logos_hd/brewery-35837_99aed_hd.jpeg",
+    "Brewery": "Bluejacket",
+    "Beers Rated": 29,
+    "VORB": 29,
+    "My Rating": 3.85,
+    "Untappd Rating": 3.89,
+    "Avg Diff": -0.04,
+    "State": "DC"
+  },
+  {
     "Logo": "https://assets.untappd.com/site/brewery_logos_hd/brewery-88_7815c_hd.jpeg",
     "Brewery": "Bayerische Staatsbrauerei Weihenstephan",
     "Beers Rated": 7,
@@ -288,16 +298,6 @@
     "Untappd Rating": 3.72,
     "Avg Diff": 0.18,
     "State": "Bayern"
-  },
-  {
-    "Logo": "https://assets.untappd.com/site/brewery_logos_hd/brewery-35837_99aed_hd.jpeg",
-    "Brewery": "Bluejacket",
-    "Beers Rated": 28,
-    "VORB": 29,
-    "My Rating": 3.85,
-    "Untappd Rating": 3.9,
-    "Avg Diff": -0.05,
-    "State": "DC"
   },
   {
     "Logo": "https://assets.untappd.com/site/brewery_logos_hd/brewery-451361_dac98_hd.jpeg",
@@ -316,7 +316,7 @@
     "VORB": 19,
     "My Rating": 3.91,
     "Untappd Rating": 4.06,
-    "Avg Diff": -0.16,
+    "Avg Diff": -0.15,
     "State": "NH"
   },
   {
@@ -376,7 +376,7 @@
     "VORB": 12,
     "My Rating": 3.81,
     "Untappd Rating": 3.93,
-    "Avg Diff": -0.12,
+    "Avg Diff": -0.11,
     "State": "DC"
   },
   {

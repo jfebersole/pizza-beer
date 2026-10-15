@@ -4,12 +4,12 @@
     "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-2562_e7536.jpeg",
     "State": "VT",
     "Country": "United States",
-    "Avg Beer Rating": 4.416666666666667,
-    "Count": 24,
+    "Avg Beer Rating": 4.398148148148148,
+    "Count": 27,
     "Top Beer Rating": 5.0,
-    "Global Avg Rating": 4.257152916666667,
-    "Diff": 0.15951375000000034,
-    "VORB": 94.5652173913043
+    "Global Avg Rating": 4.248997037037037,
+    "Diff": 0.14915111111111123,
+    "VORB": 93.75
   },
   {
     "name": "Fidens Brewing Co.",
@@ -19,33 +19,33 @@
     "Avg Beer Rating": 4.411764705882353,
     "Count": 17,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.354164117647059,
-    "Diff": 0.057600588235294126,
+    "Global Avg Rating": 4.353505882352941,
+    "Diff": 0.05825882352941214,
     "VORB": 82.03125
-  },
-  {
-    "name": "Tree House Brewing Company",
-    "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
-    "State": "MA",
-    "Country": "United States",
-    "Avg Beer Rating": 4.318181818181818,
-    "Count": 33,
-    "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.310924848484848,
-    "Diff": 0.00725696969697065,
-    "VORB": 77.734375
   },
   {
     "name": "Human Robot",
     "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-455967_48a86_hd.jpeg",
     "State": "PA",
     "Country": "United States",
-    "Avg Beer Rating": 4.321428571428571,
-    "Count": 7,
+    "Avg Beer Rating": 4.375,
+    "Count": 8,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.031645714285714,
-    "Diff": 0.2897828571428569,
-    "VORB": 75.0
+    "Global Avg Rating": 4.03356125,
+    "Diff": 0.34143875,
+    "VORB": 78.57142857142856
+  },
+  {
+    "name": "Tree House Brewing Company",
+    "image_url": "https://assets.untappd.com/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
+    "State": "MA",
+    "Country": "United States",
+    "Avg Beer Rating": 4.314285714285714,
+    "Count": 35,
+    "Top Beer Rating": 4.75,
+    "Global Avg Rating": 4.301575714285714,
+    "Diff": 0.012710000000000221,
+    "VORB": 77.57352941176467
   },
   {
     "name": "Lawson’s Finest Liquids",
@@ -55,8 +55,8 @@
     "Avg Beer Rating": 4.178571428571429,
     "Count": 7,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.079044285714286,
-    "Diff": 0.09952714285714315,
+    "Global Avg Rating": 4.078035714285714,
+    "Diff": 0.10053571428571484,
     "VORB": 66.6666666666666
   },
   {
@@ -67,8 +67,8 @@
     "Avg Beer Rating": 4.111111111111111,
     "Count": 9,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.17261,
-    "Diff": -0.06149888888888899,
+    "Global Avg Rating": 4.1721755555555555,
+    "Diff": -0.06106444444444481,
     "VORB": 64.0625
   },
   {
@@ -79,8 +79,8 @@
     "Avg Beer Rating": 4.3125,
     "Count": 4,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.34699,
-    "Diff": -0.03448999999999991,
+    "Global Avg Rating": 4.3462675,
+    "Diff": -0.03376749999999973,
     "VORB": 62.5
   },
   {
@@ -91,8 +91,8 @@
     "Avg Beer Rating": 4.075,
     "Count": 10,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 4.088194,
-    "Diff": -0.013193999999999484,
+    "Global Avg Rating": 4.08804,
+    "Diff": -0.013040000000000163,
     "VORB": 62.5
   },
   {
@@ -103,8 +103,8 @@
     "Avg Beer Rating": 4.25,
     "Count": 7,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.256357142857143,
-    "Diff": -0.006357142857143394,
+    "Global Avg Rating": 4.254648571428572,
+    "Diff": -0.004648571428571557,
     "VORB": 60.41666666666661
   },
   {
@@ -115,8 +115,8 @@
     "Avg Beer Rating": 4.0,
     "Count": 10,
     "Top Beer Rating": 4.75,
-    "Global Avg Rating": 3.83124,
-    "Diff": 0.1687599999999998,
+    "Global Avg Rating": 3.831404,
+    "Diff": 0.16859599999999997,
     "VORB": 58.3333333333333
   },
   {
@@ -127,8 +127,8 @@
     "Avg Beer Rating": 4.1875,
     "Count": 8,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.1604075,
-    "Diff": 0.027092500000000186,
+    "Global Avg Rating": 4.15856375,
+    "Diff": 0.028936250000000108,
     "VORB": 57.14285714285712
   },
   {
@@ -139,8 +139,8 @@
     "Avg Beer Rating": 4.178571428571429,
     "Count": 7,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 3.6463571428571426,
-    "Diff": 0.5322142857142862,
+    "Global Avg Rating": 3.64291,
+    "Diff": 0.5356614285714287,
     "VORB": 56.25
   },
   {
@@ -151,8 +151,8 @@
     "Avg Beer Rating": 4.166666666666667,
     "Count": 3,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 3.800736666666667,
-    "Diff": 0.3659300000000001,
+    "Global Avg Rating": 3.80189,
+    "Diff": 0.36477666666666675,
     "VORB": 50.0
   },
   {
@@ -163,8 +163,8 @@
     "Avg Beer Rating": 4.0227272727272725,
     "Count": 11,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.0304899999999995,
-    "Diff": -0.007762727272726977,
+    "Global Avg Rating": 4.019798181818182,
+    "Diff": 0.002929090909090881,
     "VORB": 48.749999999999986
   },
   {
@@ -175,8 +175,8 @@
     "Avg Beer Rating": 4.0227272727272725,
     "Count": 11,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 3.7374554545454544,
-    "Diff": 0.2852718181818181,
+    "Global Avg Rating": 3.737611818181818,
+    "Diff": 0.2851154545454544,
     "VORB": 48.749999999999986
   },
   {
@@ -187,8 +187,8 @@
     "Avg Beer Rating": 4.0,
     "Count": 19,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.17570947368421,
-    "Diff": -0.17570947368421042,
+    "Global Avg Rating": 4.174872105263158,
+    "Diff": -0.17487210526315788,
     "VORB": 48.61111111111107
   },
   {
@@ -199,8 +199,8 @@
     "Avg Beer Rating": 4.0,
     "Count": 11,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.187982727272727,
-    "Diff": -0.18798272727272725,
+    "Global Avg Rating": 4.18694909090909,
+    "Diff": -0.1869490909090903,
     "VORB": 47.499999999999964
   },
   {
@@ -223,8 +223,8 @@
     "Avg Beer Rating": 4.083333333333333,
     "Count": 3,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.204956666666667,
-    "Diff": -0.12162333333333386,
+    "Global Avg Rating": 4.204306666666667,
+    "Diff": -0.1209733333333336,
     "VORB": 43.75
   },
   {
@@ -235,8 +235,8 @@
     "Avg Beer Rating": 4.166666666666667,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.9311333333333334,
-    "Diff": 0.2355333333333336,
+    "Global Avg Rating": 3.9303466666666664,
+    "Diff": 0.23632000000000053,
     "VORB": 43.75
   },
   {
@@ -247,8 +247,8 @@
     "Avg Beer Rating": 3.892857142857143,
     "Count": 7,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.043394285714286,
-    "Diff": -0.15053714285714337,
+    "Global Avg Rating": 4.042727142857143,
+    "Diff": -0.1498700000000004,
     "VORB": 39.5833333333333
   },
   {
@@ -259,8 +259,8 @@
     "Avg Beer Rating": 4.0625,
     "Count": 4,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.7758,
-    "Diff": 0.2867000000000002,
+    "Global Avg Rating": 3.7721549999999997,
+    "Diff": 0.2903450000000003,
     "VORB": 37.5
   },
   {
@@ -271,8 +271,8 @@
     "Avg Beer Rating": 4.0,
     "Count": 3,
     "Top Beer Rating": 4.5,
-    "Global Avg Rating": 4.080266666666667,
-    "Diff": -0.08026666666666671,
+    "Global Avg Rating": 4.07991,
+    "Diff": -0.07990999999999993,
     "VORB": 37.5
   },
   {
@@ -283,8 +283,8 @@
     "Avg Beer Rating": 4.083333333333333,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 4.201533333333333,
-    "Diff": -0.11819999999999986,
+    "Global Avg Rating": 4.201066666666667,
+    "Diff": -0.11773333333333369,
     "VORB": 37.5
   },
   {
@@ -295,8 +295,8 @@
     "Avg Beer Rating": 4.083333333333333,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 4.1902099999999995,
-    "Diff": -0.10687666666666651,
+    "Global Avg Rating": 4.18975,
+    "Diff": -0.10641666666666705,
     "VORB": 37.5
   },
   {
@@ -307,8 +307,8 @@
     "Avg Beer Rating": 4.0,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 4.305626666666667,
-    "Diff": -0.30562666666666694,
+    "Global Avg Rating": 4.30496,
+    "Diff": -0.30496000000000034,
     "VORB": 31.25
   },
   {
@@ -319,8 +319,8 @@
     "Avg Beer Rating": 4.0,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.8996666666666666,
-    "Diff": 0.10033333333333339,
+    "Global Avg Rating": 3.9017633333333333,
+    "Diff": 0.09823666666666675,
     "VORB": 31.25
   },
   {
@@ -331,9 +331,21 @@
     "Avg Beer Rating": 4.0,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.959996666666667,
-    "Diff": 0.04000333333333295,
+    "Global Avg Rating": 3.958253333333333,
+    "Diff": 0.04174666666666704,
     "VORB": 31.25
+  },
+  {
+    "name": "Bluejacket",
+    "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-35837_99aed_hd.jpeg",
+    "State": "DC",
+    "Country": "United States",
+    "Avg Beer Rating": 3.853448275862069,
+    "Count": 29,
+    "Top Beer Rating": 4.25,
+    "Global Avg Rating": 3.893166896551724,
+    "Diff": -0.03971862068965493,
+    "VORB": 29.464285714285765
   },
   {
     "name": "Bayerische Staatsbrauerei Weihenstephan",
@@ -343,20 +355,8 @@
     "Avg Beer Rating": 3.892857142857143,
     "Count": 7,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.715674285714286,
-    "Diff": 0.17718285714285686,
-    "VORB": 29.166666666666696
-  },
-  {
-    "name": "Bluejacket",
-    "image_url": "https://assets.untappd.com/site/brewery_logos_hd/brewery-35837_99aed_hd.jpeg",
-    "State": "DC",
-    "Country": "United States",
-    "Avg Beer Rating": 3.8482142857142856,
-    "Count": 28,
-    "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.8961639285714287,
-    "Diff": -0.04794964285714309,
+    "Global Avg Rating": 3.7171242857142857,
+    "Diff": 0.17573285714285714,
     "VORB": 29.166666666666696
   },
   {
@@ -367,8 +367,8 @@
     "Avg Beer Rating": 3.857142857142857,
     "Count": 14,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.659795,
-    "Diff": 0.1973478571428573,
+    "Global Avg Rating": 3.6603285714285714,
+    "Diff": 0.19681428571428583,
     "VORB": 28.846153846153832
   },
   {
@@ -379,8 +379,8 @@
     "Avg Beer Rating": 3.90625,
     "Count": 8,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 4.0622,
-    "Diff": -0.1559499999999998,
+    "Global Avg Rating": 4.06122125,
+    "Diff": -0.15497125,
     "VORB": 19.642857142857117
   },
   {
@@ -391,8 +391,8 @@
     "Avg Beer Rating": 3.9,
     "Count": 5,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 4.104412,
-    "Diff": -0.20441200000000004,
+    "Global Avg Rating": 4.101424,
+    "Diff": -0.20142399999999983,
     "VORB": 18.75
   },
   {
@@ -403,8 +403,8 @@
     "Avg Beer Rating": 3.875,
     "Count": 4,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 3.8505275,
-    "Diff": 0.024472499999999897,
+    "Global Avg Rating": 3.8503725,
+    "Diff": 0.024627499999999802,
     "VORB": 16.666666666666696
   },
   {
@@ -415,8 +415,8 @@
     "Avg Beer Rating": 3.75,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 4.098233333333333,
-    "Diff": -0.34823333333333295,
+    "Global Avg Rating": 4.097993333333334,
+    "Diff": -0.34799333333333404,
     "VORB": 12.5
   },
   {
@@ -427,8 +427,8 @@
     "Avg Beer Rating": 3.8333333333333335,
     "Count": 3,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 3.9427566666666665,
-    "Diff": -0.10942333333333298,
+    "Global Avg Rating": 3.9424933333333336,
+    "Diff": -0.10916000000000015,
     "VORB": 12.5
   },
   {
@@ -439,8 +439,8 @@
     "Avg Beer Rating": 3.8333333333333335,
     "Count": 3,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 3.7908766666666662,
-    "Diff": 0.04245666666666725,
+    "Global Avg Rating": 3.7907066666666664,
+    "Diff": 0.042626666666667035,
     "VORB": 12.5
   },
   {
@@ -451,8 +451,8 @@
     "Avg Beer Rating": 3.8125,
     "Count": 4,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 3.93005,
-    "Diff": -0.11755000000000004,
+    "Global Avg Rating": 3.925385,
+    "Diff": -0.1128849999999999,
     "VORB": 12.5
   },
   {
@@ -475,8 +475,8 @@
     "Avg Beer Rating": 3.515625,
     "Count": 16,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.9100225,
-    "Diff": -0.3943975000000002,
+    "Global Avg Rating": 3.909569375,
+    "Diff": -0.3939443749999998,
     "VORB": 10.83333333333334
   },
   {
@@ -499,8 +499,8 @@
     "Avg Beer Rating": 3.75,
     "Count": 3,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 4.10065,
-    "Diff": -0.3506499999999999,
+    "Global Avg Rating": 4.097883333333333,
+    "Diff": -0.3478833333333329,
     "VORB": 6.25
   },
   {
@@ -511,8 +511,8 @@
     "Avg Beer Rating": 3.5833333333333335,
     "Count": 3,
     "Top Beer Rating": 4.25,
-    "Global Avg Rating": 3.8519633333333334,
-    "Diff": -0.2686299999999999,
+    "Global Avg Rating": 3.8518133333333338,
+    "Diff": -0.2684800000000003,
     "VORB": 0.0
   },
   {
@@ -523,8 +523,8 @@
     "Avg Beer Rating": 3.5833333333333335,
     "Count": 3,
     "Top Beer Rating": 4.0,
-    "Global Avg Rating": 3.65854,
-    "Diff": -0.07520666666666642,
+    "Global Avg Rating": 3.6586466666666664,
+    "Diff": -0.0753133333333329,
     "VORB": -6.25
   },
   {
@@ -535,8 +535,8 @@
     "Avg Beer Rating": 3.6666666666666665,
     "Count": 3,
     "Top Beer Rating": 3.75,
-    "Global Avg Rating": 3.580033333333333,
-    "Diff": 0.08663333333333334,
+    "Global Avg Rating": 3.5811666666666664,
+    "Diff": 0.08550000000000013,
     "VORB": -6.25
   },
   {
@@ -547,8 +547,8 @@
     "Avg Beer Rating": 3.5416666666666665,
     "Count": 6,
     "Top Beer Rating": 3.75,
-    "Global Avg Rating": 3.722583333333333,
-    "Diff": -0.18091666666666661,
+    "Global Avg Rating": 3.7226083333333335,
+    "Diff": -0.180941666666667,
     "VORB": -12.5
   },
   {
@@ -571,8 +571,8 @@
     "Avg Beer Rating": 3.5,
     "Count": 5,
     "Top Beer Rating": 3.75,
-    "Global Avg Rating": 3.65828,
-    "Diff": -0.15827999999999998,
+    "Global Avg Rating": 3.659816,
+    "Diff": -0.15981600000000018,
     "VORB": -15.625
   },
   {
@@ -583,8 +583,8 @@
     "Avg Beer Rating": 3.45,
     "Count": 5,
     "Top Beer Rating": 3.75,
-    "Global Avg Rating": 3.7214959999999997,
-    "Diff": -0.2714959999999995,
+    "Global Avg Rating": 3.7216639999999996,
+    "Diff": -0.27166399999999946,
     "VORB": -18.75
   },
   {
@@ -595,8 +595,8 @@
     "Avg Beer Rating": 3.1875,
     "Count": 4,
     "Top Beer Rating": 3.5,
-    "Global Avg Rating": 3.337495,
-    "Diff": -0.1499950000000001,
+    "Global Avg Rating": 3.3384225,
+    "Diff": -0.15092250000000007,
     "VORB": -45.8333333333333
   },
   {
@@ -607,8 +607,8 @@
     "Avg Beer Rating": 3.1875,
     "Count": 4,
     "Top Beer Rating": 3.5,
-    "Global Avg Rating": 3.529195,
-    "Diff": -0.3416950000000001,
+    "Global Avg Rating": 3.529395,
+    "Diff": -0.34189500000000006,
     "VORB": -45.8333333333333
   },
   {
@@ -619,8 +619,8 @@
     "Avg Beer Rating": 3.125,
     "Count": 4,
     "Top Beer Rating": 3.5,
-    "Global Avg Rating": 3.7181775,
-    "Diff": -0.5931774999999999,
+    "Global Avg Rating": 3.7185699999999997,
+    "Diff": -0.5935699999999997,
     "VORB": -50.0
   }
 ]
